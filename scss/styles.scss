@@ -1,10 +1,11 @@
-body {
-    background: green;
-}
-* {
-    font-family: 'Roboto Slab', sans-serif;
-}
+@import "components/mixins";
+@import "base";
 
-::placeholder {
-    color: gray;
-  }
+@import "components/header";
+@import "components/nav";
+@import "components/footer";
+
+@import "components/syntax-highlighting";
+@import "components/buttons";
+@import "components/forms";
+@import "components/video";
