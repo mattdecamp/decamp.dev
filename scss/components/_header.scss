@@ -1,0 +1,122 @@
+header {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-rows: 40px repeat(5, auto) 40px;
+    grid-template-columns: 1fr 1fr auto 1fr 1fr;
+}
+#switch-container {
+    grid-area: 2/2/3/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+}
+#moon {
+    font-size: 2rem;
+    transform: rotate(-45deg);
+    display: none;
+    color: var(--midnight);
+}
+#sun {
+    color: var(--midnight);
+    font-size: 2rem;
+    display: none;
+}
+
+.toggle-element {
+    opacity: 1;
+    position: absolute;
+    display: none;
+    // top: 50%;
+    // transform: translateY(0%);
+    // z-index: 33;
+    width: 2rem;
+    height: 2rem;
+}
+
+#avatar {
+    grid-area: 2/3/7/4;
+    width: 150px;
+    height: 150px;
+    content: center;
+    background: pink url(https://joeschmoe.io/api/v1/random);
+    border-radius: 50%;
+    z-index: 2;
+}
+#bar-blue {
+    position: relative;
+    grid-area: 3/1/5/6;
+    margin-bottom: 5px;
+    width: 100vw;
+    height: 25px;
+    background: var(--blue);
+}
+
+#bar-green {
+    grid-area: 5/1/6/6;
+    margin-top: 5px;
+    width: 100vw;
+    height: 25px;
+    background: var(--green);
+}
+
+@media (min-width: 40em) {
+    header {
+        grid-template-columns: 40px auto 1fr auto 40px;
+    }
+    .toggle-element {
+        display: block;
+    }
+
+    #moon {
+        grid-area: 2/2/3/3;
+        display: block;
+    }
+    #avatar {
+        grid-area: 2/4/7/5;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        z-index: 2;
+    }
+
+    #bar-blue {
+        position: relative;
+        grid-area: 4/1/5/6;
+        width: 100vw;
+        height: 25px;
+        margin-bottom: 10px;
+        background: var(--blue);
+    }
+
+    #bar-green {
+        grid-area: 5/1/6/6;
+        width: 100vw;
+        height: 25px;
+        background: var(--green);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    header {
+        background: var(--midnight);
+    }
+    #moon {
+        display: none;
+    }
+    #sun {
+        display: block;
+        color: var(--white);
+    }
+
+    @media (max-width: 40em) {
+        #sun {
+            display: none;
+        }
+    }
+}

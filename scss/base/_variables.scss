@@ -1,5 +1,5 @@
 :root {
-/* SITE COLOR SCHEME */
+/* COLOR SCHEME */
     --pink: hsl(346, 84%, 61%);
     --hover-pink: hsl(346, 74%, 61%);
     --yellow: hsl(42, 100%, 100%); 
@@ -7,4 +7,19 @@
     --blue: hsl(195, 83%, 38%);
     --midnight: hsl(195, 83%, 16%);
     --white: hsla(0, 0%, 97%);
+/* GLOBAL STYLES */
+    --line-height-1x: 1.5;
+    /* MODULAR SPACING */
+    --ratio: 1.75;
+    --s-5: calc(var(--s-4) / var(--ratio));
+    --s-4: calc(var(--s-3) / var(--ratio));
+    --s-3: calc(var(--s-2) / var(--ratio));
+    --s-2: calc(var(--s-1) / var(--ratio));
+    --s-1: calc(var(--s0) / var(--ratio));
+    --s0: 1rem;
+    --s1: calc(var(--s0) * var(--ratio));
+    --s2: calc(var(--s1) * var(--ratio));
+    --s3: calc(var(--s2) * var(--ratio));
+    --s4: calc(var(--s3) * var(--ratio));
+    --s5: calc(var(--s4) * var(--ratio));    
 }
