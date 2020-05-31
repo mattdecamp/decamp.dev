@@ -6,13 +6,13 @@ nav ul {
     // margin: 0;
     // padding: 0;
     padding-inline-start: 0px;
-    font-size: clamp(var(--s-2), 4vw, var(--s1));
+    font-size: clamp(var(--s0), 4vw, var(--s1));
     font-weight: bold;
     text-align:center;
     & li {
         display:inline-block;
         list-style-type: none;
-        padding: var(--s-3) var(--s-2);
+        padding: var(--s-3) var(--s-1);
     }
 }
 

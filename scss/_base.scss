@@ -3,9 +3,10 @@
 @import "base/typography";
 
 
-
 #main-container {
-    margin: var(--s0);
+    margin: var(--s0) auto var(--s3);
+    width: 90%;
+    max-width: 1200px;
     display: grid;
     grid-template-rows: auto 1fr;
 }
@@ -13,11 +14,13 @@
 p {
     margin: var(--s-1) 0 var(--s1) 0;
     font-family: Georgia, sans-serif;
+    font-size: var(--s1);
     font-size: clamp(24px, 4vw, var(--s1));
     font-weight: lighter;
     line-height: var(--s2);
     // text-align: justify;
 }
+
 a {
     color: var(--midnight);
     text-decoration: none;
@@ -40,11 +43,16 @@ a.shadow {
     }
 }
 
+.icon-svg {
+    width: 30px;
+    height: 30px;
+}
+
 .lead {
     margin: var(--s-1) 0;
-    // font-family: Open Sans, sans-serif;
     font-family: "Roboto Slab";
     font-weight: 800;
+    font-size: 7rem;
     font-size: clamp(var(--s2), 10vw, 7rem);
 }
 
@@ -56,6 +64,15 @@ a.shadow {
     }
     .lead {
         margin-top: 0;
+    }
+}
+
+@media (min-width: 75em) {
+    .lead {
+        &::after {
+            margin-inline-start: var(--s0);
+            content: "👋";
+        }
     }
 }
 

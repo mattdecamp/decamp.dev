@@ -2,7 +2,7 @@ header {
     width: 100vw;
     height: auto;
     display: grid;
-    grid-template-rows: 40px repeat(5, auto) 40px;
+    grid-template-rows: 1rem repeat(5, auto) 1rem;
     grid-template-columns: 1fr 1fr auto 1fr 1fr;
 }
 #switch-container {
@@ -64,7 +64,7 @@ header {
 
 @media (min-width: 40em) {
     header {
-        grid-template-columns: 40px auto 1fr auto 40px;
+        grid-template-columns: 2rem auto 1fr auto 2rem;
     }
     .toggle-element {
         display: block;

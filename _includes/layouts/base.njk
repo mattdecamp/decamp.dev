@@ -17,12 +17,6 @@
 		{% include "partials/global/header.njk" %}
 		{% include "partials/components/nav.njk" %}
 		{{ content | safe }}
-
-		{# {% include "partials/global/site-head.njk" %} #}
-		{# {% block content %}
-		{% endblock content %} #}
-		{# {% include "partials/global/site-foot.njk" %}
-		{% block foot %}
-		{% endblock %} #}
+		{% include "partials/global/footer.njk" %}
 	</body>
 </html>
