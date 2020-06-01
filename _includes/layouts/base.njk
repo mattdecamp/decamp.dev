@@ -15,8 +15,12 @@
 	</head>
 	<body>
 		{% include "partials/global/header.njk" %}
-		{% include "partials/components/nav.njk" %}
-		{{ content | safe }}
+		<div id="main-container">
+			{% include "partials/components/nav.njk" %}
+			<main>
+				{{ content | safe }}
+			</main>
+		</div>
 		{% include "partials/global/footer.njk" %}
 	</body>
 </html>
