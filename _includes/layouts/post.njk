@@ -4,7 +4,6 @@ layout: layouts/base.njk
 
 <article>
     <h2>{{ title }}</h2>
-    {# <p>{{ date }}</p> #}
     <time>{{ page.date.toDateString() }}</time>
     <div id="post">
     {{ content | safe }}

@@ -41,7 +41,8 @@ header {
     width: 150px;
     height: 150px;
     content: center;
-    background: pink url(https://joeschmoe.io/api/v1/random);
+    background: pink url('/images/matt-decamp-avatar-2020.jpg');
+    background-size: contain;
     border-radius: 50%;
     z-index: 2;
 }
