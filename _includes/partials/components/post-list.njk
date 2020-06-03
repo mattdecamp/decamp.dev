@@ -1,3 +1,33 @@
-{%- for item in collections.post | reverse -%}
-    {% include 'partials/components/post-teaser.njk' %}
-{%- endfor -%}
+<ul class="post-list">
+    {% for post in blogs %}
+        <li class="post-list--post">
+            <h2>
+                <a href="{{ post.url }}" class="shadow">{{ post.data.title }}</a>
+            </h2>
+            <time value="{{ post.item.date }}" >{{ post.date | readableDate }}</time>
+            <div class="excerpt">
+                {% excerpt post %}
+            </div>
+            {# <span class="read-more">
+                <a href="{{ post.url }}">
+                    Read More
+                </a>
+        </span> #}
+            {# <hr class="post-list--break" /> #}
+        </li>
+
+    {%- endfor -%}
+</ul><hr/>
+
+<ul class="post-list--nav">
+    <li>
+        {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}">← Previous Page</a>
+        {% else %}{% endif %}
+    </li>
+    <li>
+        {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}">Next Page →</a>
+        {% else %}{% endif %}
+    </li>
+</ul>

@@ -1,0 +1,11 @@
+---
+title:  Article Three
+date:  2020-05-03
+layout: layouts/post.njk
+tags:
+- post
+---
+
+
+This is an excerpt from the article
+<!--more-->

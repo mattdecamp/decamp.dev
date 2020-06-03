@@ -8,6 +8,7 @@
     a.button {
         &:hover button {
             background-color: var(--blue);
+            border-bottom: 0px;
         }
         &:active button {
             box-shadow: none;
@@ -15,11 +16,10 @@
     }
 
     button {
-        width: 10.2rem;
-        height: 4.1rem;
+        padding: var(--s0);
         border: 0;
         background: var(--pink);
-        font-family: Bitter, serif;
+        font-family: 'Roboto Slab', sans-serif;
         font-weight: 600;
         font-size: 1.75rem;
         color: #f8f8f8;
@@ -45,8 +45,7 @@
     }
 
     button {
-        width: 10.2rem;
-        height: 4.1rem;
+        padding: var(--s0);
         border: 0;
         background: var(--blue);
         font-family: 'Roboto Slab', sans-serif;

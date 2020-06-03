@@ -14,15 +14,15 @@ h1 {
 }
 h2 {
     font-size: var(--s2);
-    font-size: clamp(var(--s1), 4vw, var(--s2));
+    font-size: clamp(var(--s1), 3vw, var(--s2));
 }
 h3 {
     font-size: var(--s2);
-    font-size: clamp(var(--s1), 4vw, var(--s2));
+    font-size: clamp(var(--s1), 2vw, var(--s1));
 }
 h4 {
     font-size: var(--s1);
-    font-size: clamp(var(--s0), 4vw, var(--s1));
+    font-size: clamp(var(--s0), 2vw, var(--s1));
 }
 h5 {
     font-size: var(--s0);
@@ -41,7 +41,7 @@ p {
     margin: var(--s-1) 0 var(--s1) 0;
     font-family: Georgia, sans-serif;
     font-size: var(--s1);
-    font-size: clamp(18px, 4vw, var(--s1));
+    font-size: clamp(18px, 1.5vw, var(--s1));
     font-weight: lighter;
     line-height: var(--s2);
     line-height: clamp(var(--v0), 4vw, var(--s2));
@@ -75,12 +75,12 @@ time {
     // letter-spacing: rem;
 }
 
-
-
 hr {
     border: 0.05rem solid var(--midnight);
     width: 100%;
 }
+
+
 
 @media (prefers-color-scheme: dark) {
     hr {

@@ -1,7 +1,12 @@
 ---
 layout: layouts/base.njk
 title: 'Matt DeCamp - Blog'
-permalink: '/blog/index.html'
+pagination:
+    data: collections.post
+    size: 3
+    alias: blogs
+    reverse: true
+permalink: "blog/{% if pagination.pageNumber>0 %}page-{{ pagination.pageNumber +1 }}{% endif %}/index.html"
 ---
 
-{% include "partials/components/post-list.njk" %}
+{% include "partials/components/post-list.njk" %} 
