@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'Matt DeCamp - Projects'
+title: 'Projects'
 permalink: '/projects/index.html'
 ---
 

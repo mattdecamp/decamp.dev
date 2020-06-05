@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
-title: 'Matt DeCamp - Blog'
+title: 'Blog'
 pagination:
     data: collections.post
     size: 3
-    alias: blogs
+    alias: blog
     reverse: true
 permalink: "blog/{% if pagination.pageNumber>0 %}page-{{ pagination.pageNumber +1 }}{% endif %}/index.html"
 ---

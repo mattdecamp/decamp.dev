@@ -1,8 +1,8 @@
 ul.post-list {
     display: grid;
     grid-template-rows: repeat(auto-fit, 1fr);
-    grid-gap: var(--s0);
-    list-style-type: none;
+    // grid-gap: var(--s0);
+    // list-style-type: none;
     padding-inline-start: 0;
     
     & h2 a {
@@ -70,15 +70,25 @@ ul.post-list {
 
 ul#tags {
     padding-inline-start: 0;
+    text-align:right;
     & li {
     display: inline-block;
     padding: var(--s-4) var(--s0);
     background: var(--blue);
     font-family: 'Roboto Slab';
     font-weight: 600;
-    &:hover {
-        background: var(--pink);
-    }
+
+        &:hover {
+            background: var(--pink);
+        }
+        &:first-child {
+            background: transparent;
+            font-size: var(--s1);
+            &:hover {
+                background: transparent;
+            }
+        }
+        
     }
     & a {
         border: 0;

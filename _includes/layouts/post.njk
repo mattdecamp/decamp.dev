@@ -11,6 +11,7 @@ layout: layouts/base.njk
     </div>
     {% if tags %}
         <ul id="tags">
+                <li>Filed Under:</li>
             {% for item in tags %}
                 <li class="tag--item">
                     <a href="/tags/{{ item }}">{{ item }}</a>

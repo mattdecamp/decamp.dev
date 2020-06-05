@@ -1,9 +1,9 @@
 <ul class="post-list">
-    {% for post in blogs %}
+    {% for post in blog %}
         <li class="post-list--post">
-            <h2>
+            <h1>
                 <a href="{{ post.url }}" class="shadow">{{ post.data.title }}</a>
-            </h2>
+            </h1>
             <time value="{{ post.item.date }}" >{{ post.date | readableDate }}</time>
             <div class="excerpt">
                 {% excerpt post %}

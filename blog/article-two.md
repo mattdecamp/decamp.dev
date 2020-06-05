@@ -6,4 +6,10 @@ tags:
 ---
 
 
-Sup.
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+``` 

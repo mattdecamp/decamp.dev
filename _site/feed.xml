@@ -1,0 +1,68 @@
+ 
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>DeCamp.dev</title>
+  <subtitle>The professional website of Matt DeCamp</subtitle>
+  <link href="https://decamp.dev/feed.xml" rel="self"/>
+  <link href="https://decamp.dev/"/>
+  <updated>2020-05-04T20:00:00-04:00</updated>
+  <id>https://decamp.dev/</id>
+  <author>
+    <name>Matt DeCamp</name>
+    <email>matt@decamp.dev</email>
+  </author>
+  
+  <entry>
+    <title>Article One with a Long Title</title>
+    <link href="https://decamp.dev/blog/article-one/"/>
+    <updated>2020-04-30T20:00:00-04:00</updated>
+    <id>https://decamp.dev/blog/article-one/</id>
+    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure provident ab, quod ipsum quo fugit atque. Molestias suscipit eligendi veritatis sapiente magnam earum in quia, blanditiis, eos sed dolorem officiis!&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloremque exercitationem non! Praesentium reprehenderit assumenda, voluptatem explicabo facilis dolore sequi! Quam minus eum impedit molestias eaque nemo, corporis suscipit dolores.&lt;/p&gt;
+&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.element&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;token property&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; green&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Consectetur praesentium voluptate maiores eveniet ut placeat corporis temporibus eaque, alias modi. Pariatur nesciunt quam nisi rerum itaque sint, nihil ipsa corporis fugit saepe tempore sed aperiam debitis alias dolores.&lt;/p&gt;
+&lt;p&gt;Officiis rem alias numquam quidem perferendis mollitia ad ab obcaecati ex vitae non cumque quos, quam vero, nulla quasi laboriosam tempora corrupti sequi a at quisquam voluptas. Porro, odit error?&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Article Two</title>
+    <link href="https://decamp.dev/blog/article-two/"/>
+    <updated>2020-05-01T20:00:00-04:00</updated>
+    <id>https://decamp.dev/blog/article-two/</id>
+    <content type="html">&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token property&quot;&gt;&quot;firstName&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;John&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token property&quot;&gt;&quot;lastName&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Smith&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br&gt;  &lt;span class=&quot;token property&quot;&gt;&quot;age&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Article Three Medium Length</title>
+    <link href="https://decamp.dev/blog/another-three/"/>
+    <updated>2020-05-02T20:00:00-04:00</updated>
+    <id>https://decamp.dev/blog/another-three/</id>
+    <content type="html">&lt;p&gt;This is an excerpt from the article&lt;/p&gt;
+&lt;!--more--&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Article Four</title>
+    <link href="https://decamp.dev/blog/another-four/"/>
+    <updated>2020-05-03T20:00:00-04:00</updated>
+    <id>https://decamp.dev/blog/another-four/</id>
+    <content type="html">&lt;p&gt;This is an excerpt from the article&lt;/p&gt;
+&lt;!--more--&gt;</content>
+  </entry>
+  
+  <entry>
+    <title>Article Five with an extra long title right here.</title>
+    <link href="https://decamp.dev/blog/article-five/"/>
+    <updated>2020-05-04T20:00:00-04:00</updated>
+    <id>https://decamp.dev/blog/article-five/</id>
+    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure provident ab, quod ipsum quo fugit atque. Molestias suscipit eligendi veritatis sapiente magnam earum in quia, blanditiis, eos sed dolorem officiis!&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloremque exercitationem non! Praesentium reprehenderit assumenda, voluptatem explicabo facilis dolore sequi! Quam minus eum impedit molestias eaque nemo, corporis suscipit dolores.&lt;/p&gt;
+&lt;p&gt;Consectetur praesentium voluptate maiores eveniet ut placeat corporis temporibus eaque, alias modi. Pariatur nesciunt quam nisi rerum itaque sint, nihil ipsa corporis fugit saepe tempore sed aperiam debitis alias dolores.&lt;/p&gt;
+&lt;p&gt;Officiis rem alias numquam quidem perferendis mollitia ad ab obcaecati ex vitae non cumque quos, quam vero, nulla quasi laboriosam tempora corrupti sequi a at quisquam voluptas. Porro, odit error?&lt;/p&gt;
+</content>
+  </entry>
+</feed>
