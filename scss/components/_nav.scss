@@ -6,13 +6,13 @@ nav ul {
     // margin: 0;
     // padding: 0;
     padding-inline-start: 0px;
-    // font-size: clamp(var(--s1), var(--s2), var(--s3));
+    font-size: clamp(var(--s1), var(--s1), var(--s2));
     font-weight: bold;
     text-align:center;
     & li {
         display:inline-block;
         list-style-type: none;
-        padding: var(--s-3) var(--s-1);
+        padding: var(--s-3) var(--s-3);
         font-size: var(--s1);
         // font-size: clamp(var(--s-1), var(--s1), var(--s2));
     }
@@ -23,8 +23,10 @@ nav ul {
         text-align: left;
         & li {
         display: block;
-        padding: var(--s-3);
-        line-height: var(--s2);
+        padding: var(--s-1);
+        line-height: var(--2);
+        font-size: var(--s1);
+        font-size: clamp(var(--s-1), var(--s2), var(--s2));
         }
     }
 }

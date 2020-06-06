@@ -17,17 +17,19 @@
         </li>
 
     {%- endfor -%}
-</ul><hr/>
-
+</ul>
+{# <hr/> #}
 <ul class="post-list--nav">
     <li>
         {% if pagination.href.previous %}
             <a href="{{ pagination.href.previous }}">← Previous Page</a>
-        {% else %}{% endif %}
+        {% else %}
+        {% endif %}
     </li>
     <li>
         {% if pagination.href.next %}
             <a href="{{ pagination.href.next }}">Next Page →</a>
-        {% else %}{% endif %}
+        {% else %}
+        {% endif %}
     </li>
 </ul>

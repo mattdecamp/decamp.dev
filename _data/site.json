@@ -1,14 +1,13 @@
 {
     "showThemeCredit": true,
     "name": "Matt DeCamp - Frontend Web Developer",
-    "shortDesc": "",
+    "shortDesc": "DeCamp.dev is the professional site of Matt DeCamp",
     "url": "https://decamp.dev",
     "authorEmail": "matthewdecamp@gmail.com",
+    "siteEmail": "matt@decamp.dev",
     "authorHandle": "@mpdecamp",
     "authorName": "Matt DeCamp",
     "enableThirdPartyComments": false,
-    "maxPostsPerPage": 5,
-    "paymentPointer": "",
-    "faviconPath": ""
+    "paymentPointer": ""
   }
   

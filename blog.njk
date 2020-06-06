@@ -3,7 +3,7 @@ layout: layouts/base.njk
 title: 'Blog'
 pagination:
     data: collections.post
-    size: 3
+    size: 4
     alias: blog
     reverse: true
 permalink: "blog/{% if pagination.pageNumber>0 %}page-{{ pagination.pageNumber +1 }}{% endif %}/index.html"

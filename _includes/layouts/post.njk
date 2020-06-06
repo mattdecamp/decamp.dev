@@ -9,15 +9,14 @@ layout: layouts/base.njk
     <div id="post">
         {{ content | safe }}
     </div>
-    {% if tags %}
+    {% if tags -%}
         <ul id="tags">
                 <li>Filed Under:</li>
-            {% for item in tags %}
+            {% for item in tags -%}
                 <li class="tag--item">
                     <a href="/tags/{{ item }}">{{ item }}</a>
                 </li>
-            {% endfor %}
+            {% endfor -%}
             <ul></div>
-        {% endif %}
-
+        {% endif -%}
     </article>

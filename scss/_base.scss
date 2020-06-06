@@ -16,14 +16,14 @@ a {
     text-decoration: none;
     transition: all 0.25s ease;
     cursor: pointer;
-    border-bottom: 3px solid var(--midnight);
+    border-bottom: 3px solid var(--blue);
     &:hover {
         border-bottom: 3px solid var(--pink);
     }
 }
 a.shadow {
     border-bottom: none;
-    box-shadow: inset 0 -0.5ch var(--blue);
+    box-shadow: inset 0 -0.5ch var(--green);
     &:hover,
     &:active,
     &:focus {
@@ -89,5 +89,16 @@ a.shadow {
         text-decoration: none;
         transition: all 0.25s ease;
         border-bottom: 3px solid var(--blue);
+    }
+    a.shadow {
+        border-bottom: none;
+        box-shadow: inset 0 -0.5ch var(--blue);
+        &:hover,
+        &:active,
+        &:focus {
+            color: var(--white);
+            border-bottom: none;
+            box-shadow: inset 0 -2ch var(--pink);
+        }
     }
 }

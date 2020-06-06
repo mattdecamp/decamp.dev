@@ -24,12 +24,24 @@ ul.post-list {
         border: 0.10rem solid var(--yellow);
         margin-top: var(--s2);
     }
-    li:nth-child(2n) {
-        & h2 a:hover {
-            text-decoration-color: var(--pink);
+    li:nth-of-type(even) a.shadow {
+        box-shadow: inset 0 -0.5ch var(--yellow);
+        &:hover,
+        &:active,
+        &:focus {
+            color: var(--white);
+            border-bottom: none;
+            box-shadow: inset 0 -2ch var(--pink);
         }
-        & hr.post-list--break {
-            border-color: var(--pink);
+    }
+    li:nth-of-type(odd) a.shadow {
+        box-shadow: inset 0 -0.5ch var(--green);
+        &:hover,
+        &:active,
+        &:focus {
+            color: var(--white);
+            border-bottom: none;
+            box-shadow: inset 0 -2ch var(--pink);
         }
     }
 
@@ -51,19 +63,40 @@ ul.post-list {
     }
 }
 
-// @media (prefers-color-scheme: dark) {
-//     ul#post-list {
+@media (prefers-color-scheme: dark) {
+    // ul#post-list {
         
-//         & h2 a {
-//             text-decoration-color: var(--blue);
+    //     & h2 a {
+    //         text-decoration-color: var(--blue);
 
-//             &:hover {
-//                 text-decoration-color: var(--pink);
-//             }
-//         }
-//     }
-// }
-
+    //         &:hover {
+    //             text-decoration-color: var(--pink);
+    //         }
+    //     }
+    // }
+    ul.post-list {
+        li:nth-of-type(even) a.shadow {
+            box-shadow: inset 0 -0.5ch var(--green);
+            &:hover,
+            &:active,
+            &:focus {
+                color: var(--white);
+                border-bottom: none;
+                box-shadow: inset 0 -2ch var(--pink);
+            }
+        }
+        li:nth-of-type(odd) a.shadow {
+            box-shadow: inset 0 -0.5ch var(--blue);
+            &:hover,
+            &:active,
+            &:focus {
+                color: var(--white);
+                border-bottom: none;
+                box-shadow: inset 0 -2ch var(--pink);
+            }
+        }
+    }
+}
 /* 
     POST TAGS
 */

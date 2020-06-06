@@ -1,5 +1,6 @@
 footer {
     width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 var(--s-1);
     display: flex;
@@ -11,7 +12,7 @@ footer {
     font-size: clamp(var(--s0), 1vw, var(--s1));
     font-weight: normal;
     border-top: var(--midnight) solid 1px;
-    color: var(--white);
+    color: var(--midnight);
 
 }
 

@@ -1,31 +1,24 @@
-/* 
-    LIGHT 
-    Color Scheme Button Styling 
-*/
 
-@media (prefers-color-scheme: light) {
-
-    a.button {
-        &:hover button {
-            background-color: var(--blue);
-            border-bottom: 0px;
-        }
-        &:active button {
-            box-shadow: none;
-        }
+a.button {
+    &:hover button {
+        background-color: var(--blue);
+        border-bottom: 0px;
     }
-
-    button {
-        padding: var(--s0);
-        border: 0;
-        background: var(--pink);
-        font-family: 'Roboto Slab', sans-serif;
-        font-weight: 600;
-        font-size: 1.75rem;
-        color: #f8f8f8;
-        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
-        cursor: pointer;
+    &:active button {
+        box-shadow: none;
     }
+}
+
+button {
+    padding: var(--s0);
+    border: 0;
+    background: var(--green);
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #f8f8f8;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 /* 
@@ -50,7 +43,6 @@
         background: var(--blue);
         font-family: 'Roboto Slab', sans-serif;
         font-weight: 600;
-        font-size: 1.7rem;
         color: #f8f8f8;
         box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
         cursor: pointer;
