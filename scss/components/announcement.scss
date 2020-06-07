@@ -5,10 +5,9 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: var(--s-1) 0;
     background: black;
     font-family: 'Roboto Slab', sans-serif;
     & a {
-        margin: var(--s-4) 0;
+        margin: var(--s-5) 0 var(--s-4);
     }
 }
