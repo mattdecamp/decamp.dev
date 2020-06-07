@@ -41,7 +41,7 @@ p {
     margin: var(--s-1) 0 var(--s1) 0;
     font-family: Georgia, sans-serif;
     font-size: var(--s0);
-    font-size: clamp(18px, 2vw, var(--s1));
+    font-size: clamp(var(--s0), 2vw, var(--s1));
     font-weight: lighter;
     line-height: var(--s2);
     line-height: clamp(var(--v0), 4vw, var(--s2));

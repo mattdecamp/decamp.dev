@@ -1,0 +1,68 @@
+#contactform {
+//   padding: 11px 15px 10px 15px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 600;
+  margin-top: var(--s0);
+}
+
+.c-form {
+  border: 0;
+  max-width: 500px;
+  padding-inline: 0em;
+
+  & .c-heading {
+    font-size: var(--s3);
+    border-bottom: 1px solid var(--midnight);
+    width: 100%;
+  }
+
+  & input,
+  textarea {
+    border: 1px solid var(--midnight);
+    padding: 11px 15px 10px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: var(--s0);
+  }
+}
+
+.c-row {
+  padding: 10px 0;
+}
+
+.c-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.c-input {
+  min-height: 30px;
+  min-width: percentage(2/3);
+
+  &:invalid {
+    box-shadow: 0 0 1.5px 1px var(--pink);
+  }
+}
+
+.multiline {
+  width: 100%;
+}
+
+.c-button {
+  width: 8rem;
+  height: 4.2rem;
+  border: 0;
+  background: var(--pink);
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 600;
+  font-size: var(--s2);
+  color: #f8f8f8;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--hover-pink);
+  }
+  &:active {
+    box-shadow: none;
+  }
+}

@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
-title: 'About'
-permalink: '/about/index.html'
+title: "About"
+permalink: "/about/index.html"
 ---
 
 # A bit about me:
 
-My name is Matt DeCamp, a front-end web developer and music industry professional based in Athens, Georgia. 
+My name is Matt DeCamp, a front-end web developer and music industry professional based in Athens, Georgia.
 
 My web experience dates back to the age of [GeoCities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities), I've been building websites professionally for a little over a decade for clients and friends across industries.
 
@@ -32,9 +32,9 @@ I am actually in the middle of a professional transition from the music industry
 
 ## Offline
 
-When I'm not on the computer I am hanging out with my wife, our son and cattle dog. 
+When I'm not on the computer I am hanging out with my wife, our son and cattle dog.
 
-I'm a [voracious music listener](https://open.spotify.com/user/mattbrowncat); longtime guitar player; [avid reader](https://avidbookshop.com); a swimming and running enthusiast; and a [budding photographer](/photography). 
+I'm a [voracious music listener](https://open.spotify.com/user/mattbrowncat); longtime guitar player; [avid reader](https://avidbookshop.com); a swimming and running enthusiast; and a [budding photographer](/photography).
 
 I also love [absurdist humor](https://www.youtube.com/watch?v=aZJZK6rzjns) and [a good cup of coffee](https://counterculturecoffee.com/shop/coffee/forty-six).
 
@@ -43,3 +43,28 @@ I also love [absurdist humor](https://www.youtube.com/watch?v=aZJZK6rzjns) and [
 [CodePen](https://codepen.io/mattdecamp)  
 [GitHub](https://github.com/mattdecamp)  
 [Twitter](https://twitter.com/mpdecamp)
+  
+---
+  
+<!-- Thank you for the guidance, Boilerform boilerform.hankchizljaw.com -->
+
+  <form id="contactform" data-netlify="true" method="post">
+    <fieldset class="c-form">
+        <legend class="c-heading">Get in Touch</legend>
+        <div class="c-row">
+          <label for="name" class="c-label">Name:</label>
+          <input type="text" name="name" id="name" class="c-input" value="" tabindex="1" />
+        </div>
+        <div class="c-row">
+          <label for="email" class="c-label">Email:</label>
+          <input type="email" name="email" id="name" class="c-input" autocapitalize="none" autocorrect="off" value="" tabindex="1" required />
+        </div>
+        <div class="c-row">
+          <label for="message" class="c-label">Message:</label>
+          <textarea rows="12" name="message" id="message" class="c-input multiline"></textarea>
+        </div>
+        <div class="c-row">
+          <button type="submit" class="c-button">Submit</button>
+        </div>
+    </fieldset>
+  </form>
