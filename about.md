@@ -42,14 +42,14 @@ I also love [absurdist humor](https://www.youtube.com/watch?v=aZJZK6rzjns) and [
 
 [CodePen](https://codepen.io/mattdecamp)  
 [GitHub](https://github.com/mattdecamp)  
-[Twitter](https://twitter.com/mpdecamp)
-[Buy Me A Coffe](https://ko-fi.com/mattdecamp)
+[Twitter](https://twitter.com/mpdecamp)  
+[Buy Me A Coffee](https://ko-fi.com/mattdecamp)
   
 ---
   
 <!-- Thank you for the guidance, Boilerform boilerform.hankchizljaw.com -->
 
-  <form id="contactform" data-netlify="true" method="post">
+  <a name="contact"><form  id="contactform" data-netlify="true" method="post"></a>
     <fieldset class="c-form">
         <legend class="c-heading">Get in Touch</legend>
         <div class="c-row">
