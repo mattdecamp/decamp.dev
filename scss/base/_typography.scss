@@ -9,20 +9,20 @@
 h1,h2,h3,h4,h5,h6 {font-family:'Roboto Slab';font-weight:600;}
 
 h1 {
-    font-size: var(--s4);
+    font-size: var(--s3);
     font-size: clamp(var(--s3), 5vw, var(--s5));
 }
 h2 {
     font-size: var(--s2);
-    font-size: clamp(var(--s1), var(--s2), var(--s3));
+    font-size: clamp(var(--s2), 4vw, var(--s4));
 }
 h3 {
     font-size: var(--s1);
-    font-size: clamp(var(--s0), var(--s1), var(--s2));
+    font-size: clamp(var(--s1), 3vw, var(--s3));
 }
 h4 {
     font-size: var(--s0);
-    font-size: clamp(var(--s-1), var(--s0), var(--s1));
+    font-size: clamp(var(--s-0), 2vw, var(--s2));
 }
 h5 {
     font-size: var(--s-1);
@@ -40,8 +40,8 @@ h6 {
 p {
     margin: var(--s-1) 0 var(--s1) 0;
     font-family: Georgia, sans-serif;
-    font-size: var(--s1);
-    font-size: clamp(var(--s1), 3vw, var(--s2));
+    font-size: var(--s0);
+    font-size: clamp(18px, 2vw, var(--s1));
     font-weight: lighter;
     line-height: var(--s2);
     line-height: clamp(var(--v0), 4vw, var(--s2));
