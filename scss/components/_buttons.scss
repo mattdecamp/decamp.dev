@@ -1,5 +1,6 @@
 
 a.button {
+    border-bottom: 0;
     &:hover button {
         background-color: var(--blue);
         border-bottom: 0px;
