@@ -2,7 +2,7 @@
 a.button {
     border-bottom: 0;
     &:hover button {
-        background-color: var(--blue);
+        background-color: var(--pink);
         border-bottom: 0px;
     }
     &:active button {
@@ -13,7 +13,7 @@ a.button {
 button {
     padding: var(--s0);
     border: 0;
-    background: var(--green);
+    background: var(--blue);
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 600;
     font-size: 1.4rem;
