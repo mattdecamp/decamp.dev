@@ -1,6 +1,5 @@
 
 const { DateTime }  = require('luxon');
-const excerpt = require('eleventy-plugin-excerpt');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
@@ -13,13 +12,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('js');
   eleventyConfig.addPassthroughCopy('css');
   
-  // Post Excerpts
-  eleventyConfig.addPlugin(excerpt, {
-    excerptSeparator: '<!--more-->'
-  });
-
   // Layout aliases for convenience 
   eleventyConfig.addLayoutAlias('default', 'layouts/base.njk');
+
+  // Grab excerpts and sections from a file
+  eleventyConfig.addFilter("section", require("./js/section.js") );
 
   // Post Dates
   eleventyConfig.addFilter('readableDate', dateObj => {
@@ -38,6 +35,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   // Syntax Highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
+
+
   
-}
+};
 

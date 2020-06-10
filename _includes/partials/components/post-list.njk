@@ -1,12 +1,12 @@
 <ul class="post-list">
-    {% for post in blog %}
+    {% for item in collections.post %}
         <li class="post-list--post">
-            <h1>
-                <a href="{{ post.url }}" class="shadow">{{ post.data.title }}</a>
-            </h1>
-            <time value="{{ post.item.date }}" >{{ post.date | readableDate }}</time>
+            <h2>
+                <a href="{{ item.url }}" class="shadow">{{ item.data.title }}</a>
+            </h2>
+            <time value="{{ item.date }}" >{{ item.date | readableDate }}</time>
             <div class="excerpt">
-                {% excerpt post %}
+                {{ item.data.excerpt }}
             </div>
             {# <span class="read-more">
                 <a href="{{ post.url }}">

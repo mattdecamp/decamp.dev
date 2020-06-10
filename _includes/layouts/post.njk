@@ -3,11 +3,14 @@ layout: layouts/base.njk
 ---
 
 <article>
-    <h1>{{ title }}</h1>
+    <h2>{{ title }}</h2>
     <time value="{{ item.date }}" >{{ date | readableDate }}</time>
     {# <time datetime="{{ date }}">{{ page.date.toDateString() }}</time> #}
     <div id="post">
-        {{ content | safe }}
+        {{ content | section | safe }}
+    </div>
+    <div id="post">
+        {{ content | section('remainder') | safe }}
     </div>
     {% if tags -%}
         <ul id="tags">

@@ -18,7 +18,7 @@ permalink: /tags/{{ tag }}/
             </h2>
             <time value="{{ post.item.date }}" >{{ post.date | readableDate }}</time>
             <div class="excerpt">
-                {% excerpt post %}
+                {{ page.excerpt }}
             </div>
         </li>
     {% endfor %}

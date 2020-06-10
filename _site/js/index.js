@@ -1,5 +1,3 @@
-const { DateTime } = require("luxon");
-
 // Add a friendly date filter to nunjucks.
 // Defaults to format of LLLL d, y unless an
 // alternate is passed as a parameter.
