@@ -6,7 +6,7 @@
 
 /* Need to include sizes for */
 
-h1,h2,h3,h4,h5,h6 {font-family:'Roboto Slab';font-weight:600;}
+h1,h2,h3,h4,h5,h6 {font-family:'Roboto Slab';font-weight:600;margin-bottom: var(--s3)}
 
 h1 {
     font-size: var(--s3);
@@ -52,6 +52,10 @@ article, ul, li {
     font-family: 'Georgia', serif;
     font-size: var(--s1);
     font-size: clamp(18px, 4vw, var(--s1));
+}
+
+ul, ol {
+    margin-bottom: var(--s3);
 }
 
 code, pre {
