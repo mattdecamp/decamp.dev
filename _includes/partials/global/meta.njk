@@ -1,5 +1,6 @@
         {% set pageTitle = title + ' | ' + site.name %}
-        {% set metaDesc = 'DeCamp.dev is the professional website of Matt DeCamp' -%}
+        {% set metaDesc = 'The professional website of Matt DeCamp, a web developer based in Athens, Georgia' -%}
+        {% set keywords = 'matt,decamp,web,developer,athens,georgia,front-end,portfolio,about,blog,music,photography' -%}
         {% set siteTitle = site.name -%}
         {% set currentUrl = site.url + page.url -%}
         {% set socialImage = site.url + '/images/matt-decamp-avatar-2020.jpg' -%}
@@ -20,6 +21,7 @@
         <meta name="twitter:creator" content="@{{ site.authorHandle | replace('@', '') }}"/>
         {% endif -%}
         {% if metaDesc %}<meta name="description" content="{{ metaDesc }}"/>
+        <meta name="keywords" content="{{ keywords }}"/>
         <meta name="twitter:description" content="{{ metaDesc }}"/>
         <meta property="og:description" content="{{ metaDesc }}"/>
         {% endif -%}
