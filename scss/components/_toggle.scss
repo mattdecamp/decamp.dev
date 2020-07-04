@@ -1,0 +1,34 @@
+.no-js .user-toggle {
+  display: none;
+}
+
+// .user-toggle {
+// }
+
+.toggle-button {
+  display: inline-flex;
+  padding: 0;
+  background: transparent;
+  color: var(--button-text-color);
+  border: none;
+  font-size: var(--s2);
+  font-size: clamp(var(--s1), var(--s2), var(--s3));
+  box-shadow: none;
+  // padding: 0.5rem 1rem;
+  transition: background 500ms ease-in-out, color 200ms ease;
+}
+
+.toggle-button__icon {
+  background: var(--button-icon);
+  width: var(--s3);
+  height: var(--s3);
+  // margin: 0 0 0 0.5em;
+  filter: var(--button-icon-filter);
+  transform: translateY(1px); /* Optical adjustment */
+  transition: filter 500ms ease-in-out;
+}
+
+.toggle-button:focus {
+  outline: 1px solid var(--button-background-color);
+  outline-offset: 0.5rem;
+}

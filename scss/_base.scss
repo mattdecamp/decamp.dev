@@ -1,7 +1,11 @@
 @import "base/reset";
 @import "base/variables";
 @import "base/typography";
+@import "base/dark-theme";
 
+body {
+  transition: background 500ms ease-in-out, color 200ms ease;
+}
 
 #main-container {
     margin: var(--s-5) auto var(--s3);
@@ -12,24 +16,27 @@
 }
 
 a {
-    color: var(--midnight);
+    color: var(--link-color);
     text-decoration: none;
     transition: all 0.25s ease;
     cursor: pointer;
-    border-bottom: 3px solid var(--blue);
+    border-bottom: 3px solid var(--link-border-color);
     &:hover {
-        border-bottom: 3px solid var(--pink);
+        border-bottom: 3px solid var(--link-border-hover);
+    }
+    &.nav--item {
+        color: var(--text-color);
     }
 }
 a.shadow {
     border-bottom: none;
-    box-shadow: inset 0 -0.5ch var(--green);
+    box-shadow: inset 0 -0.5ch var(--link-shadow-color);
     &:hover,
     &:active,
     &:focus {
-        color: var(--white);
+        color: var(--link-hover-color);
         border-bottom: none;
-        box-shadow: inset 0 -2ch var(--pink);
+        box-shadow: inset 0 -2ch var(--link-shadow-hover);
     }
 }
 
@@ -49,6 +56,18 @@ a.shadow {
 .active {
     // border-bottom: 3px solid var(--pink);
     color: pink;
+}
+
+.visually-hidden {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
 }
 
 @media (min-width: 50em) {
@@ -72,33 +91,33 @@ a.shadow {
     }
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        background: var(--white);
-        color: var(--midnight);
-    }
-}
+// @media (prefers-color-scheme: light) {
+//     body {
+//         background: var(--background);
+//         color: var(--text-color);
+//     }
+// }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background: var(--midnight);
-        color: var(--white);
-    }
-    a {
-        color: var(--white);
-        text-decoration: none;
-        transition: all 0.25s ease;
-        border-bottom: 3px solid var(--blue);
-    }
-    a.shadow {
-        border-bottom: none;
-        box-shadow: inset 0 -0.5ch var(--blue);
-        &:hover,
-        &:active,
-        &:focus {
-            color: var(--white);
-            border-bottom: none;
-            box-shadow: inset 0 -2ch var(--pink);
-        }
-    }
-}
+// @media (prefers-color-scheme: dark) {
+//     body {
+//         background: var(--background);
+//         color: var(--text-color);
+//     }
+//     a {
+//         color: var(--link-color);
+//         text-decoration: none;
+//         transition: all 0.25s ease;
+//         border-bottom: 3px solid var(--link-border-color);
+//     }
+//     a.shadow {
+//         border-bottom: none;
+//         box-shadow: inset 0 -0.5ch var(--link-shadow-color);
+//         &:hover,
+//         &:active,
+//         &:focus {
+//             color: var(--link-hover-color);
+//             border-bottom: none;
+//             box-shadow: inset 0 -2ch var(--link-shadow-hover);
+//         }
+//     }
+// }

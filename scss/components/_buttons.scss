@@ -2,7 +2,7 @@
 a.button {
     border-bottom: 0;
     &:hover button {
-        background-color: var(--pink);
+        background: var(--button-hover);
         border-bottom: 0px;
     }
     &:active button {
@@ -13,11 +13,11 @@ a.button {
 button {
     padding: var(--s0);
     border: 0;
-    background: var(--blue);
+    background: var(--button-color);
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 600;
     font-size: 1.4rem;
-    color: #f8f8f8;
+    color: var(--button-text-color);
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
@@ -27,25 +27,25 @@ button {
     Color Scheme Button Styling 
 */
 
-@media (prefers-color-scheme: dark) {
+// @media (prefers-color-scheme: dark) {
 
-    a.button {
-        &:hover button {
-            background-color: var(--pink);
-        }
-        &:active button {
-            box-shadow: none;
-        }
-    }
+//     a.button {
+//         &:hover button {
+//             background-color: var(--background);
+//         }
+//         &:active button {
+//             box-shadow: none;
+//         }
+//     }
 
-    button {
-        padding: var(--s0);
-        border: 0;
-        background: var(--blue);
-        font-family: 'Roboto Slab', sans-serif;
-        font-weight: 600;
-        color: #f8f8f8;
-        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
-        cursor: pointer;
-    }
-}
+//     button {
+//         padding: var(--s0);
+//         border: 0;
+//         background: var(--button-color);
+//         font-family: 'Roboto Slab', sans-serif;
+//         font-weight: 600;
+//         color: #f8f8f8;
+//         box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+//         cursor: pointer;
+//     }
+// }

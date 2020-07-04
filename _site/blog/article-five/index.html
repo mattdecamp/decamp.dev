@@ -31,7 +31,6 @@
         <meta name="msapplication-TileColor" content="#2b5797">
         <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
         <meta name="theme-color" content="#f8f8f8">
-		<script>document.documentElement.classList.remove('no-js');</script>
 		<link rel="stylesheet" href="/css/styles.css">
 	</head>
 	<body>
@@ -43,7 +42,13 @@
 </div>
 <header>
     <div id="header--home">
-        <div>
+        <div id="site--logo">
+            <div class="user-toggle">
+                <div role="status" class="visually-hidden js-mode-status"></div>
+                <button class="toggle-button js-mode-toggle">
+                    <span class="toggle-button__icon" aria-hidden="true"></span>
+                </button>
+            </div>
             <a href="/" class="nav--item">decamp.dev</a>
         </div>
     </div>
@@ -58,9 +63,6 @@
 		<div id="main-container">
 			    <nav>
         <ul id="navigation">
-            
-            
-            
             
             
             <li>

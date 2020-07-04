@@ -80,14 +80,14 @@ time {
 }
 
 hr {
-    border: 0.05rem solid var(--blue);
+    border: 0.05rem solid var(--hr);
     width: 100%;
 }
 
 
 
-@media (prefers-color-scheme: dark) {
-    hr {
-        border-color: var(--white);
-    }
-}
+// @media (prefers-color-scheme: dark) {
+//     hr {
+//         border-color: var(--hr);
+//     }
+// }

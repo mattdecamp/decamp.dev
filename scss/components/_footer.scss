@@ -1,18 +1,18 @@
 footer {
-    width: 90%;
-    max-width: 1100px;
+    width: 100%;
+    // max-width: 1100px;
     margin: 0 auto;
-    padding: 0 var(--s-1);
+    padding: 0 var(--s4);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 125px;
     font-size: var(--s0);
     font-size: clamp(var(--s0), 1vw, var(--s1));
     font-weight: normal;
-    border-top: var(--midnight) solid 1px;
-    color: var(--midnight);
+    border-top: var(--hr) solid 1px;
+    color: var(--text-color);
 
 }
 
@@ -24,10 +24,13 @@ footer {
     & > * {
         margin: 0 var(--s-1);
     }
+    & svg .cls-1 {
+        fill: var(--text-color);
+    }
     & a {
         border-bottom: none;
         &:hover .cls-1 {
-            fill: var(--pink);
+            fill: var(--link-shadow-hover);
         }
     }
 }
@@ -54,13 +57,13 @@ footer {
     
 }
 
-@media (prefers-color-scheme: dark) {
-    footer {
-        border-top: var(--blue) solid 1px;
-        color: var(--white);
-    }
+// @media (prefers-color-scheme: dark) {
+//     footer {
+//         border-top: var(--blue) solid 1px;
+//         color: var(--text-color);
+//     }
 
-    svg .cls-1 {
-        fill: var(--white);
-    }
-}
+//     svg .cls-1 {
+//         fill: var(--text-color);
+//     }
+// }
