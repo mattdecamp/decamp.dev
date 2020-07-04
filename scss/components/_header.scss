@@ -37,8 +37,13 @@ header {
 // }
 
 #header--home {
-    display: none;
+    // display: none;
+    grid-area: 2/2/3/3;
     color: var(--text-color);
+    & a {
+      display:none;
+    }
+
 }
 
 #avatar--container {
@@ -58,7 +63,7 @@ header {
 #site--logo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: left;
   align-items: center;
   & div {
     padding-inline-end: 1rem;
@@ -71,23 +76,25 @@ header {
   content: center;
   background: var(--pink) url("/images/matt-decamp-avatar-2020.jpg");
   background-size: contain;
+  position: static;
   border-radius: 50%;
   z-index: 2;
 }
 #bar-blue {
   position: relative;
   grid-area: 3/1/5/6;
+  margin-top: 5px;
   margin-bottom: 5px;
   width: 100vw;
-  height: 25px;
+  height: 20px;
   background: var(--blue);
 }
 
 #bar-green {
   grid-area: 5/1/6/6;
-  margin-top: 5px;
+  margin-top: 10px;
   width: 100vw;
-  height: 25px;
+  height: 20px;
   background: var(--green);
 }
 
@@ -115,6 +122,7 @@ header {
     letter-spacing: 0.15rem;
     font-size: var(--s3);
     & a {
+      display: block;
       border: 0;
     //   text-shadow: 0px 0px 1px #f8f8f8;
     //   color: var(--midnight);
