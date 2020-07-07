@@ -17,9 +17,10 @@ body {
         --link-border-hover: var(--yellow);
         --link-shadow-color: var(--blue);
         --link-shadow-hover: var(--pink);
-        --button-color: var(--blue);
-        --button-hover: var(--pink);
+        --button-color: var(--pink);
+        --button-hover: var(--hover-pink);
         --button-text-color: var(--white);
+        --button-text-color-hover: var(--blue);
         --hr: var(--white);
         --post-even-shadow: var(--green);
         --post-odd-shadow: var(--blue);
@@ -36,9 +37,10 @@ body {
     --link-border-hover: var(--yellow);
     --link-shadow-color: var(--blue);
     --link-shadow-hover: var(--pink);
-    --button-color: var(--blue);
-    --button-hover: var(--pink);
+    --button-color: var(--pink);
+    --button-hover: var(--hover-pink);
     --button-text-color: var(--white);
+    --button-text-color-hover: var(--white);
     --hr: var(--white);
     --post-even-shadow: var(--green);
     --post-odd-shadow: var(--blue);

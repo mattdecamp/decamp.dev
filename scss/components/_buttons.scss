@@ -4,6 +4,7 @@ a.button {
     &:hover button {
         background: var(--button-hover);
         border-bottom: 0px;
+        color: var(--button-text-color-hover);
     }
     &:active button {
         box-shadow: none;
@@ -20,6 +21,8 @@ button {
     color: var(--button-text-color);
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    & button:hover {
+    }
 }
 
 /* 
