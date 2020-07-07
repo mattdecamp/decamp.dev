@@ -5,6 +5,7 @@ layout: layouts/post.njk
 tags: 
 - test
 - post
+excerpt: "Hi. I'm the excerpt."
 ---
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure provident ab, quod ipsum quo fugit atque. Molestias suscipit eligendi veritatis sapiente magnam earum in quia, blanditiis, eos sed dolorem officiis!
 <!--more-->

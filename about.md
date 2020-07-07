@@ -26,6 +26,8 @@ I am actually in the middle of a professional transition from the music industry
 
 - 🎨 [Harpsichord](https://github.com/mattdecamp/harpsichord) (VS Code Theme)
 
+- 🏃‍♀ [What's My Pace? | Running Calculator](https://whatsmypace.app)
+
 - 💿 Keepers Record Club
 
 - 🎛️ Widespread Panic Archive

@@ -4,6 +4,10 @@ ul.post-list {
     // grid-gap: var(--s0);
     // list-style-type: none;
     padding-inline-start: 0;
+
+    & .post-list--post {
+        margin-bottom: var(--s1);
+    }
     
     & h2 a {
         border-bottom: 0;
