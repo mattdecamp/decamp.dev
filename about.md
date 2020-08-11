@@ -24,9 +24,11 @@ I am actually in the middle of a professional transition from the music industry
 
 - 🎪 [Trondossa Music & Arts Festival](https://trondossa.com)
 
-- 🎨 [Harpsichord](https://github.com/mattdecamp/harpsichord) (VS Code Theme)
+- 🏃‍♀ [What's My Pace? | Distance Calculator](https://whatsmypace.app)
 
-- 🏃‍♀ [What's My Pace? | Running Calculator](https://whatsmypace.app)
+- 🎚 [Room Tones](https://roomtones.netlify.app)
+
+- 🎪 [Progressive Global Agency](https://pgamusic.com)
 
 - 💿 Keepers Record Club
 
@@ -50,7 +52,6 @@ I also love [absurdist humor](https://www.youtube.com/watch?v=aZJZK6rzjns) and [
 ---
   
 <!-- Thank you for the guidance, Boilerform boilerform.hankchizljaw.com -->
-
   <a name="contact"><form  id="contactform" data-netlify="true" method="post"></a>
     <fieldset class="c-form">
         <legend class="c-heading">Get in Touch</legend>

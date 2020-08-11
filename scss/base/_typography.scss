@@ -46,7 +46,6 @@ p {
     font-weight: lighter;
     line-height: var(--s3);
     hyphens: auto;
-    margin-bottom: var(--s3);
 }
 
 article, ul, li {
@@ -76,6 +75,7 @@ time {
     font-size: var(--s0);
     margin-top: 0rem;
     line-height: 1;
+    color: var(--text-accent-color);
     // margin-block-start: 0.25rem;
     // letter-spacing: rem;
 }
