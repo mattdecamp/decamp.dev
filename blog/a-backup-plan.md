@@ -2,27 +2,36 @@
 
 # A Backup Plan
 
-_My search and ultimate implementing of a plan to look after my data_
+_How I look after my data.......backup my data and h I made the plan_
 
-At one time or another we've all had those data disasters. A hard drive fails, your phone takes a bath, or one day your computer straight up would not boot up. It can be absolutely devastating; your digital house burning down. Depite experiencing data losses like these first-hand, data maintenance has remained a process that I've put off again and again. 
+At one point or another we all have a data disaster. A hard drive fails, our phone takes a bath, or one day your computer straight up won't boot up. It can be absolutely devastating; your digital house burning down. 
 
-This month I sought to fix that.
+Depite the underlying risks of having digitized lives, looking after one's data can be a tedious task. Thankfully there are lots of services out there nowadays that can do much of the leg work for us. 
 
-## The Data Types
+After years of doing the bare minimum to look after my own personal data, I recently put my figurative foot down and made a plan.
 
-To begin I needed to identify the types of data I had:
+## My Goals
+
+For starters I needed to layout the reasons why I wanted to do this in the first place.
+
+* To ensure the safety of my data well into the future; especially the pieces I would never want to lose.
+* Establish better personal backup habits and make it a more routine part of my day-to-day life. 
+
+## Types of Data
+
+Next I wanted to identify just what types of data I had and what they meant to me.
 
 ### The Important Stuff
 
-All your data is important to you on some level; But this is the stuff you don't ever want to lose. In my case this was family photos and videos, personal data and valuable documents. If your house was on fire, these are the things you'd want to carry out with you.
+All data is important to me on some level, otherwise why would I even have it. But this is the stuff I don't ever want to lose: family photos and videos, personal data and valuable documents. If my house was on fire, these are the things I'd be grabbing on my way out.
 
 ### The Everyday Stuff
 
-This is the data you access most often. For me this is work documents, projects, audio recordings, and writings. This calls for a kind of balance because I needed easy access but I also wanted these backed up and living somewhere other than my computer.
+This is the data I access most often: work documents, project files, audio recordings, and writings. I would need easy access to this data also would want these backed up on the regular and living somewhere other than on my computer.
 
 ### The Replaceable Data
 
-Things like computer applications, node-modules, forks. Stuff that I have copies of, but originate somewhere else. If they disappeared tomorrow it wouldn't the end-of-the-world. I could always get other copies.
+Things like applications, node-modules, forks, etc. Stuff that I have copies of, but originate from somewhere else. If they disappeared tomorrow it wouldn't the end-of-the-world. I could always retrieve them from elsewhere if I needed to.
 
 ### Device Data
 
