@@ -9,10 +9,10 @@
     font-family: 'Roboto Slab', sans-serif;
     & a {
         margin: var(--s-5) 0 var(--s-4);
-        border-bottom-color: var(--blue);
+        border-bottom-color: var(--link-border-color);
         color: var(--white);
         &:hover {
-            border-bottom-color: var(--pink);
+            border-bottom-color: var(--link-border-hover);
         }
     }
 }
