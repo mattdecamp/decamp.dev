@@ -17,7 +17,7 @@ module.exports = function(eleventyConfig) {
 
   // Grab excerpts and sections from a file
   eleventyConfig.addFilter("section", require("./js/section.js") );
-
+  
   // Post Dates
   eleventyConfig.addFilter('readableDate', dateObj => {
     return DateTime.fromJSDate(dateObj, {
