@@ -6,9 +6,9 @@ permalink: "/about/index.html"
 
 # A bit about me:
 
-My name is Matt DeCamp, a front-end web developer and music industry professional based in Athens, Georgia.
+My name is Matt DeCamp, and I am a front-end web developer and music industry professional based in Athens, Georgia.
 
-While my web experience dates back to the age of [GeoCities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities), I've been building websites professionally for a little over a decade for clients and friends across industries.
+While my web experience dates back to the age of [GeoCities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities), I've been building websites professionally for a little over a decade for clients and friends across various industries.
 
 ## You mentioned the music industry...
 
