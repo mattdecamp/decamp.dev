@@ -12,7 +12,7 @@
 	<body>
 		{% include "partials/global/header.njk" %}
 		<div id="main-container">
-			{# {% include "partials/components/nav.njk" %} #}
+			{% include "partials/components/nav.njk" %}
 			<main>
 				{{ content | safe }}
 			</main>
