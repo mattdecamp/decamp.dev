@@ -1,7 +1,7 @@
 body {
   background: var(--background);
   color: var(--text-color);
-  transition: background 500ms ease-in-out, color 200ms ease;
+//   transition: background 500ms ease-in-out, color 200ms ease;
 }
 
 @media (prefers-color-scheme: dark) {
