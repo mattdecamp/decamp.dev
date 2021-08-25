@@ -69,7 +69,7 @@ a.shadow {
 @media (min-width: 50em) {
     #main-container {
         margin: var(--s0) auto var(--s3);
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: minmax(20ch,40ch) minmax(auto,1fr);
         grid-template-rows: 1fr;
         grid-gap: var(--s1);
     }
@@ -86,34 +86,3 @@ a.shadow {
         }
     }
 }
-
-// @media (prefers-color-scheme: light) {
-//     body {
-//         background: var(--background);
-//         color: var(--text-color);
-//     }
-// }
-
-// @media (prefers-color-scheme: dark) {
-//     body {
-//         background: var(--background);
-//         color: var(--text-color);
-//     }
-//     a {
-//         color: var(--link-color);
-//         text-decoration: none;
-//         transition: all 0.25s ease;
-//         border-bottom: 3px solid var(--link-border-color);
-//     }
-//     a.shadow {
-//         border-bottom: none;
-//         box-shadow: inset 0 -0.5ch var(--link-shadow-color);
-//         &:hover,
-//         &:active,
-//         &:focus {
-//             color: var(--link-hover-color);
-//             border-bottom: none;
-//             box-shadow: inset 0 -2ch var(--link-shadow-hover);
-//         }
-//     }
-// }

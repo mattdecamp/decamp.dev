@@ -1,13 +1,23 @@
 header {
   width: 100%;
   height: auto;
+  margin: var(--s-2) 0 0;
   display: grid;
   grid-template-rows: 1rem repeat(6, auto) 1rem;
-  grid-template-columns: 1rem 1fr auto 1fr 1rem;
+  grid-template-columns: minmax(7vw,10%) 1fr minmax(7vw,10%);
 }
 
+#header--container {
+  grid-area: 1/2/9/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+
 #header--home {
-    grid-area: 2/2/3/3;
     color: var(--text-color);
     & a {
       display:none;
@@ -15,14 +25,13 @@ header {
 }
 
 #avatar--container {
-  grid-area: 2/3/7/4;
   width: 150px;
   height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   border-radius: 50%;
-  z-index: 2;
+  z-index:2;
   & a {
     border: 0;
   }
@@ -46,11 +55,10 @@ header {
   background-size: contain;
   position: static;
   border-radius: 50%;
-  z-index: 2;
 }
 #bar-blue {
   position: relative;
-  grid-area: 3/1/5/6;
+  grid-area: 3/1/5/3;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100vw;
@@ -59,7 +67,7 @@ header {
 }
 
 #bar-green {
-  grid-area: 5/1/6/6;
+  grid-area: 5/1/6/3;
   margin-top: 10px;
   width: 100vw;
   height: 20px;
@@ -67,13 +75,19 @@ header {
 }
 
 @media (min-width: 50em) {
-  header {
-    grid-template-columns: minmax(7vw,10%) auto 1fr auto minmax(7vw,10%);
+  // header {
+  //   grid-template-columns: minmax(7vw,10%) auto minmax(7vw,10%);
+  // }
+  #header--container {
+    // width: 90%;
+    max-width: 1100px;
+    align-items: flex-start;
+    justify-content: space-between;
+
   }
 
   #header--home {
-    grid-area: 3/3/4/4;
-
+    margin-top: 2ch;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -85,9 +99,9 @@ header {
     & a {
       display: block;
       border: 0;
-    //   text-shadow: 0px 0px 1px #f8f8f8;
-    //   color: var(--midnight);
-      
+    }
+    & #site--logo .user-toggle {
+      display: block;
     }
   }
   #avatar {
@@ -96,7 +110,6 @@ header {
   }
 
   #avatar--container {
-    grid-area: 2/4/8/5;
     width: 250px;
     height: 250px;
     display: flex;
@@ -125,22 +138,3 @@ header {
     background: var(--green);
   }
 }
-
-// @media (prefers-color-scheme: dark) {
-//   header {
-//     background: var(--background);
-//   }
-//   // #moon {
-//   //   display: none;
-//   // }
-//   // #sun {
-//   //   display: block;
-//   //   color: var(--white);
-//   // }
-
-//   // @media (max-width: 40em) {
-//   //   #sun {
-//   //     display: none;
-//   //   }
-//   // }
-// }
