@@ -88,12 +88,12 @@ header {
     align-items: center;
 
     font-family: "Roboto Slab", sans-serif;
-    // font-weight: 600;
     letter-spacing: 0.15rem;
     font-size: var(--s3);
     & a {
       display: block;
       border: 0;
+      font-weight: 300;
     }
     & #site--logo .user-toggle {
       display: block;
