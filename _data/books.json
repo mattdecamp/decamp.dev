@@ -1,1498 +1,437 @@
 [
   {
+    "id": 12472833,
+    "bookTitle": "Witches Abroad (Discworld, #12)",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/43529-L.jpg",
+    "isbn": "",
+    "isbn13": 9780062237361,
+    "bookPublisher": "ROC / The Penguin Group",
+    "bookPages": 252,
+    "bookYear": 1991,
+    "bookYearOriginal": 1991,
+    "dateRead": "10/27/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780062237361"
+  },
+  {
+    "id": 19248602,
+    "bookTitle": "The Farthest Shore (Earthsea Cycle, #3)",
+    "bookAuthor": "Ursula K. Le Guin",
+    "bookAuthoLF": "Guin, Ursula K. Le",
+    "bookImage": "https://covers.openlibrary.org/b/id/10508403-L.jpg",
+    "isbn": "",
+    "isbn13": 9780689845345,
+    "bookPublisher": "Atheneum Books for Young Readers",
+    "bookPages": 273,
+    "bookYear": 2012,
+    "bookYearOriginal": 1972,
+    "dateRead": "10/20/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780689845345"
+  },
+  {
+    "id": 618221,
+    "bookTitle": "Moving Pictures (Discworld, #10)",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/9022746-L.jpg",
+    "isbn": 552134635,
+    "isbn13": 9780552134637,
+    "bookPublisher": "Corgi",
+    "bookPages": 332,
+    "bookYear": 1991,
+    "bookYearOriginal": 1990,
+    "dateRead": "10/14/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780552134637"
+  },
+  {
+    "id": 17214743,
+    "bookTitle": "The Tombs of Atuan (Earthsea Cycle, #2)",
+    "bookAuthor": "Ursula K. Le Guin",
+    "bookAuthoLF": "Guin, Ursula K. Le",
+    "bookImage": "https://covers.openlibrary.org/b/id/8535684-L.jpg",
+    "isbn": "",
+    "isbn13": 9780689845369,
+    "bookPublisher": "Atheneum Books for Young Readers",
+    "bookPages": 196,
+    "bookYear": 2012,
+    "bookYearOriginal": 1970,
+    "dateRead": "10/1/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780689845369"
+  },
+  {
+    "id": 64218,
+    "bookTitle": "Eric (Discworld, #9; Rincewind #4)",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/8786620-L.jpg",
+    "isbn": 380821214,
+    "isbn13": 9780380821211,
+    "bookPublisher": "Harper",
+    "bookPages": 197,
+    "bookYear": 2008,
+    "bookYearOriginal": 1990,
+    "dateRead": "9/27/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780380821211"
+  },
+  {
+    "id": 16029682,
+    "bookTitle": "A Wizard of Earthsea (Earthsea Cycle, #1)",
+    "bookAuthor": "Ursula K. Le Guin",
+    "bookAuthoLF": "Guin, Ursula K. Le",
+    "bookImage": "https://covers.openlibrary.org/b/id/8742393-L.jpg",
+    "isbn": "",
+    "isbn13": 9780547773742,
+    "bookPublisher": "Clarion Books",
+    "bookPages": 210,
+    "bookYear": 2012,
+    "bookYearOriginal": 1968,
+    "dateRead": "9/25/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780547773742"
+  },
+  {
+    "id": 86525,
+    "bookTitle": "Master of the Senate",
+    "bookAuthor": "Robert A. Caro",
+    "bookAuthoLF": "Caro, Robert A.",
+    "bookImage": "https://covers.openlibrary.org/b/id/253724-L.jpg",
+    "isbn": 394720954,
+    "isbn13": 9780394720951,
+    "bookPublisher": "Vintage",
+    "bookPages": 1167,
+    "bookYear": 2003,
+    "bookYearOriginal": 2002,
+    "dateRead": "9/19/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780394720951"
+  },
+  {
+    "id": 64222,
+    "bookTitle": "Going Postal (Discworld, #33; Moist von Lipwig, #1)",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/366698-L.jpg",
+    "isbn": 60502932,
+    "isbn13": 9780060502935,
+    "bookPublisher": "HarperTorch",
+    "bookPages": 394,
+    "bookYear": 2005,
+    "bookYearOriginal": 2004,
+    "dateRead": "9/5/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780060502935"
+  },
+  {
+    "id": 19131982,
+    "bookTitle": "Soul Music (Discworld #16)",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/10957052-L.jpg",
+    "isbn": "",
+    "isbn13": 9780062237415,
+    "bookPublisher": "HarperCollins e-books",
+    "bookPages": 387,
+    "bookYear": 2009,
+    "bookYearOriginal": 1994,
+    "dateRead": "8/29/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780062237415"
+  },
+  {
+    "id": 596906,
+    "bookTitle": "Feet of Clay (Discworld, #19)",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/379690-L.jpg",
+    "isbn": 575059001,
+    "isbn13": 9780575059009,
+    "bookPublisher": "London : Gollancz",
+    "bookPages": 288,
+    "bookYear": 1996,
+    "bookYearOriginal": 1996,
+    "dateRead": "8/18/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780575059009"
+  },
+  {
     "id": 2665042,
     "bookTitle": "The Valley of Fear (Sherlock Holmes, #7)",
-    "authorName": "Arthur Conan Doyle",
-    "authorNameLF": "Doyle, Arthur Conan",
-    "isbn": "0192123149",
-    "dateRead": "8/8/21"
+    "bookAuthor": "Arthur Conan Doyle",
+    "bookAuthoLF": "Doyle, Arthur Conan",
+    "bookImage": "https://covers.openlibrary.org/b/id/116989-L.jpg",
+    "isbn": 192123149,
+    "isbn13": 9780192123145,
+    "bookPublisher": "Oxford University Press",
+    "bookPages": 291,
+    "bookYear": 1993,
+    "bookYearOriginal": 1915,
+    "dateRead": "8/8/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780192123145"
   },
   {
     "id": 8141563,
     "bookTitle": "Player Piano",
-    "authorName": "Kurt Vonnegut Jr.",
-    "authorNameLF": "Jr., Kurt Vonnegut",
+    "bookAuthor": "Kurt Vonnegut Jr.",
+    "bookAuthoLF": "Jr., Kurt Vonnegut",
+    "bookImage": "https://covers.openlibrary.org/b/id/239818-L.jpg",
     "isbn": "",
-    "dateRead": "8/3/21"
+    "isbn13": 9780385333788,
+    "bookPublisher": "",
+    "bookPages": 354,
+    "bookYear": 1952,
+    "bookYearOriginal": 1952,
+    "dateRead": "8/3/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780385333788"
   },
   {
     "id": 36478643,
     "bookTitle": "Sir Gawain and the Green Knight",
-    "authorName": "Unknown",
-    "authorNameLF": "Unknown, Unknown",
+    "bookAuthor": "Unknown",
+    "bookAuthoLF": "Unknown, Unknown",
+    "bookImage": "https://covers.openlibrary.org/b/id/12233906-L.jpg",
     "isbn": 1783525606,
-    "dateRead": "7/24/21"
+    "isbn13": 9781783525607,
+    "bookPublisher": "Unbound",
+    "bookPages": 240,
+    "bookYear": 2018,
+    "bookYearOriginal": 1397,
+    "dateRead": "7/24/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9781783525607"
   },
   {
     "id": 1622930,
     "bookTitle": "The Music Lesson: A Spiritual Search for Growth Through Music",
-    "authorName": "Victor L. Wooten",
-    "authorNameLF": "Wooten, Victor L.",
-    "isbn": "0425220931",
-    "dateRead": "7/18/21"
+    "bookAuthor": "Victor L. Wooten",
+    "bookAuthoLF": "Wooten, Victor L.",
+    "bookImage": "https://covers.openlibrary.org/b/id/6409515-L.jpg",
+    "isbn": 425220931,
+    "isbn13": 9780425220931,
+    "bookPublisher": "Hal Leonard Publishing Corporation",
+    "bookPages": 290,
+    "bookYear": 2015,
+    "bookYearOriginal": 2006,
+    "dateRead": "7/18/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780425220931"
   },
   {
     "id": 6683667,
     "bookTitle": "Wyrd Sisters (Discworld, #6)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/9021683-L.jpg",
     "isbn": "",
-    "dateRead": "7/10/21"
+    "isbn13": 9780062225733,
+    "bookPublisher": "Roc",
+    "bookPages": 233,
+    "bookYear": 1988,
+    "bookYearOriginal": 1988,
+    "dateRead": "7/10/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780062225733"
   },
   {
     "id": 13537029,
     "bookTitle": "The Song of Achilles",
-    "authorName": "Madeline Miller",
-    "authorNameLF": "Miller, Madeline",
+    "bookAuthor": "Madeline Miller",
+    "bookAuthoLF": "Miller, Madeline",
+    "bookImage": "https://covers.openlibrary.org/b/id/10826922-L.jpg",
     "isbn": "",
-    "dateRead": "6/27/21"
+    "isbn13": 9780062060624,
+    "bookPublisher": "HarperCollins",
+    "bookPages": 389,
+    "bookYear": 2012,
+    "bookYearOriginal": 2011,
+    "dateRead": "6/27/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780062060624"
   },
   {
     "id": 64217,
     "bookTitle": "Pyramids (Discworld, #7)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0061020656",
-    "dateRead": "6/11/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/9021696-L.jpg",
+    "isbn": 61020656,
+    "isbn13": 9780061020650,
+    "bookPublisher": "Harper",
+    "bookPages": 341,
+    "bookYear": 2008,
+    "bookYearOriginal": 1989,
+    "dateRead": "6/11/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780061020650"
   },
   {
     "id": 34499,
     "bookTitle": "Sourcery (Discworld, #5; Rincewind #3)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0061020672",
-    "dateRead": "5/31/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/10618567-L.jpg",
+    "isbn": 61020672,
+    "isbn13": 9780061020674,
+    "bookPublisher": "Harper",
+    "bookPages": 276,
+    "bookYear": 2008,
+    "bookYearOriginal": 1988,
+    "dateRead": "5/31/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780061020674"
   },
   {
     "id": 400354,
     "bookTitle": "Men at Arms (Discworld, #15; City Watch #2)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0061092193",
-    "dateRead": "5/24/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/45140-L.jpg",
+    "isbn": 61092193,
+    "isbn13": 9780061092190,
+    "bookPublisher": "HarperPrism",
+    "bookPages": 377,
+    "bookYear": 2003,
+    "bookYearOriginal": 1993,
+    "dateRead": "5/24/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780061092190"
   },
   {
     "id": 846092,
     "bookTitle": "Reaper Man (Discworld, #11)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0061020621",
-    "dateRead": "5/12/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/43531-L.jpg",
+    "isbn": 61020621,
+    "isbn13": 9780061020629,
+    "bookPublisher": "HarperTorch",
+    "bookPages": 374,
+    "bookYear": 2002,
+    "bookYearOriginal": 1991,
+    "dateRead": "5/12/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780061020629"
   },
   {
     "id": 34506,
     "bookTitle": "The Light Fantastic (Discworld, #2; Rincewind #2)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0061020702",
-    "dateRead": "5/4/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/10639705-L.jpg",
+    "isbn": 61020702,
+    "isbn13": 9780061020704,
+    "bookPublisher": "HarperTorch",
+    "bookPages": 277,
+    "bookYear": 2000,
+    "bookYearOriginal": 1986,
+    "dateRead": "5/4/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780061020704"
   },
   {
     "id": 34507,
     "bookTitle": "Equal Rites (Discworld, #3; Witches, #1)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0060855908",
-    "dateRead": "4/26/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/38429-L.jpg",
+    "isbn": 60855908,
+    "isbn13": 9780060855901,
+    "bookPublisher": "Harper Perennial",
+    "bookPages": 240,
+    "bookYear": 2005,
+    "bookYearOriginal": 1987,
+    "dateRead": "4/26/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780060855901"
   },
   {
     "id": 36506438,
     "bookTitle": "The Color of Magic (Discworld, #1)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/43549-L.jpg",
     "isbn": "",
-    "dateRead": "4/18/21"
+    "isbn13": 9780062225672,
+    "bookPublisher": "HarperCollins",
+    "bookPages": 293,
+    "bookYear": 2009,
+    "bookYearOriginal": 1983,
+    "dateRead": "4/18/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780062225672"
   },
   {
     "id": 35959740,
     "bookTitle": "Circe",
-    "authorName": "Madeline Miller",
-    "authorNameLF": "Miller, Madeline",
-    "isbn": "0316556343",
-    "dateRead": "4/3/21"
+    "bookAuthor": "Madeline Miller",
+    "bookAuthoLF": "Miller, Madeline",
+    "bookImage": "https://covers.openlibrary.org/b/id/10618670-L.jpg",
+    "isbn": 316556343,
+    "isbn13": 9780316556347,
+    "bookPublisher": "Little, Brown and Company",
+    "bookPages": 393,
+    "bookYear": 2018,
+    "bookYearOriginal": 2018,
+    "dateRead": "4/3/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780316556347"
   },
   {
     "id": 386372,
     "bookTitle": "Mort (Discworld, #4; Death, #1)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0061020680",
-    "dateRead": "3/28/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/9021091-L.jpg",
+    "isbn": 61020680,
+    "isbn13": 9780061020681,
+    "bookPublisher": "Harpertorch",
+    "bookPages": 243,
+    "bookYear": 2001,
+    "bookYearOriginal": 1987,
+    "dateRead": "3/28/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780061020681"
   },
   {
     "id": 64216,
     "bookTitle": "Guards! Guards! (Discworld, #8; City Watch #1)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "0061020648",
-    "dateRead": "3/12/21"
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/8913515-L.jpg",
+    "isbn": 61020648,
+    "isbn13": 9780061020643,
+    "bookPublisher": "HarperTorch",
+    "bookPages": 376,
+    "bookYear": 2001,
+    "bookYearOriginal": 1989,
+    "dateRead": "3/12/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780061020643"
   },
   {
     "id": 6388978,
     "bookTitle": "Small Gods (Discworld, #13)",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
+    "bookAuthor": "Terry Pratchett",
+    "bookAuthoLF": "Pratchett, Terry",
+    "bookImage": "https://covers.openlibrary.org/b/id/9023424-L.jpg",
     "isbn": "",
-    "dateRead": "2/16/21"
+    "isbn13": 9780062237378,
+    "bookPublisher": "HarperCollins ebooks",
+    "bookPages": 355,
+    "bookYear": 2009,
+    "bookYearOriginal": 1992,
+    "dateRead": "2/16/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780062237378"
   },
   {
     "id": 208324,
     "bookTitle": "Means of Ascent",
-    "authorName": "Robert A. Caro",
-    "authorNameLF": "Caro, Robert A.",
+    "bookAuthor": "Robert A. Caro",
+    "bookAuthoLF": "Caro, Robert A.",
+    "bookImage": "https://covers.openlibrary.org/b/id/6664682-L.jpg",
     "isbn": "067973371X",
-    "dateRead": "2/8/21"
+    "isbn13": 9780679733713,
+    "bookPublisher": "Vintage",
+    "bookPages": 592,
+    "bookYear": 1991,
+    "bookYearOriginal": 1990,
+    "dateRead": "2/8/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780679733713"
   },
   {
     "id": 82842,
     "bookTitle": "The Night Manager",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0679425136",
-    "dateRead": "1/16/21"
-  },
-  {
-    "id": 652046,
-    "bookTitle": "The Russia House",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0394577892",
-    "dateRead": "12/21/20"
-  },
-  {
-    "id": 15783514,
-    "bookTitle": "The Ocean at the End of the Lane",
-    "authorName": "Neil Gaiman",
-    "authorNameLF": "Gaiman, Neil",
-    "isbn": "0062255657",
-    "dateRead": "11/17/20"
-  },
-  {
-    "id": 569429,
-    "bookTitle": "Mostly Harmless (Hitchhiker's Guide to the Galaxy, #5)",
-    "authorName": "Douglas Adams",
-    "authorNameLF": "Adams, Douglas",
-    "isbn": "0345379330",
-    "dateRead": "11/15/20"
-  },
-  {
-    "id": 68354,
-    "bookTitle": "So Long, and Thanks for All the Fish (The Hitchhiker's Guide to the Galaxy, #4)",
-    "authorName": "Douglas Adams",
-    "authorNameLF": "Adams, Douglas",
-    "isbn": "0345391837",
-    "dateRead": "11/6/20"
-  },
-  {
-    "id": 8694,
-    "bookTitle": "Life, the Universe and Everything (Hitchhiker's Guide to the Galaxy, #3)",
-    "authorName": "Douglas Adams",
-    "authorNameLF": "Adams, Douglas",
-    "isbn": "0345418905",
-    "dateRead": "10/24/20"
-  },
-  {
-    "id": 365,
-    "bookTitle": "Dirk Gently's Holistic Detective Agency (Dirk Gently, #1)",
-    "authorName": "Douglas Adams",
-    "authorNameLF": "Adams, Douglas",
-    "isbn": "",
-    "dateRead": "10/11/20"
-  },
-  {
-    "id": 357,
-    "bookTitle": "The Long Dark Tea-Time of the Soul (Dirk Gently, #2)",
-    "authorName": "Douglas Adams",
-    "authorNameLF": "Adams, Douglas",
-    "isbn": "0671742515",
-    "dateRead": "9/23/20"
-  },
-  {
-    "id": 7420067,
-    "bookTitle": "The Sirens of Titan",
-    "authorName": "Kurt Vonnegut Jr.",
-    "authorNameLF": "Jr., Kurt Vonnegut",
-    "isbn": "",
-    "dateRead": "9/15/20"
-  },
-  {
-    "id": 1375400,
-    "bookTitle": "The Path to Power (The Years of Lyndon Johnson, #1)",
-    "authorName": "Robert A. Caro",
-    "authorNameLF": "Caro, Robert A.",
-    "isbn": "0394499735",
-    "dateRead": "9/9/20"
-  },
-  {
-    "id": 37903770,
-    "bookTitle": "Norse Mythology",
-    "authorName": "Neil Gaiman",
-    "authorNameLF": "Gaiman, Neil",
-    "isbn": "",
-    "dateRead": "8/29/20"
-  },
-  {
-    "id": 2657,
-    "bookTitle": "To Kill a Mockingbird",
-    "authorName": "Harper Lee",
-    "authorNameLF": "Lee, Harper",
-    "isbn": "",
-    "dateRead": "5/9/20"
-  },
-  {
-    "id": 37767749,
-    "bookTitle": "A Prayer for Owen Meany",
-    "authorName": "John Irving",
-    "authorNameLF": "Irving, John",
-    "isbn": "",
-    "dateRead": "5/9/20"
-  },
-  {
-    "id": 3368196,
-    "bookTitle": "Little Drummer Girl",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0340328479",
-    "dateRead": "2/24/20"
-  },
-  {
-    "id": 44171,
-    "bookTitle": "The Looking Glass War",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0743431707",
-    "dateRead": "2/1/20"
-  },
-  {
-    "id": 262065,
-    "bookTitle": "The Fortress of Solitude",
-    "authorName": "Jonathan Lethem",
-    "authorNameLF": "Lethem, Jonathan",
-    "isbn": "0385500696",
-    "dateRead": "1/21/20"
-  },
-  {
-    "id": 17402288,
-    "bookTitle": "Dept. of Speculation",
-    "authorName": "Jenny Offill",
-    "authorNameLF": "Offill, Jenny",
-    "isbn": "0385350813",
-    "dateRead": "1/11/20"
-  },
-  {
-    "id": 328854,
-    "bookTitle": "Motherless Brooklyn",
-    "authorName": "Jonathan Lethem",
-    "authorNameLF": "Lethem, Jonathan",
-    "isbn": "0375724834",
-    "dateRead": "1/7/20"
-  },
-  {
-    "id": 147791,
-    "bookTitle": "Things Fall Apart",
-    "authorName": "Chinua Achebe",
-    "authorNameLF": "Achebe, Chinua",
-    "isbn": "0679446230",
-    "dateRead": "1/3/20"
-  },
-  {
-    "id": 194755,
-    "bookTitle": "Esio Trot",
-    "authorName": "Roald Dahl",
-    "authorNameLF": "Dahl, Roald",
-    "isbn": "0224064924",
-    "dateRead": "1/2/20"
-  },
-  {
-    "id": 18693872,
-    "bookTitle": "The Shadow of the Wind (The Cemetery of Forgotten Books, #1)",
-    "authorName": "Carlos Ruiz Zafón",
-    "authorNameLF": "Zafón, Carlos Ruiz",
-    "isbn": "0143126393",
-    "dateRead": "12/25/19"
-  },
-  {
-    "id": 136251,
-    "bookTitle": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
-    "authorName": "J.K. Rowling",
-    "authorNameLF": "Rowling, J.K.",
-    "isbn": "",
-    "dateRead": "10/20/19"
-  },
-  {
-    "id": 1,
-    "bookTitle": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
-    "authorName": "J.K. Rowling",
-    "authorNameLF": "Rowling, J.K.",
-    "isbn": "",
-    "dateRead": "10/14/19"
-  },
-  {
-    "id": 2,
-    "bookTitle": "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
-    "authorName": "J.K. Rowling",
-    "authorNameLF": "Rowling, J.K.",
-    "isbn": "",
-    "dateRead": "10/1/19"
-  },
-  {
-    "id": 6,
-    "bookTitle": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
-    "authorName": "J.K. Rowling",
-    "authorNameLF": "Rowling, J.K.",
-    "isbn": "",
-    "dateRead": "9/21/19"
-  },
-  {
-    "id": 5,
-    "bookTitle": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
-    "authorName": "J.K. Rowling",
-    "authorNameLF": "Rowling, J.K.",
-    "isbn": "043965548X",
-    "dateRead": "9/7/19"
-  },
-  {
-    "id": 43904017,
-    "bookTitle": "Agent Running in the Field",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": 1984878875,
-    "dateRead": "8/20/19"
-  },
-  {
-    "id": 44908180,
-    "bookTitle": "Medallion Status: True Stories from Secret Rooms",
-    "authorName": "John Hodgman",
-    "authorNameLF": "Hodgman, John",
-    "isbn": "0525561102",
-    "dateRead": "8/16/19"
-  },
-  {
-    "id": 15881,
-    "bookTitle": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
-    "authorName": "J.K. Rowling",
-    "authorNameLF": "Rowling, J.K.",
-    "isbn": "",
-    "dateRead": "8/10/19"
-  },
-  {
-    "id": 3,
-    "bookTitle": "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
-    "authorName": "J.K. Rowling",
-    "authorNameLF": "Rowling, J.K.",
-    "isbn": "",
-    "dateRead": "8/10/19"
-  },
-  {
-    "id": 40063024,
-    "bookTitle": "Dreyer's English: An Utterly Correct Guide to Clarity and Style",
-    "authorName": "Benjamin Dreyer",
-    "authorNameLF": "Dreyer, Benjamin",
-    "isbn": "0812995708",
-    "dateRead": "8/3/19"
-  },
-  {
-    "id": 76401,
-    "bookTitle": "Bury My Heart at Wounded Knee: An Indian History of the American West",
-    "authorName": "Dee Brown",
-    "authorNameLF": "Brown, Dee",
-    "isbn": "0805066691",
-    "dateRead": "7/20/19"
-  },
-  {
-    "id": 332613,
-    "bookTitle": "One Flew Over the Cuckoo's Nest",
-    "authorName": "Ken Kesey",
-    "authorNameLF": "Kesey, Ken",
-    "isbn": "",
-    "dateRead": "7/7/19"
-  },
-  {
-    "id": 40724466,
-    "bookTitle": "The Story of Captain Nemo",
-    "authorName": "Dave Eggers",
-    "authorNameLF": "Eggers, Dave",
-    "isbn": 1782692088,
-    "dateRead": "7/5/19"
-  },
-  {
-    "id": 24216,
-    "bookTitle": "Alice's Adventures in Wonderland & Through the Looking-Glass",
-    "authorName": "Lewis Carroll",
-    "authorNameLF": "Carroll, Lewis",
-    "isbn": "0375761381",
-    "dateRead": "6/30/19"
-  },
-  {
-    "id": 194373,
-    "bookTitle": "The Memoirs of Sherlock Holmes (Sherlock Holmes, #4)",
-    "authorName": "Arthur Conan Doyle",
-    "authorNameLF": "Doyle, Arthur Conan",
-    "isbn": "0192123092",
-    "dateRead": "6/20/19"
-  },
-  {
-    "id": 35959785,
-    "bookTitle": "Natural Causes: An Epidemic of Wellness, the Certainty of Dying, and Killing Ourselves to Live Longer",
-    "authorName": "Barbara Ehrenreich",
-    "authorNameLF": "Ehrenreich, Barbara",
-    "isbn": 1478961260,
-    "dateRead": "6/10/19"
-  },
-  {
-    "id": 73800,
-    "bookTitle": "The Minpins",
-    "authorName": "Roald Dahl",
-    "authorNameLF": "Dahl, Roald",
-    "isbn": "0140549706",
-    "dateRead": "6/9/19"
-  },
-  {
-    "id": 21480724,
-    "bookTitle": "The Hound of the Baskervilles, A Study in Scarlet, The Sign of Four",
-    "authorName": "Arthur Conan Doyle",
-    "authorNameLF": "Doyle, Arthur Conan",
-    "isbn": "0375712674",
-    "dateRead": "6/9/19"
-  },
-  {
-    "id": 3588,
-    "bookTitle": "The Adventures of Sherlock Holmes",
-    "authorName": "Arthur Conan Doyle",
-    "authorNameLF": "Doyle, Arthur Conan",
-    "isbn": "0439574285",
-    "dateRead": "5/27/19"
-  },
-  {
-    "id": 87798,
-    "bookTitle": "Wuthering Heights",
-    "authorName": "Emily Brontë",
-    "authorNameLF": "Brontë, Emily",
-    "isbn": "0140434186",
-    "dateRead": "5/8/19"
-  },
-  {
-    "id": 386244,
-    "bookTitle": "The Witches",
-    "authorName": "Roald Dahl",
-    "authorNameLF": "Dahl, Roald",
-    "isbn": "0140340203",
-    "dateRead": "4/15/19"
-  },
-  {
-    "id": 26154389,
-    "bookTitle": "Zero K",
-    "authorName": "Don DeLillo",
-    "authorNameLF": "DeLillo, Don",
-    "isbn": 1501135392,
-    "dateRead": "3/18/19"
-  },
-  {
-    "id": 6333,
-    "bookTitle": "The Vicar of Nibbleswicke",
-    "authorName": "Roald Dahl",
-    "authorNameLF": "Dahl, Roald",
-    "isbn": "014036837X",
-    "dateRead": "3/15/19"
-  },
-  {
-    "id": 29093204,
-    "bookTitle": "The Twits",
-    "authorName": "Roald Dahl",
-    "authorNameLF": "Dahl, Roald",
-    "isbn": "0141365498",
-    "dateRead": "3/13/19"
-  },
-  {
-    "id": 18789,
-    "bookTitle": "Sanctuary",
-    "authorName": "William Faulkner",
-    "authorNameLF": "Faulkner, William",
-    "isbn": "0679748148",
-    "dateRead": "2/28/19"
-  },
-  {
-    "id": 24178,
-    "bookTitle": "Charlotte's Web",
-    "authorName": "E.B. White",
-    "authorNameLF": "White, E.B.",
-    "isbn": "0064410935",
-    "dateRead": "2/18/19"
-  },
-  {
-    "id": 9712,
-    "bookTitle": "Love in the Time of Cholera",
-    "authorName": "Gabriel García Márquez",
-    "authorNameLF": "Márquez, Gabriel García",
-    "isbn": "140003468X",
-    "dateRead": "1/29/19"
-  },
-  {
-    "id": 38815794,
-    "bookTitle": "Fox 8",
-    "authorName": "George Saunders",
-    "authorNameLF": "Saunders, George",
-    "isbn": 1984818023,
-    "dateRead": "1/21/19"
-  },
-  {
-    "id": 1507552,
-    "bookTitle": "Fantastic Mr. Fox",
-    "authorName": "Roald Dahl",
-    "authorNameLF": "Dahl, Roald",
-    "isbn": "0140328726",
-    "dateRead": "1/21/19"
-  },
-  {
-    "id": 386243,
-    "bookTitle": "Danny the Champion of the World",
-    "authorName": "Roald Dahl",
-    "authorNameLF": "Dahl, Roald",
-    "isbn": "0140328734",
-    "dateRead": "1/13/19"
-  },
-  {
-    "id": 50420,
-    "bookTitle": "One Hundred Years of Solitude",
-    "authorName": "Gabriel García Márquez",
-    "authorNameLF": "Márquez, Gabriel García",
-    "isbn": "0060929790",
-    "dateRead": "1/8/19"
-  },
-  {
-    "id": 222912,
-    "bookTitle": "The Return of the King (The Lord of the Rings, #3)",
-    "authorName": "J.R.R. Tolkien",
-    "authorNameLF": "Tolkien, J.R.R.",
-    "isbn": "0345296087",
-    "dateRead": "11/20/18"
-  },
-  {
-    "id": 378,
-    "bookTitle": "The Phantom Tollbooth",
-    "authorName": "Norton Juster",
-    "authorNameLF": "Juster, Norton",
-    "isbn": "0394820371",
-    "dateRead": "11/20/18"
-  },
-  {
-    "id": 35052708,
-    "bookTitle": "The Two Towers (The Lord of the Rings, #2)",
-    "authorName": "J.R.R. Tolkien",
-    "authorNameLF": "Tolkien, J.R.R.",
-    "isbn": "0345296060",
-    "dateRead": "11/4/18"
-  },
-  {
-    "id": 2213661,
-    "bookTitle": "The Graveyard Book",
-    "authorName": "Neil Gaiman",
-    "authorNameLF": "Gaiman, Neil",
-    "isbn": "0060530928",
-    "dateRead": "10/23/18"
-  },
-  {
-    "id": 19001,
-    "bookTitle": "A Perfect Spy",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0743457927",
-    "dateRead": "10/18/18"
-  },
-  {
-    "id": 30165203,
-    "bookTitle": "American Gods (American Gods, #1)",
-    "authorName": "Neil Gaiman",
-    "authorNameLF": "Gaiman, Neil",
-    "isbn": "",
-    "dateRead": "9/19/18"
-  },
-  {
-    "id": 17334495,
-    "bookTitle": "The Bully Pulpit: Theodore Roosevelt, William Howard Taft, and the Golden Age of Journalism",
-    "authorName": "Doris Kearns Goodwin",
-    "authorNameLF": "Goodwin, Doris Kearns",
-    "isbn": "",
-    "dateRead": "9/3/18"
-  },
-  {
-    "id": 28815320,
-    "bookTitle": "The Once and Future King",
-    "authorName": "T.H. White",
-    "authorNameLF": "White, T.H.",
-    "isbn": "0143111612",
-    "dateRead": "9/3/18"
-  },
-  {
-    "id": 36127479,
-    "bookTitle": "I Felt a Funeral, In My Brain",
-    "authorName": "Will Walton",
-    "authorNameLF": "Walton, Will",
-    "isbn": "0545709563",
-    "dateRead": "6/12/18"
-  },
-  {
-    "id": 282702,
-    "bookTitle": "Frankenstein",
-    "authorName": "Mary Wollstonecraft Shelley",
-    "authorNameLF": "Shelley, Mary Wollstonecraft",
-    "isbn": "0143105035",
-    "dateRead": "4/15/18"
-  },
-  {
-    "id": 4987,
-    "bookTitle": "Jailbird",
-    "authorName": "Kurt Vonnegut Jr.",
-    "authorNameLF": "Jr., Kurt Vonnegut",
-    "isbn": "0385333900",
-    "dateRead": "3/26/18"
-  },
-  {
-    "id": 96123,
-    "bookTitle": "All the President's Men",
-    "authorName": "Carl Bernstein",
-    "authorNameLF": "Bernstein, Carl",
-    "isbn": 1416522913,
-    "dateRead": "3/21/18"
-  },
-  {
-    "id": 11060704,
-    "bookTitle": "Candide",
-    "authorName": "Voltaire",
-    "authorNameLF": "Voltaire, Voltaire",
-    "isbn": "",
-    "dateRead": "3/18/18"
-  },
-  {
-    "id": 18114322,
-    "bookTitle": "The Grapes of Wrath",
-    "authorName": "John Steinbeck",
-    "authorNameLF": "Steinbeck, John",
-    "isbn": "067001690X",
-    "dateRead": "1/31/18"
-  },
-  {
-    "id": 34347433,
-    "bookTitle": "Vacationland: True Stories from Painful Beaches",
-    "authorName": "John Hodgman",
-    "authorNameLF": "Hodgman, John",
-    "isbn": "0735224803",
-    "dateRead": "1/5/18"
-  },
-  {
-    "id": 7069,
-    "bookTitle": "The World According to Garp",
-    "authorName": "John Irving",
-    "authorNameLF": "Irving, John",
-    "isbn": "0345915593",
-    "dateRead": "12/31/17"
-  },
-  {
-    "id": 34496624,
-    "bookTitle": "A Legacy of Spies",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0735225117",
-    "dateRead": "12/23/17"
-  },
-  {
-    "id": 34802642,
-    "bookTitle": "Twin Peaks: The Final Dossier",
-    "authorName": "Mark Frost",
-    "authorNameLF": "Frost, Mark",
-    "isbn": 1250163307,
-    "dateRead": "11/7/17"
-  },
-  {
-    "id": 39912729,
-    "bookTitle": "Death Comes for the Archbishop",
-    "authorName": "Willa Cather",
-    "authorNameLF": "Cather, Willa",
-    "isbn": "",
-    "dateRead": "8/19/17"
-  },
-  {
-    "id": 9593,
-    "bookTitle": "Galápagos",
-    "authorName": "Kurt Vonnegut Jr.",
-    "authorNameLF": "Jr., Kurt Vonnegut",
-    "isbn": "0385333870",
-    "dateRead": "8/18/17"
-  },
-  {
-    "id": 817501,
-    "bookTitle": "On Having No Head: Zen and the Rediscovery of the Obvious",
-    "authorName": "Douglas E. Harding",
-    "authorNameLF": "Harding, Douglas E.",
-    "isbn": 1878019198,
-    "dateRead": "8/15/17"
-  },
-  {
-    "id": 89724,
-    "bookTitle": "We Have Always Lived in the Castle",
-    "authorName": "Shirley Jackson",
-    "authorNameLF": "Jackson, Shirley",
-    "isbn": "0143039970",
-    "dateRead": "7/13/17"
-  },
-  {
-    "id": 485894,
-    "bookTitle": "The Metamorphosis",
-    "authorName": "Franz Kafka",
-    "authorNameLF": "Kafka, Franz",
-    "isbn": "",
-    "dateRead": "7/3/17"
-  },
-  {
-    "id": 11762,
-    "bookTitle": "White Noise",
-    "authorName": "Don DeLillo",
-    "authorNameLF": "DeLillo, Don",
-    "isbn": "0140283307",
-    "dateRead": "6/10/17"
-  },
-  {
-    "id": 8695,
-    "bookTitle": "The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy, #2)",
-    "authorName": "Douglas Adams",
-    "authorNameLF": "Adams, Douglas",
-    "isbn": "",
-    "dateRead": "5/30/17"
-  },
-  {
-    "id": 386162,
-    "bookTitle": "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
-    "authorName": "Douglas Adams",
-    "authorNameLF": "Adams, Douglas",
-    "isbn": "",
-    "dateRead": "5/13/17"
-  },
-  {
-    "id": 622855,
-    "bookTitle": "A Murder of Quality (George Smiley #2)",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0743431685",
-    "dateRead": "4/17/17"
-  },
-  {
-    "id": 8548281,
-    "bookTitle": "The Wisdom of Insecurity: A Message for an Age of Anxiety",
-    "authorName": "Alan W. Watts",
-    "authorNameLF": "Watts, Alan W.",
-    "isbn": "",
-    "dateRead": "1/29/17"
-  },
-  {
-    "id": 18144074,
-    "bookTitle": "Rebel Yell: The Violence, Passion, and Redemption of Stonewall Jackson",
-    "authorName": "S.C. Gwynne",
-    "authorNameLF": "Gwynne, S.C.",
-    "isbn": 1451673280,
-    "dateRead": "1/8/17"
-  },
-  {
-    "id": 5306,
-    "bookTitle": "Travels with Charley: In Search of America",
-    "authorName": "John Steinbeck",
-    "authorNameLF": "Steinbeck, John",
-    "isbn": "0142000701",
-    "dateRead": "12/4/16"
-  },
-  {
-    "id": 29906980,
-    "bookTitle": "Lincoln in the Bardo",
-    "authorName": "George Saunders",
-    "authorNameLF": "Saunders, George",
-    "isbn": "0812995341",
-    "dateRead": "10/27/16"
-  },
-  {
-    "id": 26156427,
-    "bookTitle": "Rough Riders: Theodore Roosevelt, His Cowboy Regiment, and the Immortal Charge Up San Juan Hill",
-    "authorName": "Mark Lee Gardner",
-    "authorNameLF": "Gardner, Mark Lee",
-    "isbn": "0062312081",
-    "dateRead": "10/16/16"
-  },
-  {
-    "id": 15815332,
-    "bookTitle": "The Wisdom of Compassion: Stories of Remarkable Encounters and Timeless Insights",
-    "authorName": "Dalai Lama XIV",
-    "authorNameLF": "XIV, Dalai Lama",
-    "isbn": 1594487383,
-    "dateRead": "10/3/16"
-  },
-  {
-    "id": 8857310,
-    "bookTitle": "Unfamiliar Fishes",
-    "authorName": "Sarah Vowell",
-    "authorNameLF": "Vowell, Sarah",
-    "isbn": 1594487871,
-    "dateRead": "10/3/16"
-  },
-  {
-    "id": 93251,
-    "bookTitle": "The October Country",
-    "authorName": "Ray Bradbury",
-    "authorNameLF": "Bradbury, Ray",
-    "isbn": "0380973871",
-    "dateRead": "9/23/16"
-  },
-  {
-    "id": 20821092,
-    "bookTitle": "Napoleon: A Life",
-    "authorName": "Andrew Roberts",
-    "authorNameLF": "Roberts, Andrew",
-    "isbn": "0670025321",
-    "dateRead": "9/18/16"
-  },
-  {
-    "id": 8255917,
-    "bookTitle": "Washington: A Life",
-    "authorName": "Ron Chernow",
-    "authorNameLF": "Chernow, Ron",
-    "isbn": 1594202664,
-    "dateRead": "8/27/16"
-  },
-  {
-    "id": 24602886,
-    "bookTitle": "Lafayette in the Somewhat United States",
-    "authorName": "Sarah Vowell",
-    "authorNameLF": "Vowell, Sarah",
-    "isbn": 1594631743,
-    "dateRead": "8/24/16"
-  },
-  {
-    "id": 50013,
-    "bookTitle": "Let's All Kill Constance",
-    "authorName": "Ray Bradbury",
-    "authorNameLF": "Bradbury, Ray",
-    "isbn": "0060561785",
-    "dateRead": "8/16/16"
-  },
-  {
-    "id": 30966455,
-    "bookTitle": "The Great Swindle",
-    "authorName": "Pierre Lemaitre",
-    "authorNameLF": "Lemaitre, Pierre",
-    "isbn": 1848665792,
-    "dateRead": "8/12/16"
-  },
-  {
-    "id": 16130,
-    "bookTitle": "Alexander Hamilton",
-    "authorName": "Ron Chernow",
-    "authorNameLF": "Chernow, Ron",
-    "isbn": "",
-    "dateRead": "8/3/16"
-  },
-  {
-    "id": 168668,
-    "bookTitle": "Catch-22",
-    "authorName": "Joseph Heller",
-    "authorNameLF": "Heller, Joseph",
-    "isbn": "0684833395",
-    "dateRead": "6/2/16"
-  },
-  {
-    "id": 2612,
-    "bookTitle": "The Tipping Point: How Little Things Can Make a Big Difference",
-    "authorName": "Malcolm Gladwell",
-    "authorNameLF": "Gladwell, Malcolm",
-    "isbn": "0316346624",
-    "dateRead": "4/5/16"
-  },
-  {
-    "id": 94978,
-    "bookTitle": "Low",
-    "authorName": "Hugo Wilcken",
-    "authorNameLF": "Wilcken, Hugo",
-    "isbn": "0826416845",
-    "dateRead": "3/16/16"
-  },
-  {
-    "id": 2369,
-    "bookTitle": "The Great Bridge: The Epic Story of the Building of the Brooklyn Bridge",
-    "authorName": "David McCullough",
-    "authorNameLF": "McCullough, David",
-    "isbn": "0743217373",
-    "dateRead": "2/23/16"
-  },
-  {
-    "id": 273438,
-    "bookTitle": "The Fellowship of the Ring (The Lord of the Rings, #1)",
-    "authorName": "J.R.R. Tolkien",
-    "authorNameLF": "Tolkien, J.R.R.",
-    "isbn": "0345296052",
-    "dateRead": "12/31/15"
-  },
-  {
-    "id": 9620,
-    "bookTitle": "Farewell Summer (Green Town, #3)",
-    "authorName": "Ray Bradbury",
-    "authorNameLF": "Bradbury, Ray",
-    "isbn": "0061131547",
-    "dateRead": "9/7/15"
-  },
-  {
-    "id": 100834,
-    "bookTitle": "A World Undone: The Story of the Great War, 1914 to 1918",
-    "authorName": "G.J. Meyer",
-    "authorNameLF": "Meyer, G.J.",
-    "isbn": "0553803549",
-    "dateRead": "8/31/15"
-  },
-  {
-    "id": 18007564,
-    "bookTitle": "The Martian",
-    "authorName": "Andy Weir",
-    "authorNameLF": "Weir, Andy",
-    "isbn": "0804139024",
-    "dateRead": "6/21/15"
-  },
-  {
-    "id": 90235,
-    "bookTitle": "The Birth of Britain (A History of the English Speaking Peoples, #1)",
-    "authorName": "Winston S. Churchill",
-    "authorNameLF": "Churchill, Winston S.",
-    "isbn": "0304363898",
-    "dateRead": "6/21/15"
-  },
-  {
-    "id": 3281277,
-    "bookTitle": "A Most Wanted Man",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": 1416594884,
-    "dateRead": "4/3/15"
-  },
-  {
-    "id": 49255,
-    "bookTitle": "Nothing Like It in the World: The Men Who Built the Transcontinental Railroad 1863-69",
-    "authorName": "Stephen E. Ambrose",
-    "authorNameLF": "Ambrose, Stephen E.",
-    "isbn": "0743203178",
-    "dateRead": "3/23/15"
-  },
-  {
-    "id": 76778,
-    "bookTitle": "The Martian Chronicles",
-    "authorName": "Ray Bradbury",
-    "authorNameLF": "Bradbury, Ray",
-    "isbn": "0553278223",
-    "dateRead": "2/28/15"
-  },
-  {
-    "id": 46460,
-    "bookTitle": "Call for the Dead (George Smiley #1)",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0743431677",
-    "dateRead": "2/3/15"
-  },
-  {
-    "id": 28749,
-    "bookTitle": "The Brief and Frightening Reign of Phil",
-    "authorName": "George Saunders",
-    "authorNameLF": "Saunders, George",
-    "isbn": 1594481520,
-    "dateRead": "1/27/15"
-  },
-  {
-    "id": 234225,
-    "bookTitle": "Dune (Dune Chronicles, #1)",
-    "authorName": "Frank Herbert",
-    "authorNameLF": "Herbert, Frank",
-    "isbn": "0340839937",
-    "dateRead": "1/20/15"
-  },
-  {
-    "id": 2794,
-    "bookTitle": "The Crying of Lot 49",
-    "authorName": "Thomas Pynchon",
-    "authorNameLF": "Pynchon, Thomas",
-    "isbn": "006091307X",
-    "dateRead": "1/14/15"
-  },
-  {
-    "id": 18999,
-    "bookTitle": "Smiley's People (George Smiley #7; Karla Trilogy #3)",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0743455800",
-    "dateRead": "1/12/15"
-  },
-  {
-    "id": 248596,
-    "bookTitle": "Something Wicked This Way Comes (Green Town, #2)",
-    "authorName": "Ray Bradbury",
-    "authorNameLF": "Bradbury, Ray",
-    "isbn": "0380729407",
-    "dateRead": "1/5/15"
-  },
-  {
-    "id": 18990,
-    "bookTitle": "The Honourable Schoolboy (George Smiley #6; Karla Trilogy #2)",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0743457919",
-    "dateRead": "1/1/15"
-  },
-  {
-    "id": 5933841,
-    "bookTitle": "Inherent Vice",
-    "authorName": "Thomas Pynchon",
-    "authorNameLF": "Pynchon, Thomas",
-    "isbn": 1594202249,
-    "dateRead": "12/23/14"
-  },
-  {
-    "id": 45791,
-    "bookTitle": "The Ballad of the Sad Café and Other Stories",
-    "authorName": "Carson McCullers",
-    "authorNameLF": "McCullers, Carson",
-    "isbn": "0618565868",
-    "dateRead": "12/4/14"
-  },
-  {
-    "id": 17070423,
-    "bookTitle": "Nilsson: The Life of a Singer-Songwriter",
-    "authorName": "Alyn Shipton",
-    "authorNameLF": "Shipton, Alyn",
-    "isbn": "0199756570",
-    "dateRead": "11/28/14"
-  },
-  {
-    "id": 243924,
-    "bookTitle": "Reflections in a Golden Eye",
-    "authorName": "Carson McCullers",
-    "authorNameLF": "McCullers, Carson",
-    "isbn": "0618084754",
-    "dateRead": "10/23/14"
-  },
-  {
-    "id": 13592176,
-    "bookTitle": "Supernatural Strategies for Making a Rock 'n' Roll Group",
-    "authorName": "Ian F. Svenonius",
-    "authorNameLF": "Svenonius, Ian F.",
-    "isbn": 1617751308,
-    "dateRead": "10/21/14"
-  },
-  {
-    "id": 4778084,
-    "bookTitle": "Claude Debussy, His Life And Works",
-    "authorName": "Leon Vallas",
-    "authorNameLF": "Vallas, Leon",
-    "isbn": "0486229165",
-    "dateRead": "10/21/14"
-  },
-  {
-    "id": 1901146,
-    "bookTitle": "Orchestration",
-    "authorName": "Cecil Forsyth",
-    "authorNameLF": "Forsyth, Cecil",
-    "isbn": "0486243834",
-    "dateRead": "9/5/14"
-  },
-  {
-    "id": 29393,
-    "bookTitle": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
-    "authorName": "Michael Azerrad",
-    "authorNameLF": "Azerrad, Michael",
-    "isbn": "0316787531",
-    "dateRead": "8/25/14"
-  },
-  {
-    "id": 78508,
-    "bookTitle": "The River of Doubt: Theodore Roosevelt's Darkest Journey",
-    "authorName": "Candice Millard",
-    "authorNameLF": "Millard, Candice",
-    "isbn": "0767913736",
-    "dateRead": "4/23/14"
-  },
-  {
-    "id": 13155514,
-    "bookTitle": "You Are Here: Discovering the Magic of the Present Moment",
-    "authorName": "Thich Nhat Hanh",
-    "authorNameLF": "Hanh, Thich Nhat",
-    "isbn": 1590309839,
-    "dateRead": "4/7/14"
-  },
-  {
-    "id": 381960,
-    "bookTitle": "The Braindead Megaphone",
-    "authorName": "George Saunders",
-    "authorNameLF": "Saunders, George",
-    "isbn": "159448256X",
-    "dateRead": "3/16/14"
-  },
-  {
-    "id": 17568801,
-    "bookTitle": "Zealot: The Life and Times of Jesus of Nazareth",
-    "authorName": "Reza Aslan",
-    "authorNameLF": "Aslan, Reza",
-    "isbn": "140006922X",
-    "dateRead": "3/9/14"
-  },
-  {
-    "id": 16171272,
-    "bookTitle": "The Good Lord Bird",
-    "authorName": "James   McBride",
-    "authorNameLF": "McBride, James",
-    "isbn": 1594486344,
-    "dateRead": "1/26/14"
-  },
-  {
-    "id": 17707975,
-    "bookTitle": "McSweeney's #45",
-    "authorName": "Dave Eggers",
-    "authorNameLF": "Eggers, Dave",
-    "isbn": 1938073630,
-    "dateRead": "1/12/14"
-  },
-  {
-    "id": 6541352,
-    "bookTitle": "Our Noise: The Story of Merge Records, the Indie Label That Got Big and Stayed Small",
-    "authorName": "John Cook",
-    "authorNameLF": "Cook, John",
-    "isbn": 1565126246,
-    "dateRead": "1/4/14"
-  },
-  {
-    "id": 49253,
-    "bookTitle": "Crazy Horse and Custer",
-    "authorName": "Stephen E. Ambrose",
-    "authorNameLF": "Ambrose, Stephen E.",
-    "isbn": "0743468643",
-    "dateRead": "12/28/13"
-  },
-  {
-    "id": 37380,
-    "bookTitle": "The Heart Is a Lonely Hunter",
-    "authorName": "Carson McCullers",
-    "authorNameLF": "McCullers, Carson",
-    "isbn": "0618084746",
-    "dateRead": "12/1/13"
-  },
-  {
-    "id": 394616,
-    "bookTitle": "Essays of E.B. White",
-    "authorName": "E.B. White",
-    "authorNameLF": "White, E.B.",
-    "isbn": "0060932236",
-    "dateRead": "11/14/13"
-  },
-  {
-    "id": 28748,
-    "bookTitle": "The Very Persistent Gappers of Frip",
-    "authorName": "George Saunders",
-    "authorNameLF": "Saunders, George",
-    "isbn": 1932416374,
-    "dateRead": "11/10/13"
-  },
-  {
-    "id": 2493,
-    "bookTitle": "The Time Machine",
-    "authorName": "H.G. Wells",
-    "authorNameLF": "Wells, H.G.",
-    "isbn": "",
-    "dateRead": "11/10/13"
-  },
-  {
-    "id": 13641208,
-    "bookTitle": "Tenth of December",
-    "authorName": "George Saunders",
-    "authorNameLF": "Saunders, George",
-    "isbn": "0812993802",
-    "dateRead": "11/8/13"
-  },
-  {
-    "id": 10975,
-    "bookTitle": "The Sound and the Fury",
-    "authorName": "William Faulkner",
-    "authorNameLF": "Faulkner, William",
-    "isbn": "",
-    "dateRead": "11/4/13"
-  },
-  {
-    "id": 13615414,
-    "bookTitle": "Gulp: Adventures on the Alimentary Canal",
-    "authorName": "Mary Roach",
-    "authorNameLF": "Roach, Mary",
-    "isbn": "0393081575",
-    "dateRead": "11/1/13"
-  },
-  {
-    "id": 761381,
-    "bookTitle": "The Halloween Tree",
-    "authorName": "Ray Bradbury",
-    "authorNameLF": "Bradbury, Ray",
-    "isbn": "0375803017",
-    "dateRead": "10/23/13"
-  },
-  {
-    "id": 12129983,
-    "bookTitle": "The Wrecking Crew: The Inside Story of Rock and Roll's Best-Kept Secret",
-    "authorName": "Kent Hartman",
-    "authorNameLF": "Hartman, Kent",
-    "isbn": "031261974X",
-    "dateRead": "10/20/13"
-  },
-  {
-    "id": 28881,
-    "bookTitle": "Lamb: The Gospel According to Biff, Christ's Childhood Pal",
-    "authorName": "Christopher Moore",
-    "authorNameLF": "Moore, Christopher",
-    "isbn": "0380813815",
-    "dateRead": "10/14/13"
-  },
-  {
-    "id": 4980,
-    "bookTitle": "Breakfast of Champions",
-    "authorName": "Kurt Vonnegut Jr.",
-    "authorNameLF": "Jr., Kurt Vonnegut",
-    "isbn": "0385334206",
-    "dateRead": "9/5/13"
-  },
-  {
-    "id": 16127347,
-    "bookTitle": "A Short History of England",
-    "authorName": "Simon Jenkins",
-    "authorNameLF": "Jenkins, Simon",
-    "isbn": 1846684633,
-    "dateRead": "9/1/13"
-  },
-  {
-    "id": 28747,
-    "bookTitle": "CivilWarLand in Bad Decline",
-    "authorName": "George Saunders",
-    "authorNameLF": "Saunders, George",
-    "isbn": "0099595818",
-    "dateRead": "8/15/13"
-  },
-  {
-    "id": 13235689,
-    "bookTitle": "How Music Works",
-    "authorName": "David Byrne",
-    "authorNameLF": "Byrne, David",
-    "isbn": 1936365537,
-    "dateRead": "8/11/13"
-  },
-  {
-    "id": 18989,
-    "bookTitle": "Tinker, Tailor, Soldier, Spy",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "0743457900",
-    "dateRead": "6/18/13"
-  },
-  {
-    "id": 159964,
-    "bookTitle": "The Dhammapada",
-    "authorName": "Anonymous",
-    "authorNameLF": "Anonymous, Anonymous",
-    "isbn": "0938077872",
-    "dateRead": "6/2/13"
-  },
-  {
-    "id": 19494,
-    "bookTitle": "The Spy Who Came In from the Cold",
-    "authorName": "John le Carré",
-    "authorNameLF": "Carré, John le",
-    "isbn": "",
-    "dateRead": "5/29/13"
-  },
-  {
-    "id": 9439303,
-    "bookTitle": "Life",
-    "authorName": "Keith Richards",
-    "authorNameLF": "Richards, Keith",
-    "isbn": "0297854399",
-    "dateRead": "5/1/13"
-  },
-  {
-    "id": 76776,
-    "bookTitle": "Dandelion Wine",
-    "authorName": "Ray Bradbury",
-    "authorNameLF": "Bradbury, Ray",
-    "isbn": "0553277537",
-    "dateRead": "4/23/13"
-  },
-  {
-    "id": 2199,
-    "bookTitle": "Team of Rivals: The Political Genius of Abraham Lincoln",
-    "authorName": "Doris Kearns Goodwin",
-    "authorNameLF": "Goodwin, Doris Kearns",
-    "isbn": "0743270754",
-    "dateRead": "4/5/13"
-  },
-  {
-    "id": 7857195,
-    "bookTitle": "Squirrel Seeks Chipmunk",
-    "authorName": "David Sedaris",
-    "authorNameLF": "Sedaris, David",
-    "isbn": "0316038393",
-    "dateRead": "2/11/13"
-  },
-  {
-    "id": 3147367,
-    "bookTitle": "American Lion: Andrew Jackson in the White House",
-    "authorName": "Jon Meacham",
-    "authorNameLF": "Meacham, Jon",
-    "isbn": 1400063256,
-    "dateRead": "2/7/13"
-  },
-  {
-    "id": 10903092,
-    "bookTitle": "Listen to This",
-    "authorName": "Alex  Ross",
-    "authorNameLF": "Ross, Alex",
-    "isbn": "0312610688",
-    "dateRead": "1/6/13"
-  },
-  {
-    "id": 676,
-    "bookTitle": "Sailing Alone Around the Room: New and Selected Poems",
-    "authorName": "Billy Collins",
-    "authorNameLF": "Collins, Billy",
-    "isbn": "0375755195",
-    "dateRead": "1/2/13"
-  },
-  {
-    "id": 88061,
-    "bookTitle": "Dreams from My Father: A Story of Race and Inheritance",
-    "authorName": "Barack Obama",
-    "authorNameLF": "Obama, Barack",
-    "isbn": 1921351438,
-    "dateRead": "11/28/12"
-  },
-  {
-    "id": 49628,
-    "bookTitle": "Cloud Atlas",
-    "authorName": "David Mitchell",
-    "authorNameLF": "Mitchell, David",
-    "isbn": "0375507256",
-    "dateRead": "10/20/12"
-  },
-  {
-    "id": 7809077,
-    "bookTitle": "The Civil War of 1812: American Citizens, British Subjects, Irish Rebels, & Indian Allies",
-    "authorName": "Alan Taylor",
-    "authorNameLF": "Taylor, Alan",
-    "isbn": 1400042658,
-    "dateRead": "10/10/12"
-  },
-  {
-    "id": 13504014,
-    "bookTitle": "As I Lay Dying",
-    "authorName": "William Faulkner",
-    "authorNameLF": "Faulkner, William",
-    "isbn": "",
-    "dateRead": "9/7/12"
-  },
-  {
-    "id": 12067,
-    "bookTitle": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
-    "authorName": "Terry Pratchett",
-    "authorNameLF": "Pratchett, Terry",
-    "isbn": "",
-    "dateRead": "9/5/12"
-  },
-  {
-    "id": 162898,
-    "bookTitle": "A Connecticut Yankee in King Arthur's Court",
-    "authorName": "Mark Twain",
-    "authorNameLF": "Twain, Mark",
-    "isbn": "",
-    "dateRead": "8/21/12"
-  },
-  {
-    "id": 291316,
-    "bookTitle": "The Recording Angel: Music, Records and Culture from Aristotle to Zappa",
-    "authorName": "Evan Eisenberg",
-    "authorNameLF": "Eisenberg, Evan",
-    "isbn": "0300099045",
-    "dateRead": "8/10/12"
-  },
-  {
-    "id": 9791,
-    "bookTitle": "A Walk in the Woods: Rediscovering America on the Appalachian Trail",
-    "authorName": "Bill Bryson",
-    "authorNameLF": "Bryson, Bill",
-    "isbn": "0307279464",
-    "dateRead": "8/9/12"
-  },
-  {
-    "id": 13542370,
-    "bookTitle": "Big Day Coming: Yo La Tengo and the Rise of Indie Rock",
-    "authorName": "Jesse Jarnow",
-    "authorNameLF": "Jarnow, Jesse",
-    "isbn": 1592407153,
-    "dateRead": "7/26/12"
-  },
-  {
-    "id": 8520362,
-    "bookTitle": "The Grand Design",
-    "authorName": "Stephen Hawking",
-    "authorNameLF": "Hawking, Stephen",
-    "isbn": "0553805371",
-    "dateRead": "7/21/12"
-  },
-  {
-    "id": 310612,
-    "bookTitle": "A Confederacy of Dunces",
-    "authorName": "John Kennedy Toole",
-    "authorNameLF": "Toole, John Kennedy",
-    "isbn": "0802130208",
-    "dateRead": "7/14/12"
-  },
-  {
-    "id": 213743,
-    "bookTitle": "How to Practice: The Way to a Meaningful Life",
-    "authorName": "Dalai Lama XIV",
-    "authorNameLF": "XIV, Dalai Lama",
-    "isbn": "0743453360",
-    "dateRead": "7/10/12"
-  },
-  {
-    "id": 2767,
-    "bookTitle": "A People's History of the United States",
-    "authorName": "Howard Zinn",
-    "authorNameLF": "Zinn, Howard",
-    "isbn": "0060838655",
-    "dateRead": "7/10/12"
-  },
-  {
-    "id": 142919,
-    "bookTitle": "The Yoga of Time Travel: How the Mind Can Defeat Time",
-    "authorName": "Fred Alan Wolf",
-    "authorNameLF": "Wolf, Fred Alan",
-    "isbn": "083560828X",
-    "dateRead": "7/1/12"
-  },
-  {
-    "id": 106835,
-    "bookTitle": "The Intelligent Investor",
-    "authorName": "Benjamin Graham",
-    "authorNameLF": "Graham, Benjamin",
-    "isbn": "0060555661",
-    "dateRead": "3/30/12"
-  },
-  {
-    "id": 5907,
-    "bookTitle": "The Hobbit, or There and Back Again",
-    "authorName": "J.R.R. Tolkien",
-    "authorNameLF": "Tolkien, J.R.R.",
-    "isbn": "0618260307",
-    "dateRead": "5/20/11"
-  },
-  {
-    "id": 218659,
-    "bookTitle": "Everything That Rises Must Converge: Stories",
-    "authorName": "Flannery O'Connor",
-    "authorNameLF": "O'Connor, Flannery",
-    "isbn": "",
-    "dateRead": "5/15/11"
+    "bookAuthor": "John le Carré",
+    "bookAuthoLF": "Carré, John le",
+    "bookImage": "https://covers.openlibrary.org/b/id/8870676-L.jpg",
+    "isbn": 679425136,
+    "isbn13": 9780679425137,
+    "bookPublisher": "Knopf",
+    "bookPages": 429,
+    "bookYear": 1993,
+    "bookYearOriginal": 1993,
+    "dateRead": "1/16/21",
+    "bookBuyUrl": "https://www.indiebound.org/book/9780679425137"
   }
 ]
