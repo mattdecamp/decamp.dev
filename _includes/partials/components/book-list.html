@@ -1,6 +1,28 @@
-<ul>
+<ul id="bookList">
   {% for book in books %}
-  <li>
-    <em>{{book.authorName}}</em>, {{ book.bookTitle }}</li>
+  <li class="book">
+    <div class="bookImageContainer">
+      <a href="{{ book.bookBuyUrl }}">
+        <img
+          class="bookImage"
+          src="{{ book.bookImage }}"
+          alt="The book cover for {{ book.bookTitle }}"
+          loading="lazy"
+        />
+      </a>
+    </div>
+    <div class="bookInfo">
+      <h4 class="bookTitle">{{ book.bookTitle }}</h4>
+      {% if book.subTitle %}
+      <p class="bookSubTitle">{{ book.subTitle }}</p>
+      {% endif %}
+      <p class="bookAuthor">
+        <em>{{book.bookAuthor}}</em>
+      </p>
+      <p class="bookDate">
+        {{book.dateRead }}
+      </p>
+    </div>
+  </li>
   {% endfor %}
 </ul>
