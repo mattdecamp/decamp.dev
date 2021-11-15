@@ -35,11 +35,11 @@ module.exports = function (eleventyConfig) {
   // CSV to JSON book feed
   csvToJson()
     .fromFile("./_data/books.csv")
-    .then((books) => {
+    .then(function(books) {
       fs.writeFile(
         "./_data/books.json",
         JSON.stringify(books, null, 4),
-        (err) => {
+        function(err) {
           if (err) {
             throw err;
           }
@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
         }
       );
     })
-    .catch((err) => {
+    .catch(function(err) {
       console.log(err);
     });
 
