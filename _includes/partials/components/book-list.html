@@ -3,12 +3,15 @@
   <li class="book">
     <div class="bookImageContainer">
       <a href="{{ book.bookBuyUrl }}">
-        <img
-          class="bookImage"
-          src="{{ book.bookImage }}"
-          alt="The book cover for {{ book.bookTitle }}"
-          loading="lazy"
-        />
+        <picture>
+          <img
+            class="bookImage"
+            src="{{ book.bookImage }}"
+            alt="The book cover for {{ book.bookTitle }}"
+            loading="lazy"
+            height="240"
+          />
+        </picture>
       </a>
     </div>
     <div class="bookInfo">
