@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "csvtojson": "^2.0.10",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "npm": "^8.1.3"
   }
 }
