@@ -1,3 +1,5 @@
+const csvToJson = require("csvtojson");
+const fs = require("fs");
 // CSV to JSON book feed
 csvToJson()
   .fromFile("./_data/booklist.csv")
