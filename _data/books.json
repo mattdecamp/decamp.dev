@@ -1,12 +1,27 @@
 [
     {
+        "id": "135479",
+        "bookTitle": "Cat's Cradle",
+        "bookAuthor": "Kurt Vonnegut Jr.",
+        "bookAuthoLF": "Pratchett, Terry",
+        "bookImage": "https://covers.openlibrary.org/b/id/239794-L.jpg",
+        "isbn": "140285601",
+        "isbn13": "9.78E+12",
+        "bookPublisher": "Penguin",
+        "bookPages": "179",
+        "bookYear": "1999",
+        "bookYearOriginal": "1963",
+        "dateRead": "12/4/21",
+        "bookBuyUrl": "https://www.indiebound.org/book/9780385333481"
+    },
+    {
         "id": "OL22766947M",
         "bookTitle": "Making Money (Discworld #36)",
         "bookAuthor": "Terry Pratchett",
         "bookAuthoLF": "Pratchett, Terry",
         "bookImage": "https://covers.openlibrary.org/b/id/7020264-L.jpg",
         "isbn": "",
-        "isbn13": "9.78006E+12",
+        "isbn13": "9.78E+12",
         "bookPublisher": "HarperCollins",
         "bookPages": "394",
         "bookYear": "2007",
