@@ -1,5 +1,35 @@
 [
     {
+        "id": "OL7815225M",
+        "bookTitle": "The Fifth Elephant",
+        "bookAuthor": "Terry Pratchett",
+        "bookAuthoLF": "Pratchett, Terry",
+        "bookImage": "https://covers.openlibrary.org/b/id/366514-L.jpg",
+        "isbn": "552146161",
+        "isbn13": "9.78E+12",
+        "bookPublisher": "Corgi",
+        "bookPages": "321",
+        "bookYear": "2000",
+        "bookYearOriginal": "1999",
+        "dateRead": "1/12/22",
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062280138"
+    },
+    {
+        "id": "OL7814991M",
+        "bookTitle": "Lords and Ladies",
+        "bookAuthor": "Terry Pratchett",
+        "bookAuthoLF": "Pratchett, Terry",
+        "bookImage": "https://covers.openlibrary.org/b/id/366216-L.jpg",
+        "isbn": "552138916",
+        "isbn13": "9.78E+12",
+        "bookPublisher": "Corgi",
+        "bookPages": "386",
+        "bookYear": "1994",
+        "bookYearOriginal": "1992",
+        "dateRead": "12/28/21",
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062237392"
+    },
+    {
         "id": "OL28124966M",
         "bookTitle": "Interesting Times",
         "bookAuthor": "Terry Pratchett",
