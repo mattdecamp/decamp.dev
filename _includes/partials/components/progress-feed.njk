@@ -1,0 +1,21 @@
+<ul id="progress--item-list" role="list">
+  {% for item in collections.progress | reverse %}
+  <li class="progress--item-container">
+    <div class="progress--item">
+      <div class="progress--item-line">
+        <div class="circle"></div>
+      </div>
+      <div class="progress--item-content">
+        <time>
+
+          {{ item.data.date | readableDate }}
+        </time>
+        <h3>
+          {{ item.data.title }}
+        </h3>
+        {{ item.templateContent | safe }}
+      </div>
+    </div>
+  </li>
+  {%- endfor -%}
+</ul>
