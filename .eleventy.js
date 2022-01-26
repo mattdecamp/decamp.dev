@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
 
   // Grab excerpts and sections from a file
-  eleventyConfig.addFilter("section", require("./js/section.js"));
+  eleventyConfig.addFilter("section", require("./__src/js/section.js"));
 
   // Post Dates
   eleventyConfig.addFilter("readableDate", (dateObj) => {
@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
   // Base Config //
   return {
     dir: {
+      input: "__src",
       output: "__site",
     },
     templateFormats: ["html", "njk", "md"],

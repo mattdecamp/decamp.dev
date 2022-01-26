@@ -6,10 +6,10 @@
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
     "scss": "node-sass --output-style compressed -o css scss",
-    "autoprefixer": "postcss -u autoprefixer -r css/styles.css",
+    "autoprefixer": "postcss -u autoprefixer -r __src/css/styles.css",
     "lint": "eslint",
     "babel": "babel js -d _site/js",
-    "watch:css": "onchange 'scss/' -- npm run scss",
+    "watch:css": "onchange '__src/scss/' -- npm run scss",
     "start": "run-p serve watch:css autoprefixer"
   },
   "keywords": [],
