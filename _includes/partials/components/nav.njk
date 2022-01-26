@@ -1,19 +1,11 @@
-    <nav>
-        <ul id="navigation">
-            {# <li>
-                <a href="/blog" class="nav--item">Blog</a>
-            </li>
-            <li>
-                <a href="/projects" class="nav--item">Projects</a>
-            </li>
-            <li>
-                <a href="/photography" class="nav--item">Photography</a>
-            </li>
-            <li>
-                <a href="/music" class="nav--item">Music</a>
-            </li> #}
-            <li>
-                <a href="/about" class="nav--item">About</a>
-            </li>
-        </ul>
-    </nav>
+<nav>
+  <ul id="navigation">
+    {%- for item in nav.items -%}
+    <li>
+      <a class="nav--item" href="{{ item.url }}" title="{{ item.title }}">
+        {{ item.name }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</nav>

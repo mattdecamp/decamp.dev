@@ -31,10 +31,19 @@ module.exports = function (eleventyConfig) {
     }).toFormat("y-MM-dd");
   });
 
-
   // PLUGINS //
   // RSS
   eleventyConfig.addPlugin(pluginRss);
   // Syntax Highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  // Base Config //
+  return {
+    dir: {
+      output: "__site",
+    },
+    templateFormats: ["html", "njk", "md"],
+    htmlTemplateEngine: "njk"
+  };
 };
+

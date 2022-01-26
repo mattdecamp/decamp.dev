@@ -1,5 +1,5 @@
 node_modules
-_site
+__site
 .vscode
 .DS_Store
-_ignore
+_ignore 

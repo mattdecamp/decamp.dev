@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "name": "Projects",
+      "url": "/projects",
+      "title": "Projects"
+    },
+    {
+      "name": "Resume",
+      "url": "/resume",
+      "title": "Resume"
+    },
+    {
+      "name": "About",
+      "url": "/about",
+      "title": "About"
+    }
+  ]
+}
