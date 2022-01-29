@@ -8,16 +8,16 @@ const fs = require("fs");
 // eleventy config
 module.exports = function (eleventyConfig) {
   // Passthrough copy
-  eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("js");
-  eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("_src/fonts");
+  eleventyConfig.addPassthroughCopy("_src/images");
+  eleventyConfig.addPassthroughCopy("_src/js");
+  eleventyConfig.addPassthroughCopy("_src/css");
 
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
 
   // Grab excerpts and sections from a file
-  eleventyConfig.addFilter("section", require("./__src/js/section.js"));
+  eleventyConfig.addFilter("section", require("./_src/js/section.js"));
 
   // Post Dates
   eleventyConfig.addFilter("readableDate", (dateObj) => {
@@ -40,8 +40,8 @@ module.exports = function (eleventyConfig) {
   // Base Config //
   return {
     dir: {
-      input: "__src",
-      output: "__site",
+      input: "_src",
+      output: "_site",
     },
     templateFormats: ["html", "njk", "md"],
     htmlTemplateEngine: "njk"
