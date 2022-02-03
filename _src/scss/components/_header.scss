@@ -1,135 +1,18 @@
 header {
-  width: 100%;
-  height: auto;
-  margin: var(--s-2) 0 0;
-  display: grid;
-  grid-template-rows: 1rem repeat(6, auto) 1rem;
-  grid-template-columns: minmax(7vw,10%) 1fr minmax(7vw,10%);
-  place-items: center;
+  border-bottom: 0.15rem solid var(--midnight);
 }
 #header--container {
-  grid-area: 1/2/9/3;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  z-index: 3;
-}
-#header--home {
-    color: var(--text-color);
-    & a {
-      display:none;
-    }
-}
-
-#avatar--container {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  z-index:2;
-  & a {
-    border: 0;
-  }
-}
-
-#site--logo {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--s-3) 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  flex-direction: row;
   align-items: center;
-  & div {
-    padding-inline-end: 1rem;
-  }
+  justify-content: space-between;
 }
 
-#avatar {
-  width: 150px;
-  height: 150px;
-  content: center;
-  background: var(--pink) url("/images/matt-decamp-avatar-2021-blue-green.jpg");
-  background-size: contain;
-  position: static;
-  border-radius: 50%;
-}
-
-#bar-blue {
-  position: relative;
-  grid-area: 3/1/5/4;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 100vw;
-  height: 2.5ch;
-  background: var(--blue);
-}
-
-#bar-green {
-  grid-area: 5/1/6/4;
-  margin-top: 10px;
-  width: 100vw;
-  height: 2.5ch;
-  background: var(--green);
-}
 
 @media (min-width: 50em) {
-  // header {
-  //   grid-template-columns: minmax(7vw,10%) auto minmax(7vw,10%);
-  // }
-  #header--container {
-    width: 100%;
-    max-width: 1100px;
-    align-items: flex-start;
-    justify-content: space-between;
-
-  }
-
-  #header--home {
-    margin-top: 2ch;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    font-family: "Roboto Slab", sans-serif;
-    letter-spacing: 0.15rem;
-    font-size: var(--s3);
-    & a {
-      display: block;
-      border: 0;
-      font-weight: 300;
-    }
-    & #site--logo .user-toggle {
-      display: block;
-    }
-  }
-  #avatar {
-    width: 250px;
-    height: 250px;
-  }
-
-  #avatar--container {
-    width: 250px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    z-index: 2;
-    & a {
-      border: 0;
-    }
-  }
-
-  #bar-blue {
-    position: relative;
-    grid-area: 5/1/6/6;
-    width: 100%;
-    height: 3ch;
-    margin-bottom: 10px;
-    background: var(--blue);
-  }
-
-  #bar-green {
-    grid-area: 6/1/7/6;
-    width: 100%;
-    height: 3ch;
-    background: var(--green);
-  }
+  
 }

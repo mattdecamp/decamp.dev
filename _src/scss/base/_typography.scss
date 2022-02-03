@@ -2,93 +2,99 @@
     ROBOTO SLAB
     Font Import
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap");
 
 /* Need to include sizes for */
 
-h1,h2,h3,h4,h5,h6 {font-family:'Roboto Slab';font-weight:600;margin-bottom: var(--s3)}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+  font-weight: 300;
+//   margin-bottom: var(--s3);
+}
 
 h1 {
-    font-size: var(--s3);
-    font-size: clamp(var(--s3), 5vw, var(--s5));
+  font-size: var(--s3);
+  font-size: clamp(var(--s3), 5vw, var(--s5));
 }
 h2 {
-    font-size: var(--s2);
-    font-size: clamp(var(--s2), 4vw, var(--s4));
-    margin-block-end: 0.1rem;
+  font-size: var(--s2);
+  font-size: clamp(var(--s2), 4vw, var(--s4));
+  margin-block-end: 0.1rem;
 }
 h3 {
-    font-size: var(--s1);
-    font-size: clamp(var(--s1), 3vw, var(--s3));
+  font-size: var(--s1);
+  font-size: clamp(var(--s1), 3vw, var(--s3));
 }
 h4 {
-    font-size: var(--s0);
-    font-size: clamp(var(--s-0), 2vw, var(--s2));
+  font-size: var(--s0);
+  font-size: clamp(var(--s-0), 2vw, var(--s2));
 }
 h5 {
-    font-size: var(--s-1);
-    font-size: clamp(20px, var(--s-1), var(--s0));
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  font-size: var(--s-1);
+  font-size: clamp(20px, var(--s-1), var(--s0));
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 h6 {
-    font-size: var(--s-3);
-    font-size: clamp(18px, 4vw, var(--s-1));
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+  font-size: var(--s-3);
+  font-size: clamp(18px, 4vw, var(--s-1));
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 p {
-    margin: var(--s-1) 0 var(--s1) 0;
-    font-family: Georgia, sans-serif;
-    font-size: var(--s0);
-    font-size: clamp(var(--s0), 4vw, var(--s1));
-    font-weight: lighter;
-    line-height: var(--s3);
-    hyphens: auto;
+  font-family: var(--font-primary);
+  font-size: var(--s0);
+  font-size: clamp(var(--s0), 4vw, var(--s1));
+  font-weight: 300;
+  hyphens: auto;
 }
 
-article, ul, li {
-    font-family: 'Georgia', serif;
-    font-size: var(--s1);
-    font-size: clamp(18px, 4vw, var(--s1));
+article,
+ul,
+li {
+  font-family: var(--font-primary);
+  font-size: var(--s1);
+  font-size: clamp(18px, 4vw, var(--s1));
 }
 
-ul, ol {
-    margin-bottom: var(--s3);
-}
-
-code, pre {
-    font-family: monospace;
-    font-size: var(--s0);
-    width: 100%;
-    overflow: hidden;
+code,
+pre {
+  font-family: monospace;
+  font-size: var(--s0);
+  width: 100%;
+  overflow: hidden;
 }
 
 blockquote {
-    font-style: italic;
-    text-indent: 5vw;
+  font-style: italic;
+  text-indent: 5vw;
 }
 
 time {
-    font-family: 'Roboto Slab';
-    font-size: var(--s0);
-    margin-top: 0rem;
-    line-height: 1;
-    color: var(--text-accent-color);
-    // margin-block-start: 0.25rem;
-    // letter-spacing: rem;
+  font-family: var(--font-secondary);
+  font-size: var(--s0);
+  margin-top: 0rem;
+  line-height: 1;
+  color: var(--text-accent-color);
+  // margin-block-start: 0.25rem;
+  // letter-spacing: rem;
 }
 
 hr {
-    border: 0.05rem solid var(--hr);
-    width: 100%;
+  border: 0.05rem solid var(--hr);
+  width: 100%;
 }
 
-
-
-// @media (prefers-color-scheme: dark) {
-//     hr {
-//         border-color: var(--hr);
-//     }
-// }
+.lead {
+//   margin: var(--s-1) 0;
+  font-family: var(--font-primary);
+  font-weight: 800;
+  font-size: 4.5rem;
+  font-size: clamp(var(--s3), 10vw, 6rem);
+}

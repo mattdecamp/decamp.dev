@@ -1,0 +1,27 @@
+a {
+  // color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  &:hover {
+  }
+
+  &.nav--item {
+    color: var(--text-color);
+    font-family: var(--font-secondary);
+    border-bottom: none;
+    &:hover {
+    }
+  }
+}
+a.shadow {
+  border-bottom: none;
+  box-shadow: inset 0 -0.5ch var(--link-shadow-color);
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--link-hover-color);
+    border-bottom: none;
+    box-shadow: inset 0 -2ch var(--link-shadow-hover);
+  }
+}
