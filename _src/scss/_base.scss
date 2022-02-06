@@ -3,44 +3,5 @@
 @import "base/typography";
 @import "base/links";
 @import "base/layout";
+@import "base/utility";
 @import "base/dark-theme";
-
-
-
-
-.icon-svg {
-    width: 30px;
-    height: 30px;
-}
-
-
-.active {
-    // border-bottom: 3px solid var(--pink);
-    color: pink;
-}
-
-.visually-hidden {
-  display: block;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(1px);
-  white-space: nowrap;
-  position: absolute;
-}
-
-@media (min-width: 70em) {
-#main-container {
-    margin: var(--s-5) auto var(--s3);
-    width: 100%;
-    max-width: var(--max-width);
-}
-
-main {
-    width: 60%;
-}
-}
-
-
