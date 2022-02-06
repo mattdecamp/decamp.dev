@@ -1,9 +1,12 @@
 <header>
   <div id="header--container">
     <div id="header--home">
-      <div id="site--logo">
-        <a href="/" class="">{{ site.name }}</a>
-      </div>
+      <a href="/">
+        <div id="site--logo">
+            {% svgsprite %}
+            {% icon "md-initials" %}
+        </div>
+      </a>
     </div>
     {% include "partials/components/nav.njk" %}
   </div>
