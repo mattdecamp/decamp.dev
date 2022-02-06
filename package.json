@@ -27,6 +27,7 @@
     "@babel/core": "^7.16.0",
     "autoprefixer": "^10.4.0",
     "eleventy-plugin-excerpt": "^1.1.2",
+    "eleventy-plugin-svg-sprite": "^1.2.2",
     "eslint": "^8.2.0",
     "gray-matter": "^4.0.3",
     "luxon": "^2.1.1",
