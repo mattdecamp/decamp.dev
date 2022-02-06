@@ -4,6 +4,8 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 // csv to json
 const csvToJson = require("csvtojson");
 const fs = require("fs");
+// SVG sprite
+const svgSprite = require('eleventy-plugin-svg-sprite');
 
 // eleventy config
 module.exports = function (eleventyConfig) {
@@ -36,6 +38,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   // Syntax Highlighting
   eleventyConfig.addPlugin(syntaxHighlight);
+  // SVG Sprite
+  eleventyConfig.addPlugin(svgSprite, {
+    path: "./_src/assets/svg",
+    svgShortcode: "icon",
+    defaultClasses: "icon"
+  });
 
   // Base Config //
   return {
