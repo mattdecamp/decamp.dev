@@ -1,19 +1,24 @@
 {
   "items": [
     {
-      "name": "Projects",
-      "url": "/projects",
-      "title": "Projects"
-    },
-    {
-      "name": "Resume",
-      "url": "/resume",
-      "title": "Resume"
+      "name": "Home",
+      "url": "/",
+      "title": "Home"
     },
     {
       "name": "About",
-      "url": "/about",
+      "url": "/about/",
       "title": "About"
+    },
+    {
+      "name": "Projects",
+      "url": "/projects/",
+      "title": "Projects"
+    },
+    {
+      "name": "CV",
+      "url": "/cv/",
+      "title": "CV"
     }
   ]
 }
