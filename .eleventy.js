@@ -33,6 +33,15 @@ module.exports = function (eleventyConfig) {
     }).toFormat("y-MM-dd");
   });
 
+  // TRANSFORMS //
+  // minify HTML
+  const htmlMinTransform = require("./_src/transforms/html-min.js");
+  const isProduction = process.env.ELEVENTY_ENV === "production";
+  // html min only in production
+  if (isProduction) {
+    eleventyConfig.addTransform("htmlmin", htmlMinTransform);
+  }
+
   // PLUGINS //
   // RSS
   eleventyConfig.addPlugin(pluginRss);
