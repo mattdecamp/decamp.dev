@@ -1,6 +1,6 @@
 :root {
   /* SIZING */
-  --max-width: 900px;
+  --max-width: 1200px;
   /* FONTS */
   --font-secondary: 'Roboto Slab', serif;
   --font-primary: Georgia, sans-serif;
@@ -12,10 +12,9 @@
   --green: hsl(164, 95%, 43%);
   --blue: hsl(195, 83%, 38%);
   --midnight: hsl(195, 83%, 16%);
-  // --white: hsla(0, 0%, 97%);
-  --white: hsl(0,0,94%);   
+  --midnight-lighter: hsl(195, 82%, 26%);
+  --white: hsl(0,0,94%);
   --grey: #B2C2C6;
-
   
   --background: var(--white);
   --text-color: var(--midnight);

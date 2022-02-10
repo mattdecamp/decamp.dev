@@ -10,6 +10,11 @@ footer {
     }
 
   }
+  & a {
+    text-decoration-color: inherit;
+    text-decoration-thickness: inherit;
+    text-underline-offset: 0;
+  }
   
 }
 #footer--container {

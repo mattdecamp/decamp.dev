@@ -5,16 +5,24 @@
 }
 
 #main-container {
-    margin: var(--s3) auto var(--s3);
-    width: 90%;
-    max-width: var(--max-width);
-    flex: 1 0 auto;
+  margin: var(--s3) auto var(--s3);
+  width: 90%;
+  max-width: var(--max-width);
+  flex: 1 0 auto;
 }
 
 main {
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-ul {
-  padding-inline-start: 0;
+// ul {
+//   padding-inline-start: 0;
+// }
+
+@media screen and (min-width: 70em) {
+  #main-container {
+    display: grid;
+    grid-template-columns: 65% 1fr;
+  }
 }
