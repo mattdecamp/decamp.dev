@@ -1,8 +1,8 @@
 :root {
   /* SIZING */
-  --max-width: 1200px;
+  --max-width: 960px;
   /* FONTS */
-  --font-secondary: 'Roboto Slab', serif;
+  --font-secondary: 'Lilita One',serif;
   --font-primary: Georgia, sans-serif;
   /* COLORS */
   --color-mode: 'light';
@@ -13,6 +13,7 @@
   --blue: hsl(195, 83%, 38%);
   --midnight: hsl(195, 83%, 16%);
   --midnight-lighter: hsl(195, 82%, 26%);
+  --midnight-grey: hsl(197, 10%, 35%);
   --white: hsl(0,0,94%);
   --grey: #B2C2C6;
   

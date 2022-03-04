@@ -19,8 +19,7 @@
       line-height: 1;
     }
     & .bookDate {
-      font-size: clamp(var(--s-1), 4vw, var(--s0));
-      color: var(--grey);
+      font-size: clamp(var(--s-2), 4vw, var(--s-1));
     }
   }
 }
