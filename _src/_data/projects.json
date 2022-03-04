@@ -1,29 +1,24 @@
 {
   "items": [
     {
-      "name": "Project Name 1",
-      "description": "Pro etiam nominavi accommodare at. Id est aeque philosophia, te qui ignota fastidii vulputate. Ludus deseruisse sadipscing quo at, esse moderatius cu vis. Mel suas ullum dicam ne.",
-      "url": "#"
+      "name": "Eleventonia 🎈",
+      "description": "A mildly opinionated Eleventy starter project.",
+      "url": "https://github.com/mattdecamp/eleventonia"
     },
     {
-      "name": "Project Name 2 extended name",
-      "description": "Pro etiam nominavi accommodare at. Id est aeque philosophia, te qui ignota fastidii vulputate. Ludus deseruisse sadipscing quo at, esse moderatius cu vis. Mel suas ullum dicam ne.",
-      "url": "#"
+      "name": "OsciTones 🎚",
+      "description": "An audio oscillator and tone generator for recording engineers and audio professionals.",
+      "url": "https://github.com/mattdecamp/roomTones"
     },
     {
-      "name": "Project Name 3",
-      "description": "Pro etiam nominavi accommodare at. Id est aeque philosophia, te qui ignota fastidii vulputate. Ludus deseruisse sadipscing quo at, esse moderatius cu vis. Mel suas ullum dicam ne.",
-      "url": "#"
+      "name": "What's My Pace?",
+      "description": "A simple pace calculator and distance converter for those on the go.",
+      "url": "https://github.com/mattdecamp/runningcalculator"
     },
     {
-      "name": "Project Name 4",
-      "description": "Pro etiam nominavi accommodare at. Id est aeque philosophia, te qui ignota fastidii vulputate. Ludus deseruisse sadipscing quo at, esse moderatius cu vis. Mel suas ullum dicam ne.",
-      "url": "#"
-    },
-    {
-      "name": "Project Name 5",
-      "description": "Pro etiam nominavi accommodare at. Id est aeque philosophia, te qui ignota fastidii vulputate. Ludus deseruisse sadipscing quo at, esse moderatius cu vis. Mel suas ullum dicam ne.",
-      "url": "#"
+      "name": "resetCSS",
+      "description": "A simple CSS reset.",
+      "url": "https://github.com/mattdecamp/resetCSS"
     }
   ]
 }
