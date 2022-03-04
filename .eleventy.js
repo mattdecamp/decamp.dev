@@ -6,6 +6,8 @@ const csvToJson = require("csvtojson");
 const fs = require("fs");
 // SVG sprite
 const svgSprite = require('eleventy-plugin-svg-sprite');
+const markdownIt = require('markdown-it');
+const CleanCSS = require("clean-css");
 
 // eleventy config
 module.exports = function (eleventyConfig) {
@@ -13,14 +15,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_src/fonts");
   eleventyConfig.addPassthroughCopy("_src/images");
   eleventyConfig.addPassthroughCopy("_src/js");
-  eleventyConfig.addPassthroughCopy("_src/css");
 
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
 
   // Grab excerpts and sections from a file
   eleventyConfig.addFilter("section", require("./_src/js/section.js"));
-
+  // Clean CSS and minify
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
   // Post Dates
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
@@ -31,6 +35,13 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {
       zone: "utc",
     }).toFormat("y-MM-dd");
+  });
+  // Parse markdown included in njk files
+  eleventyConfig.addFilter("markdown", function (value) {
+    let markdown = require("markdown-it")({
+      html: true,
+    });
+    return markdown.render(value);
   });
 
   // TRANSFORMS //
@@ -61,7 +72,7 @@ module.exports = function (eleventyConfig) {
       output: "_site",
     },
     templateFormats: ["html", "njk", "md"],
-    htmlTemplateEngine: "njk"
+    htmlTemplateEngine: "njk",
   };
 };
 
