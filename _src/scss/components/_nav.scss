@@ -1,0 +1,30 @@
+nav a {
+  text-decoration: none;
+  text-decoration-color: inherit;
+  text-decoration-thickness: inherit;
+  // text-underline-offset: 0;
+}
+nav ul {
+  display: flex;
+  padding-inline-start: 0;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: var(--s0);
+  font-size: var(--s-4);
+  font-size: clamp(var(--s-5), var(--s-1), var(--s0));
+  list-style: none;
+}
+
+.nav--item {
+  color: var(--text-color);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+  border-bottom: none;
+}
+
+.nav--active {
+  text-decoration: underline;
+}
+
+@media (min-width: 70em) {
+}

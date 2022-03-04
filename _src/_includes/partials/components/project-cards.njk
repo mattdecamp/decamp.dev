@@ -1,0 +1,9 @@
+<ul id="project-list">
+  {%- for item in projects.items -%}
+  <li class="project-list--item">
+    <h3>{{ item.name }}</h3>
+    <p>{{ item.description | safe}}</p>
+    <p><a href="{{ item.url }}">More &raquo;</a></p>
+  </li>
+  {%- endfor -%}
+</ul>

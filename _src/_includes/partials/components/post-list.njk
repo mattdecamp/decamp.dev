@@ -1,0 +1,35 @@
+<ul class="post-list">
+    {% for item in collections.post | reverse %}
+        <li class="post-list--post">
+            <h2>
+                <a href="{{ item.url }}" class="shadow">{{ item.data.title }}</a>
+            </h2>
+            <time value="{{ item.date }}" >{{ item.date | readableDate }}</time>
+            <div class="excerpt">
+                {{ item.data.excerpt }}
+            </div>
+            {# <span class="read-more">
+                <a href="{{ post.url }}">
+                    Read More
+                </a>
+        </span> #}
+            {# <hr class="post-list--break" /> #}
+        </li>
+
+    {%- endfor -%}
+</ul>
+{# <hr/> #}
+<ul class="post-list--nav">
+    <li>
+        {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}">← Previous Page</a>
+        {% else %}
+        {% endif %}
+    </li>
+    <li>
+        {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}">Next Page →</a>
+        {% else %}
+        {% endif %}
+    </li>
+</ul>

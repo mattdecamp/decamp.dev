@@ -1,0 +1,13 @@
+
+
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--pink);
+  text-underline-offset: .3ex;
+  cursor: pointer;
+  &:hover {
+    text-underline-offset: .2ex;
+}
+}

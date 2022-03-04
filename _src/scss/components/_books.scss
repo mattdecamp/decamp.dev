@@ -1,0 +1,25 @@
+#bookList {
+  display: grid;
+  padding-left: 0;
+  grid-template-columns: repeat(auto-fill, minmax(14rem,1fr));
+  gap: 1.75rem;
+  list-style-type: none;
+}
+.book {
+  & img {
+    height: clamp(25ch,10vw,30ch);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  }
+  & .bookInfo {
+    margin-top: var(--s0);
+    & h4, p {
+      margin: var(--s-2) 0;
+    }
+    & p {
+      line-height: 1;
+    }
+    & .bookDate {
+      font-size: clamp(var(--s-2), 4vw, var(--s-1));
+    }
+  }
+}

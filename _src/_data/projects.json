@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "name": "Eleventonia 🎈",
+      "description": "A mildly opinionated Eleventy starter project.",
+      "url": "https://github.com/mattdecamp/eleventonia"
+    },
+    {
+      "name": "OsciTones 🎚",
+      "description": "An audio oscillator and tone generator for recording engineers and audio professionals.",
+      "url": "https://github.com/mattdecamp/roomTones"
+    },
+    {
+      "name": "What's My Pace?",
+      "description": "A simple pace calculator and distance converter for those on the go.",
+      "url": "https://github.com/mattdecamp/runningcalculator"
+    },
+    {
+      "name": "resetCSS",
+      "description": "A simple CSS reset.",
+      "url": "https://github.com/mattdecamp/resetCSS"
+    }
+  ]
+}
+
+

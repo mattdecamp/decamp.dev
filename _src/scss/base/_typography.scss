@@ -1,0 +1,102 @@
+/* Need to include sizes for */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+h1 {
+  margin-bottom: var(--s-4);
+  font-size: var(--s3);
+  font-size: clamp(var(--s4), 5vw, var(--s5));
+}
+h2 {
+  color: var(--midnight-lighter);
+  margin-bottom: var(--s-5);
+  font-size: var(--s2);
+  font-size: clamp(var(--s2), 4vw, var(--s4));
+  margin-block-end: 0.1rem;
+}
+h3 {
+  font-size: var(--s1);
+  font-size: clamp(var(--s1), 3vw, var(--s3));
+  font-weight: 300;
+}
+h4 {
+  color: var(--midnight-lighter);
+  text-transform: uppercase;
+  font-size: var(--s-1);
+  font-size: clamp(var(--s-1), 2vw, var(--s2));
+}
+h5 {
+  margin-bottom: var(--s-3);
+  color: var(--midnight-grey);
+  font-size: var(--s-1);
+  font-size: clamp(18px, var(--s-1), var(--s0));
+}
+h6 {
+  margin-bottom: var(--s-5);
+  color: var(--midnight-lighter);
+  font-size: var(--s-3);
+  font-size: clamp(17px, 4vw, var(--s-1));
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+p {
+  margin-bottom: var(--s-2);
+  font-family: var(--font-primary);
+  font-size: var(--s0);
+  font-size: clamp(var(--s0), 4vw, var(--s1));
+  font-weight: 300;
+  hyphens: auto;
+}
+
+article,
+ul,
+li {
+  font-family: var(--font-primary);
+  font-size: var(--s1);
+  font-size: clamp(18px, 4vw, var(--s1));
+}
+
+code,
+pre {
+  font-family: monospace;
+  font-size: var(--s0);
+  width: 100%;
+  overflow: hidden;
+}
+
+blockquote {
+  font-style: italic;
+  text-indent: 5vw;
+}
+
+time {
+  font-family: var(--font-secondary);
+  font-size: var(--s0);
+  margin-top: 0rem;
+  line-height: 1;
+  color: var(--text-accent-color);
+  // margin-block-start: 0.25rem;
+  // letter-spacing: rem;
+}
+
+hr {
+  border: 0.05rem solid var(--hr);
+  width: 100%;
+}
+
+.lead {
+//   margin: var(--s-1) 0;
+  font-family: var(--font-primary);
+  font-weight: 800;
+  font-size: 4.5rem;
+  font-size: clamp(var(--s3), 10vw, 6rem);
+}
