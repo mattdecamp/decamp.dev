@@ -7,7 +7,12 @@
 		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
 		<link rel="icon" href="{{ site.faviconPath }}" type="image/png" />
 		{% include "partials/global/meta.njk" %}
-		<link rel="stylesheet" href="/css/styles.css">
+		{% set css %}
+			{% include "css/styles.css" %}
+		{% endset %}
+		<style>
+			{{ css | cssmin | safe }}
+		</style>
 	</head>
 	<body>
 		<div id="layout">
@@ -19,6 +24,5 @@
 			</div>
 			{% include "partials/global/footer.njk" %}
 		</div>
-		<script src="/js/index.js"></script>
 	</body>
 </html>
