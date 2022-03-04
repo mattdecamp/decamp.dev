@@ -1,12 +1,72 @@
 [
     {
+        "id": "OL6795375M",
+        "bookTitle": "Thief of Time",
+        "bookAuthor": "Terry Pratchett",
+        "bookAuthoLF": "Pratchett, Terry",
+        "bookImage": "https://covers.openlibrary.org/b/id/23508-L.jpg",
+        "isbn": "60199563",
+        "isbn13": "",
+        "bookPublisher": "Harper",
+        "bookPages": "324",
+        "bookYear": "2001",
+        "bookYearOriginal": "2001",
+        "dateRead": "3/4/22",
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062307392"
+    },
+    {
+        "id": "OL7435625M",
+        "bookTitle": "The Truth",
+        "bookAuthor": "Terry Pratchett",
+        "bookAuthoLF": "Pratchett, Terry",
+        "bookImage": "https://covers.openlibrary.org/b/id/237372-L.jpg",
+        "isbn": "",
+        "isbn13": "9.78E+12",
+        "bookPublisher": "Harper",
+        "bookPages": "368",
+        "bookYear": "1995",
+        "bookYearOriginal": "1995",
+        "dateRead": "2/20/22",
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062307361"
+    },
+    {
+        "id": "OL3557001M",
+        "bookTitle": "The Wee Free Men",
+        "bookAuthor": "Terry Pratchett",
+        "bookAuthoLF": "Pratchett, Terry",
+        "bookImage": "https://covers.openlibrary.org/b/id/20823-L.jpg",
+        "isbn": "60012366",
+        "isbn13": "",
+        "bookPublisher": "HarperCollins",
+        "bookPages": "263",
+        "bookYear": "2003",
+        "bookYearOriginal": "2003",
+        "dateRead": "2/8/22",
+        "bookBuyUrl": "https://www.indiebound.org/buy-local/9780062435262"
+    },
+    {
+        "id": "OL453712W",
+        "bookTitle": "The Last Continent",
+        "bookAuthor": "Terry Pratchett",
+        "bookAuthoLF": "Pratchett, Terry",
+        "bookImage": "https://covers.openlibrary.org/b/id/43910-L.jpg",
+        "isbn": "61050482",
+        "isbn13": "",
+        "bookPublisher": "HarperPrism",
+        "bookPages": "292",
+        "bookYear": "",
+        "bookYearOriginal": "1999",
+        "dateRead": "2/4/22",
+        "bookBuyUrl": "https://www.indiebound.org/buy-local/9780062280190"
+    },
+    {
         "id": "OL7815087M",
         "bookTitle": "Maskerade",
         "bookAuthor": "Terry Pratchett",
         "bookAuthoLF": "Pratchett, Terry",
         "bookImage": "https://covers.openlibrary.org/b/id/366343-L.jpg",
         "isbn": "552142360",
-        "isbn13": "9.78055E+12",
+        "isbn13": "9.78E+12",
         "bookPublisher": "Corgi",
         "bookPages": "380",
         "bookYear": "1996",
@@ -27,9 +87,7 @@
         "bookYear": "2000",
         "bookYearOriginal": "1999",
         "dateRead": "1/12/22",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062280138",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062280138"
     },
     {
         "id": "OL7814991M",
@@ -44,9 +102,7 @@
         "bookYear": "1994",
         "bookYearOriginal": "1992",
         "dateRead": "12/28/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062237392",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062237392"
     },
     {
         "id": "OL28124966M",
@@ -61,9 +117,7 @@
         "bookYear": "2014",
         "bookYearOriginal": "1994",
         "dateRead": "12/21/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062276292",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062276292"
     },
     {
         "id": "OL27264243M",
@@ -78,9 +132,7 @@
         "bookYear": "2012",
         "bookYearOriginal": "1990",
         "dateRead": "12/12/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780689845338",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780689845338"
     },
     {
         "id": "135479",
@@ -95,9 +147,7 @@
         "bookYear": "1999",
         "bookYearOriginal": "1963",
         "dateRead": "12/4/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780385333481",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780385333481"
     },
     {
         "id": "OL22766947M",
@@ -112,9 +162,7 @@
         "bookYear": "2007",
         "bookYearOriginal": "2007",
         "dateRead": "11/30/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062334992",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062334992"
     },
     {
         "id": "34532",
@@ -129,9 +177,7 @@
         "bookYear": "2006",
         "bookYearOriginal": "1996",
         "dateRead": "11/22/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062276285",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062276285"
     },
     {
         "id": "1044580",
@@ -146,9 +192,7 @@
         "bookYear": "1999",
         "bookYearOriginal": "1999",
         "dateRead": "11/14/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062280206",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062280206"
     },
     {
         "id": "12472833",
@@ -163,9 +207,7 @@
         "bookYear": "1991",
         "bookYearOriginal": "1991",
         "dateRead": "10/27/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062237361",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062237361"
     },
     {
         "id": "19248602",
@@ -180,9 +222,7 @@
         "bookYear": "2012",
         "bookYearOriginal": "1972",
         "dateRead": "10/20/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780689845345",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780689845345"
     },
     {
         "id": "618221",
@@ -197,9 +237,7 @@
         "bookYear": "1991",
         "bookYearOriginal": "1990",
         "dateRead": "10/14/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780552134637",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780552134637"
     },
     {
         "id": "17214743",
@@ -214,9 +252,7 @@
         "bookYear": "2012",
         "bookYearOriginal": "1970",
         "dateRead": "10/1/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780689845369",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780689845369"
     },
     {
         "id": "64218",
@@ -231,9 +267,7 @@
         "bookYear": "2008",
         "bookYearOriginal": "1990",
         "dateRead": "9/27/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780380821211",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780380821211"
     },
     {
         "id": "16029682",
@@ -248,9 +282,7 @@
         "bookYear": "2012",
         "bookYearOriginal": "1968",
         "dateRead": "9/25/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780547773742",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780547773742"
     },
     {
         "id": "86525",
@@ -265,9 +297,7 @@
         "bookYear": "2003",
         "bookYearOriginal": "2002",
         "dateRead": "9/19/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780394720951",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780394720951"
     },
     {
         "id": "64222",
@@ -282,9 +312,7 @@
         "bookYear": "2005",
         "bookYearOriginal": "2004",
         "dateRead": "9/5/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780060502935",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780060502935"
     },
     {
         "id": "19131982",
@@ -299,9 +327,7 @@
         "bookYear": "2009",
         "bookYearOriginal": "1994",
         "dateRead": "8/29/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062237415",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062237415"
     },
     {
         "id": "596906",
@@ -316,9 +342,7 @@
         "bookYear": "1996",
         "bookYearOriginal": "1996",
         "dateRead": "8/18/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780575059009",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780575059009"
     },
     {
         "id": "2665042",
@@ -333,9 +357,7 @@
         "bookYear": "1993",
         "bookYearOriginal": "1915",
         "dateRead": "8/8/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780192123145",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780192123145"
     },
     {
         "id": "8141563",
@@ -350,9 +372,7 @@
         "bookYear": "1952",
         "bookYearOriginal": "1952",
         "dateRead": "8/3/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780385333788",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780385333788"
     },
     {
         "id": "36478643",
@@ -367,9 +387,7 @@
         "bookYear": "2018",
         "bookYearOriginal": "1397",
         "dateRead": "7/24/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9781783525607",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9781783525607"
     },
     {
         "id": "1622930",
@@ -384,9 +402,7 @@
         "bookYear": "2015",
         "bookYearOriginal": "2006",
         "dateRead": "7/18/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780425220931",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780425220931"
     },
     {
         "id": "6683667",
@@ -401,9 +417,7 @@
         "bookYear": "1988",
         "bookYearOriginal": "1988",
         "dateRead": "7/10/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062225733",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062225733"
     },
     {
         "id": "13537029",
@@ -418,9 +432,7 @@
         "bookYear": "2012",
         "bookYearOriginal": "2011",
         "dateRead": "6/27/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062060624",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062060624"
     },
     {
         "id": "64217",
@@ -435,9 +447,7 @@
         "bookYear": "2008",
         "bookYearOriginal": "1989",
         "dateRead": "6/11/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780061020650",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780061020650"
     },
     {
         "id": "34499",
@@ -452,9 +462,7 @@
         "bookYear": "2008",
         "bookYearOriginal": "1988",
         "dateRead": "5/31/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780061020674",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780061020674"
     },
     {
         "id": "400354",
@@ -469,9 +477,7 @@
         "bookYear": "2003",
         "bookYearOriginal": "1993",
         "dateRead": "5/24/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780061092190",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780061092190"
     },
     {
         "id": "846092",
@@ -486,9 +492,7 @@
         "bookYear": "2002",
         "bookYearOriginal": "1991",
         "dateRead": "5/12/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780061020629",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780061020629"
     },
     {
         "id": "34506",
@@ -503,9 +507,7 @@
         "bookYear": "2000",
         "bookYearOriginal": "1986",
         "dateRead": "5/4/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780061020704",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780061020704"
     },
     {
         "id": "34507",
@@ -520,9 +522,7 @@
         "bookYear": "2005",
         "bookYearOriginal": "1987",
         "dateRead": "4/26/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780060855901",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780060855901"
     },
     {
         "id": "36506438",
@@ -537,9 +537,7 @@
         "bookYear": "2009",
         "bookYearOriginal": "1983",
         "dateRead": "4/18/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062225672",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062225672"
     },
     {
         "id": "35959740",
@@ -554,9 +552,7 @@
         "bookYear": "2018",
         "bookYearOriginal": "2018",
         "dateRead": "4/3/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780316556347",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780316556347"
     },
     {
         "id": "386372",
@@ -571,9 +567,7 @@
         "bookYear": "2001",
         "bookYearOriginal": "1987",
         "dateRead": "3/28/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780061020681",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780061020681"
     },
     {
         "id": "64216",
@@ -588,9 +582,7 @@
         "bookYear": "2001",
         "bookYearOriginal": "1989",
         "dateRead": "3/12/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780061020643",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780061020643"
     },
     {
         "id": "6388978",
@@ -605,9 +597,7 @@
         "bookYear": "2009",
         "bookYearOriginal": "1992",
         "dateRead": "2/16/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780062237378",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780062237378"
     },
     {
         "id": "208324",
@@ -622,9 +612,7 @@
         "bookYear": "1991",
         "bookYearOriginal": "1990",
         "dateRead": "2/8/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780679733713",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780679733713"
     },
     {
         "id": "82842",
@@ -639,8 +627,6 @@
         "bookYear": "1993",
         "bookYearOriginal": "1993",
         "dateRead": "1/16/21",
-        "bookBuyUrl": "https://www.indiebound.org/book/9780679425137",
-        "field14": "",
-        "field15": ""
+        "bookBuyUrl": "https://www.indiebound.org/book/9780679425137"
     }
 ]
