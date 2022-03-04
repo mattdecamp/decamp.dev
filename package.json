@@ -7,11 +7,10 @@
     "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve",
     "eleventy:prod": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --serve",
     "serve": "npx @11ty/eleventy --serve",
-    "scss": "node-sass --output-style compressed -o _src/css _src/scss",
-    "autoprefixer": "postcss -u autoprefixer -r _src/css/styles.css",
+    "scss": "node-sass -o _src/_includes/css _src/scss",
     "lint": "eslint",
     "watch:css": "onchange '_src/scss/' -- npm run scss",
-    "start": "run-p serve watch:css autoprefixer"
+    "start": "run-p serve watch:css"
   },
   "keywords": [],
   "author": "Matt DeCamp",
@@ -28,13 +27,17 @@
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "autoprefixer": "^10.4.0",
+    "clean-css": "^5.2.4",
     "cross-env": "^7.0.3",
+    "csvtojson": "^2.0.10",
     "eleventy-plugin-excerpt": "^1.1.2",
     "eleventy-plugin-svg-sprite": "^1.2.2",
     "eslint": "^8.2.0",
     "gray-matter": "^4.0.3",
     "html-minifier": "^4.0.0",
     "luxon": "^2.1.1",
+    "markdown-it": "^12.3.2",
+    "node-fetch": "^2.6.7",
     "node-sass": "^6.0.1",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
@@ -43,8 +46,6 @@
     "uglify-js": "^3.14.3"
   },
   "dependencies": {
-    "csvtojson": "^2.0.10",
-    "node-fetch": "^3.1.0",
     "npm": "^8.1.3"
   }
 }
