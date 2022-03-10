@@ -11,6 +11,11 @@
       "url": "https://github.com/mattdecamp/roomTones"
     },
     {
+      "name": "Stained Glass Playground 🔹",
+      "description": "A stained glass playground built with HTML Canvas and JavaScript. Currently in production, but usable.",
+      "url": "https://github.com/mattdecamp/canvasStainedGlass"
+    },
+    {
       "name": "What's My Pace?",
       "description": "A simple pace calculator and distance converter for those on the go.",
       "url": "https://github.com/mattdecamp/runningcalculator"
