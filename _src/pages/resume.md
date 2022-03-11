@@ -6,6 +6,13 @@ permalink: "/cv/index.html"
 
 # Experience
 
+### Front End Web Developer
+#### Happy Bear Web Design | Athens, Ga.
+##### 2008 - Present
+
+* Build and design websites for individuals and businesses across various industries
+
+
 ### Project, Digital & Archive Manager
 #### Widespread Panic | Athens, Georgia
 ##### June 2006 - Present
@@ -16,11 +23,6 @@ permalink: "/cv/index.html"
 - Create and implement short and long term digital marketing campaigns for the band’s performances, commercial releases, and merchandising
 - Build websites and create digital assets for various projects as needed
 
-### Front End Web Developer
-#### Happy Bear Web Design | Athens, Ga.
-##### 2008 - Present
-
-* Build and design websites for individuals and businesses across various industries
 
 ### Keepers Record Club | Athens, Ga.
 #### Owner-Operator
