@@ -21,6 +21,7 @@ permalink: "/cv/index.html"
 - Manage day-to-day operations of the band’s companies
 - Oversee preservation and management of the band’s physical and digital material archive
 - Create and implement short and long term digital marketing campaigns for the band’s performances, commercial releases, and merchandising
+- Lead and oversee company internship program
 - Build websites and create digital assets for various projects as needed
 
 
