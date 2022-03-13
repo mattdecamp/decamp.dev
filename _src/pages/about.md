@@ -22,7 +22,7 @@ I'm a father, web developer, manager, musician, runner, swimmer, photographer, a
 * My first website was built on GeoCities in 1999.
 * I've worked as an [artist and project manager](https://www.linkedin.com/in/mattdecamp/) in the music industry for 15 years.
 * I'm an [avid reader](/books).
-* Two of my absolute favorite books are [The Hitchhiker's Guide to the Galaxy](https://www.indiebound.org/book/9780345391803) and [One Hundred Years of Solitude](https://www.indiebound.org/book/9780060883287).
+* Two of my favorite books are [The Hitchhiker's Guide to the Galaxy](https://www.indiebound.org/book/9780345391803) and [One Hundred Years of Solitude](https://www.indiebound.org/book/9780060883287).
 * I _love_ [absurdist humor](https://www.youtube.com/watch?v=aZJZK6rzjns).
 * And a [good cup of coffee](https://counterculturecoffee.com/shop/coffee/forty-six), too.
 * What kind of music do I listen to? An impossible question.
@@ -33,6 +33,6 @@ I'm a father, web developer, manager, musician, runner, swimmer, photographer, a
 ### Links
 
 [GitHub](https://github.com/mattdecamp)  
-[Twitter](https://twitter.com/mpdecamp)   
 [CodePen](https://codepen.io/mattdecamp)    
+[Twitter](https://twitter.com/mpdecamp)   
 [Apple Music](https://music.apple.com/profile/mattdecamp)
