@@ -25,8 +25,8 @@ permalink: "/cv/index.html"
 - Build websites and create digital assets for various projects as needed
 
 
-### Keepers Record Club | Athens, Ga.
-#### Owner-Operator
+### Owner-Operator
+#### Keepers Record Club | Athens, Georgia
 ##### July 2015 - January 2019
 
 * Developed, launched, and operated a monthly vinyl subscription record club for vinyl enthusiasts in the U.S. and Canada.
@@ -34,7 +34,7 @@ permalink: "/cv/index.html"
 ## Education
 
 ### BBA, Management
-#### University of Georgia | Athens, Ga.
+#### University of Georgia | Athens, Georgia
 ##### 2002 - 2006
 
 ### Music Production
@@ -44,20 +44,22 @@ permalink: "/cv/index.html"
 ## Languages
 * HTML5
 * CSS3
-* Javascript (Vanilla, Vue)
+* Javascript (Vanilla)
 * PHP
 * Written French 🇫🇷
 
 
 ## Tools
 * Sass
-* Node
-* SVG
 * Nunjucks
+* SVG
 * JSON
 * Markdown
 * WordPress
 * SQL
+* Node
+* Vue
+* React
 * Photoshop
 * Illustrator
 * Premiere
