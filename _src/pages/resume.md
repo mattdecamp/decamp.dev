@@ -51,6 +51,7 @@ permalink: "/cv/index.html"
 
 ## Tools
 * Sass
+* Eleventy
 * Nunjucks
 * SVG
 * JSON
