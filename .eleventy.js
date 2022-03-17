@@ -19,8 +19,6 @@ module.exports = function (eleventyConfig) {
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
 
-  // Grab excerpts and sections from a file
-  eleventyConfig.addFilter("section", require("./_src/js/section.js"));
   // Clean CSS and minify
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
