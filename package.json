@@ -5,9 +5,11 @@
   "main": ".eleventy.js",
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
+    "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve",
     "scss": "node-sass -o _src/_includes/css _src/scss",
     "watch:css": "onchange '_src/scss/' -- npm run scss",
-    "start": "run-p serve watch:css"
+    "start": "run-p eleventy:dev watch:css",
+    "build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "Matt DeCamp",
@@ -20,11 +22,9 @@
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.3",
-    "autoprefixer": "^10.4.0",
     "clean-css": "^5.2.4",
     "cross-env": "^7.0.3",
     "csvtojson": "^2.0.10",
-    "eleventy-plugin-excerpt": "^1.1.2",
     "eleventy-plugin-svg-sprite": "^1.2.2",
     "html-minifier": "^4.0.0",
     "luxon": "^2.1.1",
@@ -32,8 +32,7 @@
     "node-fetch": "^2.6.7",
     "node-sass": "^7.0.0",
     "npm-run-all": "^4.1.5",
-    "onchange": "^7.1.0",
-    "prettier": "^2.4.1"
+    "onchange": "^7.1.0"
   },
   "dependencies": {
     "npm": "^8.1.3"
