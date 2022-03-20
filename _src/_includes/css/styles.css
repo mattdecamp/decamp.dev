@@ -482,3 +482,9 @@ button {
     font-size: var(--s0); }
   .project-list--item a {
     color: var(--pink); }
+
+.project-list--item_description {
+  flex: 1 0 auto; }
+
+.project-list--item_links {
+  font-size: var(--s0); }
