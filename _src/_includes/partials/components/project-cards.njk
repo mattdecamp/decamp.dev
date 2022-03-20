@@ -2,8 +2,20 @@
   {%- for item in projects.items -%}
   <li class="project-list--item">
     <h3>{{ item.name }}</h3>
-    <p>{{ item.description | safe}}</p>
-    <p><a href="{{ item.url }}">More &raquo;</a></p>
+    <div class="project-list--item_description">
+      <p>{{ item.description | safe}}</p>
+    </div>
+    <div class="project-list--item_links">
+      {% if item.codeUrl %}
+      <span><a href="{{ item.codeUrl }}">Code</a></span>
+      {% endif %}
+      {% if item.codeUrl and item.demoUrl %}
+      <span>|</span>
+      {% endif %}
+      {% if item.demoUrl %}
+      <span><a href="{{ item.demoUrl }}">Demo</a></span>
+      {% endif %}
+    </div>
   </li>
   {%- endfor -%}
 </ul>
