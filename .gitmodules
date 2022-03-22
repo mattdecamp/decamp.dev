@@ -1,0 +1,3 @@
+[submodule "decamp-react"]
+	path = decamp-react
+	url = https://github.com/mattdecamp/decamp-react.git
