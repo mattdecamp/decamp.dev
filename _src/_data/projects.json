@@ -2,32 +2,46 @@
   "items": [
     {
       "name": "Eleventonia 🎈",
-      "description": "A mildly opinionated Eleventy starter project.",
+      "description": "A mildly opinionated Eleventy starter project built with Sass and Nunjucks.",
       "codeUrl": "https://github.com/mattdecamp/eleventonia",
-      "demoUrl": "https://eleventonia.decamp.dev/"
+      "demoUrl": "https://eleventonia.decamp.dev/",
+      "tags": ["eleventy","nunjucks","javascript","sass"]
     },
     {
       "name": "OsciTones 🎚",
-      "description": "An audio oscillator and tone generator for recording engineers and audio professionals.",
+      "description": "An audio oscillator and tone generator for recording engineers and audio professionals built with vanilla JavaScript.",
       "codeUrl": "https://github.com/mattdecamp/roomTones",
-      "demoUrl": "https://oscitones.decamp.dev/"
+      "demoUrl": "https://oscitones.decamp.dev/",
+      "tags": ["javascript","web audio api"]
     },
     {
       "name": "Stained Glass Playground 🔹",
       "description": "A stained glass playground built with HTML Canvas and JavaScript. Currently in production, but usable.",
       "codeUrl": "https://github.com/mattdecamp/canvasStainedGlass",
-      "demoUrl": "https://canvas-stained-glass.decamp.dev/"
+      "demoUrl": "https://canvas-stained-glass.decamp.dev/",
+      "tags": ["html canvas","javascript","eleventy"]
+      
+    },
+    {
+      "name": "Ask Zoel A Question 🎸",
+      "description": "I produced, shot, and edited this explainer video series featuring Widespread Panic's guitar tech  running through the band's instrumentants and stage set-up.",
+      "url": "https://www.youtube.com/playlist?list=PLW-MPx1QBkjFAXJYsu9EF8993ndkJx3eM",
+      "codeUrl": "",
+      "demoUrl": "",
+      "tags": ["video","adobe premiere"]
     },
     {
       "name": "What's My Pace?",
-      "description": "A simple pace calculator and distance converter for those on the go.",
+      "description": "A simple pace calculator and distance converter for those on the go built with JavaScript and Eleventy.",
       "codeUrl": "https://github.com/mattdecamp/runningcalculator",
-      "demoUrl": "https://whatsmypace.decamp.dev/"
+      "demoUrl": "https://whatsmypace.decamp.dev/",
+      "tags": ["eleventy","nunjucks"]
     },
     {
       "name": "resetCSS",
       "description": "A simple CSS reset.",
-      "codeUrl": "https://github.com/mattdecamp/resetCSS"
+      "codeUrl": "https://github.com/mattdecamp/resetCSS",
+      "tags": ["css"]
     }
   ]
 }
