@@ -1,0 +1,14 @@
+.project-list--item_tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75ch;
+  & span {
+    padding: 0.55ch;
+    font-family: var(--font-primary);
+    font-size: var(--s-1);
+    background: transparent;
+    border: 0.35ch solid var(--grey);
+    border-radius: 5px;
+  }
+}
