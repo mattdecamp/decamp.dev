@@ -6,10 +6,16 @@
       <p>{{ item.description | safe}}</p>
     </div>
     <div class="project-list--item_links">
+      {% if item.url %}
+      <span><a href="{{ item.url }}">Link</a></span>
+      {% endif %}
+      {% if item.url and item.codeUrl %}
+      <span>|</span>
+      {% endif %}
       {% if item.codeUrl %}
       <span><a href="{{ item.codeUrl }}">Code</a></span>
       {% endif %}
-      {% if item.codeUrl and item.demoUrl %}
+      {% if item.codeUrl and item.demoUrl or item.url and item.demoUrl %}
       <span>|</span>
       {% endif %}
       {% if item.demoUrl %}
