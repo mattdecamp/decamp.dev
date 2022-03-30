@@ -2,10 +2,12 @@
   /* SIZING */
   --max-width: 960px;
   /* FONTS */
-  --font-secondary: 'Lilita One',serif;
+  --font-secondary: "Lilita One", serif;
   --font-primary: Georgia, sans-serif;
   /* COLORS */
-  --color-mode: 'light';
+  --color-mode: "light";
+  --text-color: var(--midnight);
+  --text-accent-color: var(--midnight-grey);
   --pink: hsl(346, 84%, 61%);
   --hover-pink: hsl(346, 74%, 61%);
   --yellow: hsl(42, 100%, 70%);
@@ -14,23 +16,21 @@
   --midnight: hsl(195, 83%, 16%);
   --midnight-lighter: hsl(195, 82%, 26%);
   --midnight-grey: hsl(197, 10%, 35%);
-  --white: hsl(0,0,94%);
-  --grey: #B2C2C6;
-  
-  
-    
-    /* GLOBAL STYLES */
-    /* MODULAR SPACING */
-    --ratio: 1.2;
-    --s-5: calc(var(--s-4) / var(--ratio));
-    --s-4: calc(var(--s-3) / var(--ratio));
-    --s-3: calc(var(--s-2) / var(--ratio));
-    --s-2: calc(var(--s-1) / var(--ratio));
-    --s-1: calc(var(--s0) / var(--ratio));
-    --s0: 1.125rem;
-    --s1: calc(var(--s0) * var(--ratio));
-    --s2: calc(var(--s1) * var(--ratio));
-    --s3: calc(var(--s2) * var(--ratio));
-    --s4: calc(var(--s3) * var(--ratio));
-    --s5: calc(var(--s4) * var(--ratio));    
+  --grey: #b2c2c6;
+  --white: white;
+
+  /* GLOBAL STYLES */
+  /* MODULAR SPACING */
+  --ratio: 1.2;
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1.125rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
 }

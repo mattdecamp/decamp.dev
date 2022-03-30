@@ -1,13 +1,22 @@
-
-
 a {
   color: var(--link-color);
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--pink);
-  text-underline-offset: .3ex;
+  text-underline-offset: 0.3ex;
   cursor: pointer;
   &:hover {
-    text-underline-offset: .2ex;
+    text-underline-offset: 0.2ex;
+  }
 }
+
+h2 a {
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0ex;
+  &:hover {
+    text-underline-offset: 0ex;
+  }
 }
+

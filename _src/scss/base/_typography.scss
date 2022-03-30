@@ -15,7 +15,7 @@ h1 {
   font-size: var(--s3);
   font-size: clamp(var(--s4), 5vw, var(--s5));
 }
-h2 {
+h2, h2 a {
   color: var(--midnight-lighter);
   margin-bottom: var(--s-5);
   font-size: var(--s2);
