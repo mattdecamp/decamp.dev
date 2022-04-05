@@ -232,6 +232,14 @@ main {
     display: grid;
     grid-template-columns: 65% 1fr; } }
 
+iframe {
+  margin-top: var(--s0);
+  margin-bottom: var(--s-2); }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--midnight); }
+
 body {
   background: var(--background);
   color: var(--text-color); }
