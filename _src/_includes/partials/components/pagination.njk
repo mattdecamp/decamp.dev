@@ -1,0 +1,14 @@
+<ul class="">
+    <li>
+        {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}">← Previous Page</a>
+        {% else %}
+        {% endif %}
+    </li>
+    <li>
+        {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}">Next Page →</a>
+        {% else %}
+        {% endif %}
+    </li>
+</ul>
