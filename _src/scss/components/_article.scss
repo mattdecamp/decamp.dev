@@ -1,0 +1,27 @@
+.article__header {
+  margin-bottom: var(--s-3);
+}
+
+.article__aside {
+  margin: 2ch 0;
+  padding: 2ch;
+  font-size: var(--s0);
+  border: 0.2ch solid var(--midnight-grey);
+  border-radius: 10px;
+  &::before {
+    content: 'ℹ️';
+    padding-right: 1ch;
+  }
+}
+
+.article__tags {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: var(--s-2);
+  list-style: none;
+  & li::before {
+    content: '\200B';
+  }
+}
+

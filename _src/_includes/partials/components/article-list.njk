@@ -1,0 +1,16 @@
+<ul class="article-list">
+  {% for item in collections.article | reverse %}
+  <li>
+      <div>
+          <h2>
+            <a href="{{ item.url }}" class="">{{ item.data.title }}</a>
+          </h2>
+          <time value="{{ item.date }}">{{ item.date | readableDate }}</time>
+      </div>
+    <div>
+      {{ item.data.excerpt }}
+    </div>
+  </li>
+
+  {%- endfor -%}
+</ul>

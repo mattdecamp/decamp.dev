@@ -1,0 +1,13 @@
+.article-list {
+  padding: 0;
+  list-style: none;
+  & li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--s0);
+  }
+  & li::before {
+    content: "\200B";
+    height: 0;
+  }
+}
