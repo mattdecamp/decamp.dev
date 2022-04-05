@@ -4,8 +4,7 @@
   "description": "Professional Site for Matt DeCamp",
   "main": ".eleventy.js",
   "scripts": {
-    "serve": "npx @11ty/eleventy --serve",
-    "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
     "scss": "node-sass -o _src/_includes/css _src/scss",
     "watch:css": "onchange '_src/scss/' -- npm run scss",
     "books": "node _src/js/csvToJson.js",
@@ -22,7 +21,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.3",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "clean-css": "^5.2.4",
     "cross-env": "^7.0.3",
     "csvtojson": "^2.0.10",
