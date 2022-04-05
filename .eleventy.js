@@ -11,14 +11,14 @@ const CleanCSS = require("clean-css");
 
 // eleventy config
 module.exports = function (eleventyConfig) {
-  // Passthrough copy
+  // Passthroughs
   eleventyConfig.addPassthroughCopy("_src/fonts");
   eleventyConfig.addPassthroughCopy("_src/images");
   eleventyConfig.addPassthroughCopy("_src/js");
-
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
-
+  
+  // FILTERS
   // Clean CSS and minify
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
