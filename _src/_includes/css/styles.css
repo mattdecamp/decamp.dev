@@ -504,8 +504,11 @@ pre[class*="language-"] {
   cursor: help; }
 
 code {
+  padding: 0.2ch 0.5ch;
+  font-size: var(--s-1);
+  font-size: clamp(var(--s-1), 4vw, var(--s0));
   background: var(--grey);
-  padding: 0.2ch 0.5ch; }
+  border-radius: 0.25rem; }
 
 #bookList {
   display: grid;
