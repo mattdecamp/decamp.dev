@@ -1,8 +1,6 @@
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-// csv to json
-const csvToJson = require("csvtojson");
 const fs = require("fs");
 // SVG sprite
 const svgSprite = require('eleventy-plugin-svg-sprite');
