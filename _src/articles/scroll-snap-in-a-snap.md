@@ -3,6 +3,7 @@ title:  "A Quick Guide to Scroll Snap"
 date:  2022-04-05
 tags:
 - article
+- tutorial
 - scroll snap
 - css
 - how-to
