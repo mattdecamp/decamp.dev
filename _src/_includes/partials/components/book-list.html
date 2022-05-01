@@ -1,13 +1,13 @@
 <ul id="bookList">
-  {% for book in books %}
+  {% for book in notionBooks.json.results %}
   <li class="book">
     <div class="bookImageContainer">
-      <a href="{{ book.bookBuyUrl }}">
+      <a href="{{ book.properties.bookBuyUrl.url }}">
         <picture>
           <img
             class="bookImage"
-            src="{{ book.bookImage }}"
-            alt="The book cover for {{ book.bookTitle }}"
+            src="{{ book.properties.bookImage.url }}"
+            alt="The book cover for {{ book.properties.bookTitle.rich_text[0].text.content }}"
             loading="lazy"
             height="240"
           />
@@ -15,15 +15,15 @@
       </a>
     </div>
     <div class="bookInfo">
-      <h4 class="bookTitle">{{ book.bookTitle }}</h4>
+      <h4 class="bookTitle">{{ book.properties.bookTitle.rich_text[0].text.content }}</h4>
       {% if book.subTitle %}
-      <p class="bookSubTitle">{{ book.subTitle }}</p>
+      <p class="bookSubTitle">{{ book.properties.subTitle.rich_text[0].text.content }}</p>
       {% endif %}
       <p class="bookAuthor">
-        <em>{{book.bookAuthor}}</em>
+        <em>{{book.properties.bookAuthor.rich_text[0].text.content}}</em>
       </p>
       <p class="bookDate">
-        {{book.dateRead }}
+        {{book.properties.dateRead.date.start.toString() }}
       </p>
     </div>
   </li>
