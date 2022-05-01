@@ -20,11 +20,13 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "clean-css": "^5.2.4",
     "cross-env": "^7.0.3",
     "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.0",
     "eleventy-plugin-svg-sprite": "^1.2.2",
     "html-minifier": "^4.0.0",
     "luxon": "^2.1.1",
