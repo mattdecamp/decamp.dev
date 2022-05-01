@@ -1,6 +1,7 @@
 require("dotenv").config();
 const Cache = require("@11ty/eleventy-cache-assets");
-const { NOTION_API_KEY, NOTION_BOOKS_DB } = process.env;
+const NOTION_API_KEY = process.env.NOTION_API_KEY;
+const NOTION_BOOKS_DB = process.env.NOTION_BOOKS_DB;
 module.exports = async function () {
   let url = `https://api.notion.com/v1/databases/${NOTION_BOOKS_DB}/query`;
   const filter = {
