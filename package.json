@@ -7,7 +7,6 @@
     "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
     "scss": "node-sass -o _src/_includes/css _src/scss",
     "watch:css": "onchange '_src/scss/' -- npm run scss",
-    "books": "node _src/js/csvToJson.js",
     "start": "run-p eleventy:dev watch:css",
     "build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy"
   },
