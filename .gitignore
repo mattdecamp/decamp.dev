@@ -3,3 +3,5 @@ _site
 .vscode
 .DS_Store
 _ignore 
+.env
+.cache
