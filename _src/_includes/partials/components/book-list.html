@@ -15,16 +15,18 @@
       </a>
     </div>
     <div class="bookInfo">
-      <h4 class="bookTitle">{{ book.properties.bookTitle.rich_text[0].text.content }}</h4>
+      <h4 class="bookTitle">
+        {{ book.properties.bookTitle.rich_text[0].text.content }}
+      </h4>
       {% if book.subTitle %}
-      <p class="bookSubTitle">{{ book.properties.subTitle.rich_text[0].text.content }}</p>
+      <p class="bookSubTitle">
+        {{ book.properties.subTitle.rich_text[0].text.content }}
+      </p>
       {% endif %}
       <p class="bookAuthor">
         <em>{{book.properties.bookAuthor.rich_text[0].text.content}}</em>
       </p>
-      <p class="bookDate">
-        {{book.properties.dateRead.date.start }}
-      </p>
+      <p class="bookDate">{{book.properties.dateRead.date.start }}</p>
     </div>
   </li>
   {% endfor %}
