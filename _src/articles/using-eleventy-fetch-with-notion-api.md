@@ -19,6 +19,10 @@ I keep a running list of all the books I read, and publish it over on the [books
 
 Thankfully this was possible using [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/) and the [Notion API](https://developers.notion.com/reference/intro).
 
+## Disclaimer
+
+Hey! Make sure you are using Notion API version "2020-02-22" or earlier. Significant updates to the API as of version "2022-06-28" made breaking changes to the below approach to fetching data. I hope to have an updated version of this article in the future which will reflect those changes. (-Matt August 21, 2022)
+
 ## Assumptions
 
 You are familiar with:
