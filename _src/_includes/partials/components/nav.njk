@@ -1,6 +1,6 @@
 <nav>
   <ul id="navigation">
-    {%- for item in nav.items -%}
+    {%- for item in site.nav -%}
     {%- if item.url -%}
       {%- set Current = (item.url == page.url) -%}
       {%- set Parent = item.url !=  '/' and item.url in page.url -%}
