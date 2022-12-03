@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+---
+
+<h1>Listening To</h1>
+{% block content %} 
+<ul class="article-list">
+  {%- for listen in listens -%}
+  <li>
+
+    <h2>
+      <a href="/listening/{{ listen.title | slug | url }}/">
+        {{ listen.title }}
+      </a>
+    </h2>
+    <time>
+      {{ listen.date | fixDate }}
+    </time>
+  </li>
+
+  {%- endfor -%} 
+</ul>
+{% endblock %}

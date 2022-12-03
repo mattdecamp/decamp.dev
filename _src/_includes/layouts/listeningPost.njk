@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+
+
+  <h1>{{ listen.title }}</h1>
+  <time>
+    {{ listen.date | fixDate }}
+  </time>
+  <img src="{{ listen.art | url }}" alt="Art or album cover for {{listen.title}}">
+  <div>
+    {{ content | safe }}
+  </div>
