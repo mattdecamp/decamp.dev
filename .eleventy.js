@@ -27,6 +27,11 @@ module.exports = function (eleventyConfig) {
       zone: "utc",
     }).toFormat("LLLL d, y");
   });
+  // Format Notion Dates
+  eleventyConfig.addFilter("fixDate", (dateObj) => {
+    return DateTime.fromISO(dateObj).toLocaleString();
+  });
+  //
   eleventyConfig.addFilter("htmlDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, {
       zone: "utc",
