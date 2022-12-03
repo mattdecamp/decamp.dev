@@ -34,7 +34,7 @@ module.exports = async () => {
 
   const listens = db.results.map((result) => ({
     id: result.id,
-    title: result.properties["Title"].title.pop()?.plain_text,
+    title: result.properties["Title"].title.pop().plain_text,
     date: result.properties["Post Date"].date?.start,
     artist: result.properties["Artist"].rich_text[0]?.text.content,
     album: result.properties["Album Title"].rich_text[0]?.text.content,
