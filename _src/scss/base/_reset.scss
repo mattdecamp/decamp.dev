@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 /* remove margins */
 body,
 h1,

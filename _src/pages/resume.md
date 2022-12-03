@@ -17,13 +17,12 @@ permalink: "/cv/index.html"
 #### Widespread Panic | Athens, Georgia
 ##### June 2006 - Present
 
-- Plan, coordinate and execute physical and digital live commercial releases
-- Manage day-to-day operations of the band’s companies
+- Plan, coordinate, and execute physical and digital live commercial releases
+- Create and implement digital marketing campaigns for the band’s performances and commercial releases
 - Oversee preservation and management of the band’s physical and digital material archive
-- Create and implement short and long term digital marketing campaigns for the band’s performances, commercial releases, and merchandising
+- Manage day-to-day operations of the band’s companies
 - Lead and oversee company internship program
-- Build websites and create digital assets for various projects as needed
-
+- Build websites and create digital assets for projects and marketing campaigns
 
 ### Owner-Operator
 #### Keepers Record Club | Athens, Georgia
