@@ -1,14 +1,51 @@
 {
-    "showThemeCredit": true,
-    "name": "Matt DeCamp",
-    "shortDesc": "The professional site of Matt DeCamp, a web developer based in Athens, Georgia.",
-    "url": "https://mattdecamp.com",
-    "authorEmail": "matt@happybear.dev",
-    "siteEmail": "matt@happybear.dev",
-    "authorHandle": "@mpdecamp",
-    "authorName": "Matt DeCamp",
-    "enableThirdPartyComments": false,
-    "paymentPointer": "",
-    "year": "2022"
-  }
-  
+  "showThemeCredit": true,
+  "name": "Matt DeCamp",
+  "shortDesc": "The professional site of Matt DeCamp, a web developer based in Athens, Georgia.",
+  "url": "https://mattdecamp.com",
+  "authorEmail": "matt@happybear.dev",
+  "siteEmail": "matt@happybear.dev",
+  "authorHandle": "@mpdecamp",
+  "authorName": "Matt DeCamp",
+  "enableThirdPartyComments": false,
+  "paymentPointer": "",
+  "year": "2022",
+  "matt": {
+    "linkedin": "https://www.linkedin.com/in/mattdecamp",
+    "happybear": "https://happybear.dev",
+    "birthday": "May 23"
+  },
+
+  "nav": [
+    {
+      "name": "Home",
+      "url": "/",
+      "title": "Home"
+    },
+    {
+      "name": "About",
+      "url": "/about/",
+      "title": "About"
+    },
+    {
+      "name": "Articles",
+      "url": "/articles/",
+      "title": "Articles"
+    },
+    {
+      "name": "Listening To",
+      "url": "/listening/",
+      "title": "Listening To"
+    },
+    {
+      "name": "Projects",
+      "url": "/projects/",
+      "title": "Projects"
+    },
+    {
+      "name": "CV",
+      "url": "/cv/",
+      "title": "CV"
+    }
+  ]
+}
