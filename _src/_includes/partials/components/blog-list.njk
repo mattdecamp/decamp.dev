@@ -1,0 +1,16 @@
+<ul class="article-list">
+  {% for blog in blogs | reverse %}
+  <li>
+      <div>
+          <h2>
+            <a href="/blog/{{ blog.title | slug | url }}/">{{ blog.title }}</a>
+          </h2>
+          <time value="{{ blog.date }}">{{ blog.date | fixDate }}</time>
+      </div>
+    <!-- <div>
+      {{ item.data.excerpt }}
+    </div> -->
+  </li>
+
+  {%- endfor -%}
+</ul>

@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+
+<article>
+    <div class="article__header">
+        <h1>{{ blog.title }}</h1>
+        <time value="{{ blog.date }}" >{{ blog.date | fixDate }}</time>
+    </div>
+    
+    <div id="">
+        {{ content | safe }}
+        <hr />
+    </div>
+    {% if blog.tags -%}
+    <ul class="article__tags">
+        <li>Filed Under:</li>
+    {% for tag in blog.tags -%}
+        <li class="article__tag">
+            <a href="/tags/{{ tag.name | slug }}">{{ tag.name }}</a>
+        </li>
+    {% endfor -%}
+    <ul>
+    {% endif -%}
+</article>
