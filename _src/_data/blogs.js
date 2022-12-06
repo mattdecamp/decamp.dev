@@ -1,6 +1,7 @@
 require("dotenv").config();
 const { Client } = require("@notionhq/client");
 const { NotionToMarkdown } = require("notion-to-md");
+const fs = require('fs');
 
 module.exports = async () => {
   const notion = new Client({ auth: process.env.NOTION_API_KEY });
@@ -51,6 +52,12 @@ module.exports = async () => {
 
   for (i = 0; i < blogs.length; i++) {
     blogs[i].content = await getContent(blogs[i].id);
+    fs.writeFile("blogData.json", JSON.stringify(blogs), (err) => {
+      if (err) {
+        console.error(err);
+      }
+      // file written successfully
+    });
   }
 
   return blogs;
