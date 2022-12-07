@@ -47,7 +47,7 @@ module.exports = async () => {
     const blogs = db.results.map((result) => ({
       id: result.id,
       title: result.properties["Title"].title.pop().plain_text,
-      date: result.properties["Date"].date?.start,
+      pubDate: result.properties["Date"].date?.start,
       tags: result.properties["Tags"].multi_select,
       content: undefined,
       specialTag: 'blog'

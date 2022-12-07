@@ -1,7 +1,7 @@
 ---
 layout: "layouts/blogPost.njk"
 tags:
-    - myCollection
+    - blog
 pagination:
     data: blogs
     size: 1
@@ -10,6 +10,7 @@ pagination:
 permalink: "blog/{{ blog.title | slug }}/index.html"
 eleventyComputed:
     title: "{{ blog.title }}"
+    pubDate: "{{ blog.pubDate }}"
 ---
 
 {{ blog.content }}

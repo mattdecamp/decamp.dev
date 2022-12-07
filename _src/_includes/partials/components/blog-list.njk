@@ -9,7 +9,7 @@
           <h2>
             <a href="/blog/{{ blog.title | slug | url }}/">{{ blog.title }}</a>
           </h2>
-          <time value="{{ blog.date | dateTime }}">{{ blog.date | dateTime }}</time>
+          <time value="{{ blog.pubDate | dateTime }}">{{ blog.pubDate | fixDate }}</time>
       </div>
     <!-- <div>
       {{ item.data.excerpt }}

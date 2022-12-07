@@ -6,15 +6,15 @@ eleventyExcludeFromCollections: true
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ site.name }}</title>
   <subtitle>{{ site.rssDesc }}</subtitle>
-  <link href="{{ permalink }}" rel="self"/>
+  <link href="{{ permalink | absoluteUrl(site.url) }}" rel="self"/>
   <link href="{{ site.url }}"/>
-  <updated>{{ collections.myCollection | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <updated>{{ collections.blog | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
   <id>{{ site.url }}</id>
   <author>
     <name>{{ site.authorName }}</name>
     <email>{{ site.email }}</email>
   </author>
-  {%- for post in collections.myCollection %}
+  {%- for post in collections.blog %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(site.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
