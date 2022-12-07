@@ -31,12 +31,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("fixDate", (dateObj) => {
     return DateTime.fromISO(dateObj).toLocaleString();
   });
-  //
-  eleventyConfig.addFilter("htmlDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "utc",
-    }).toFormat("y-MM-dd");
+  eleventyConfig.addFilter("dateTime", (dateObj) => {
+    return DateTime.fromISO(dateObj);
   });
+
   // Parse markdown included in njk files
   eleventyConfig.addFilter("markdown", function (value) {
     let markdown = require("markdown-it")({
@@ -44,6 +42,7 @@ module.exports = function (eleventyConfig) {
     });
     return markdown.render(value);
   });
+
 
   // TRANSFORMS //
   // minify HTML
