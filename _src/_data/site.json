@@ -1,7 +1,10 @@
 {
   "showThemeCredit": true,
   "name": "Matt DeCamp",
+  "siteDate": "2022-04-05T00:00:00Z",
   "shortDesc": "The professional site of Matt DeCamp, a web developer based in Athens, Georgia.",
+  "rssDesc": "Technical writings, tutorials, and personal blog.",
+  "language": "en",
   "url": "https://mattdecamp.com",
   "email": "matt@mattdecamp.com",
   "authorHandle": "@mpdecamp",

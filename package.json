@@ -1,5 +1,5 @@
 {
-  "name": "decampdev",
+  "name": "mattdecamp.com",
   "version": "1.0.0",
   "description": "Professional Site for Matt DeCamp",
   "main": ".eleventy.js",
@@ -21,7 +21,7 @@
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-fetch": "^3.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.2.2",
     "clean-css": "^5.2.4",
     "cross-env": "^7.0.3",
@@ -39,6 +39,7 @@
   "dependencies": {
     "@notionhq/client": "^2.2.2",
     "notion-to-md": "^2.5.5",
-    "npm": "^8.11.0"
+    "npm": "^8.11.0",
+    "showdown": "^2.1.0"
   }
 }

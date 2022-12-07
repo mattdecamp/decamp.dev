@@ -1,3 +1,7 @@
+{%- for blog in blogItems %}
+
+<h3>{{ blog.date | dateTime }}</h3>
+{%- endfor -%}
 <ul class="article-list">
   {% for blog in blogs | reverse %}
   <li>
@@ -5,7 +9,7 @@
           <h2>
             <a href="/blog/{{ blog.title | slug | url }}/">{{ blog.title }}</a>
           </h2>
-          <time value="{{ blog.date }}">{{ blog.date | fixDate }}</time>
+          <time value="{{ blog.date | dateTime }}">{{ blog.date | dateTime }}</time>
       </div>
     <!-- <div>
       {{ item.data.excerpt }}
