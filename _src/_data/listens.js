@@ -39,6 +39,7 @@ module.exports = async () => {
     artist: result.properties["Artist"].rich_text[0]?.text.content,
     album: result.properties["Album Title"].rich_text[0]?.text.content,
     track: result.properties["Track Title"].rich_text[0]?.text.content,
+    listenLink: result.properties["Listen Link"]?.url,
     art: result.properties["Art"]?.url,
     content: undefined,
   }));
