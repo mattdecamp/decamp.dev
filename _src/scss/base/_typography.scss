@@ -11,64 +11,57 @@ h6 {
 }
 
 h1 {
-  margin-bottom: var(--s-4);
-  font-size: var(--s3);
-  font-size: clamp(var(--s4), 5vw, var(--s5));
+  line-height: 1.5;
+  font-size: var(--step-3);
 }
 h2, h2 a {
   color: var(--midnight-lighter);
-  margin-bottom: var(--s-5);
-  font-size: var(--s2);
-  font-size: clamp(var(--s2), 4vw, var(--s4));
+  font-size: var(--step-2);
   margin-block-end: 0.1rem;
+  line-height: 1.5;
 }
 h3 {
-  font-size: var(--s1);
-  font-size: clamp(var(--s1), 3vw, var(--s3));
+  font-size: var(--step-1);
   font-weight: 300;
 }
 h4 {
   color: var(--midnight-lighter);
   text-transform: uppercase;
-  font-size: var(--s-1);
-  font-size: clamp(var(--s-1), 2vw, var(--s2));
+  font-size: var(--step-0);
 }
 h5 {
-  margin-bottom: var(--s-3);
   color: var(--midnight-grey);
-  font-size: var(--s-1);
-  font-size: clamp(18px, var(--s-1), var(--s0));
+  font-size: var(--step--1);
 }
 h6 {
-  margin-bottom: var(--s-5);
   color: var(--midnight-lighter);
-  font-size: var(--s-3);
-  font-size: clamp(17px, 4vw, var(--s-1));
+  font-size: var(--step--2);
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
 
 p, .p {
-  margin-bottom: var(--s-2);
-  font-family: var(--font-primary);
-  font-size: var(--s0);
-  font-size: clamp(var(--s0), 4vw, var(--s1));
+  margin-bottom: var(--space-2xs);
   font-weight: 300;
   hyphens: none;
 }
 
-article,
+p,.p,article,
 ul,
 li {
   font-family: var(--font-primary);
-  font-size: var(--s1);
-  font-size: clamp(18px, 4vw, var(--s1));
+  font-size: var(--step-0);
+}
+
+ul,ol {
+  margin-block-start: var(--space-3xs);
+  margin-block-end: var(--space-3xs);
 }
 
 code,
 pre {
   font-family: monospace;
-  font-size: var(--s0);
+  font-size: var(--step-1);
   width: 100%;
   overflow: hidden;
 }
@@ -80,12 +73,10 @@ blockquote {
 
 time {
   font-family: var(--font-secondary);
-  font-size: var(--s0);
+  font-size: var(--step-0);
   margin-top: 0rem;
   line-height: 1;
   color: var(--text-accent-color);
-  // margin-block-start: 0.25rem;
-  // letter-spacing: rem;
 }
 
 hr {
@@ -98,5 +89,5 @@ hr {
   font-family: var(--font-primary);
   font-weight: 800;
   font-size: 4.5rem;
-  font-size: clamp(var(--s3), 10vw, 6rem);
+  font-size: clamp(var(--step-3), 10vw, 6rem);
 }

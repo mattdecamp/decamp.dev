@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* box sizing */
-@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Patua+One&display=swap");
 *,
 *::before,
 *::after {
@@ -73,8 +73,8 @@ select {
   /* SIZING */
   --max-width: 960px;
   /* FONTS */
-  --font-secondary: "Lilita One", serif;
-  --font-primary: Georgia, sans-serif;
+  --font-secondary: "Patua One", serif;
+  --font-primary: "Inter", -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif;
   /* COLORS */
   --color-mode: "light";
   --text-color: var(--midnight);
@@ -102,7 +102,35 @@ select {
   --s2: calc(var(--s1) * var(--ratio));
   --s3: calc(var(--s2) * var(--ratio));
   --s4: calc(var(--s3) * var(--ratio));
-  --s5: calc(var(--s4) * var(--ratio)); }
+  --s5: calc(var(--s4) * var(--ratio));
+  --step--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem);
+  --step--1: clamp(0.94rem, calc(0.91rem + 0.11vw), 1.00rem);
+  --step-0: clamp(1.13rem, calc(1.08rem + 0.23vw), 1.25rem);
+  --step-1: clamp(1.35rem, calc(1.27rem + 0.39vw), 1.56rem);
+  --step-2: clamp(1.62rem, calc(1.50rem + 0.61vw), 1.95rem);
+  --step-3: clamp(1.94rem, calc(1.76rem + 0.90vw), 2.44rem);
+  --step-4: clamp(2.33rem, calc(2.07rem + 1.31vw), 3.05rem);
+  --step-5: clamp(2.80rem, calc(2.43rem + 1.85vw), 3.82rem);
+  --space-3xs: clamp(0.31rem, calc(0.31rem + 0.00vw), 0.31rem);
+  --space-2xs: clamp(0.56rem, calc(0.54rem + 0.11vw), 0.63rem);
+  --space-xs: clamp(0.88rem, calc(0.85rem + 0.11vw), 0.94rem);
+  --space-s: clamp(1.13rem, calc(1.08rem + 0.23vw), 1.25rem);
+  --space-m: clamp(1.69rem, calc(1.62rem + 0.34vw), 1.88rem);
+  --space-l: clamp(2.25rem, calc(2.16rem + 0.45vw), 2.50rem);
+  --space-xl: clamp(3.38rem, calc(3.24rem + 0.68vw), 3.75rem);
+  --space-2xl: clamp(4.50rem, calc(4.32rem + 0.91vw), 5.00rem);
+  --space-3xl: clamp(6.75rem, calc(6.48rem + 1.36vw), 7.50rem);
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.31rem, calc(0.20rem + 0.57vw), 0.63rem);
+  --space-2xs-xs: clamp(0.56rem, calc(0.43rem + 0.68vw), 0.94rem);
+  --space-xs-s: clamp(0.88rem, calc(0.74rem + 0.68vw), 1.25rem);
+  --space-s-m: clamp(1.13rem, calc(0.85rem + 1.36vw), 1.88rem);
+  --space-m-l: clamp(1.69rem, calc(1.39rem + 1.48vw), 2.50rem);
+  --space-l-xl: clamp(2.25rem, calc(1.70rem + 2.73vw), 3.75rem);
+  --space-xl-2xl: clamp(3.38rem, calc(2.78rem + 2.95vw), 5.00rem);
+  --space-2xl-3xl: clamp(4.50rem, calc(3.41rem + 5.45vw), 7.50rem);
+  /* Custom pairs */
+  --space-s-l: clamp(1.13rem, calc(0.63rem + 2.50vw), 2.50rem); }
 
 /* Need to include sizes for */
 h1,
@@ -115,61 +143,53 @@ h6 {
   font-weight: 500; }
 
 h1 {
-  margin-bottom: var(--s-4);
-  font-size: var(--s3);
-  font-size: clamp(var(--s4), 5vw, var(--s5)); }
+  line-height: 1.5;
+  font-size: var(--step-3); }
 
 h2, h2 a {
   color: var(--midnight-lighter);
-  margin-bottom: var(--s-5);
-  font-size: var(--s2);
-  font-size: clamp(var(--s2), 4vw, var(--s4));
-  margin-block-end: 0.1rem; }
+  font-size: var(--step-2);
+  margin-block-end: 0.1rem;
+  line-height: 1.5; }
 
 h3 {
-  font-size: var(--s1);
-  font-size: clamp(var(--s1), 3vw, var(--s3));
+  font-size: var(--step-1);
   font-weight: 300; }
 
 h4 {
   color: var(--midnight-lighter);
   text-transform: uppercase;
-  font-size: var(--s-1);
-  font-size: clamp(var(--s-1), 2vw, var(--s2)); }
+  font-size: var(--step-0); }
 
 h5 {
-  margin-bottom: var(--s-3);
   color: var(--midnight-grey);
-  font-size: var(--s-1);
-  font-size: clamp(18px, var(--s-1), var(--s0)); }
+  font-size: var(--step--1); }
 
 h6 {
-  margin-bottom: var(--s-5);
   color: var(--midnight-lighter);
-  font-size: var(--s-3);
-  font-size: clamp(17px, 4vw, var(--s-1));
+  font-size: var(--step--2);
   margin-block-start: 0em;
   margin-block-end: 0em; }
 
 p, .p {
-  margin-bottom: var(--s-2);
-  font-family: var(--font-primary);
-  font-size: var(--s0);
-  font-size: clamp(var(--s0), 4vw, var(--s1));
+  margin-bottom: var(--space-2xs);
   font-weight: 300;
   hyphens: none; }
 
-article,
+p, .p, article,
 ul,
 li {
   font-family: var(--font-primary);
-  font-size: var(--s1);
-  font-size: clamp(18px, 4vw, var(--s1)); }
+  font-size: var(--step-0); }
+
+ul, ol {
+  margin-block-start: var(--space-3xs);
+  margin-block-end: var(--space-3xs); }
 
 code,
 pre {
   font-family: monospace;
-  font-size: var(--s0);
+  font-size: var(--step-1);
   width: 100%;
   overflow: hidden; }
 
@@ -179,7 +199,7 @@ blockquote {
 
 time {
   font-family: var(--font-secondary);
-  font-size: var(--s0);
+  font-size: var(--step-0);
   margin-top: 0rem;
   line-height: 1;
   color: var(--text-accent-color); }
@@ -192,10 +212,10 @@ hr {
   font-family: var(--font-primary);
   font-weight: 800;
   font-size: 4.5rem;
-  font-size: clamp(var(--s3), 10vw, 6rem); }
+  font-size: clamp(var(--step-3), 10vw, 6rem); }
 
 /* 
-    Lilita One
+    Lilita One and Source Sans Pro
 */
 a {
   color: var(--link-color);
@@ -211,9 +231,9 @@ h2 a {
   text-decoration: underline;
   text-decoration-color: var(--pink);
   text-decoration-thickness: 2px;
-  text-underline-offset: 0ex; }
+  text-underline-offset: 0.2ex; }
   h2 a:hover {
-    text-underline-offset: 0ex; }
+    text-underline-offset: 0.1ex; }
 
 #layout {
   display: flex;
@@ -287,8 +307,7 @@ nav ul {
   flex-wrap: wrap;
   flex-direction: row;
   gap: var(--s0);
-  font-size: var(--s-4);
-  font-size: clamp(var(--s-5), var(--s-1), var(--s0));
+  font-size: var(--step-0);
   list-style: none; }
 
 .nav--item {
@@ -305,10 +324,8 @@ footer {
   max-width: var(--max-width);
   margin: 0 auto; }
   footer p {
-    font-size: var(--s0);
-    font-family: var(--font-secondary); }
-    footer p:nth-child(2) {
-      font-family: var(--font-primary); }
+    font-size: var(--step--1);
+    font-family: var(--font-primary); }
   footer a {
     text-decoration-color: inherit; }
   footer #footer--container p span {

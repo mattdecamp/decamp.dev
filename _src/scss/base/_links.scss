@@ -14,9 +14,9 @@ h2 a {
   text-decoration: underline;
   text-decoration-color: var(--pink);
   text-decoration-thickness: 2px;
-  text-underline-offset: 0ex;
+  text-underline-offset: 0.2ex;
   &:hover {
-    text-underline-offset: 0ex;
+    text-underline-offset: 0.1ex;
   }
 }
 

@@ -6,10 +6,14 @@
   {% for blog in blogs | reverse %}
   <li>
       <div>
+          <time value="{{ blog.pubDate | dateTime }}">
+            <h5>
+              {{ blog.pubDate | fixDate }}
+            </h5>
+          </time>
           <h2>
             <a href="/blog/{{ blog.title | slug | url }}/">{{ blog.title }}</a>
           </h2>
-          <time value="{{ blog.pubDate | dateTime }}">{{ blog.pubDate | fixDate }}</time>
           <p>
             {{ blog.excerpt }}
           </p>

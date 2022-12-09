@@ -7,7 +7,7 @@ permalink: "/cv/index.html"
 # Experience
 
 ### Senior Web Developer
-#### Happy Bear Web Design | Athens, Ga.
+#### Happy Bear Web Design | Athens, Georgia
 ##### 2008 - Present
 
 * Build and design websites for individuals and businesses across various industries

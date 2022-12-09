@@ -3,20 +3,21 @@ layout: layouts/base.njk
 ---
 
 <h1>{{ title }}</h1>
-<p>This is a space where I post about songs and albums I like or have listened to lately. Sometimes I write about them, and sometimes it's just the music.</p>
+<p>This is a space where I link to songs and albums I'm enjoying. Sometimes I include some thoughts about the music, but most of the time it's just the music.</p>
 {% block content %} 
 <ul class="article-list">
   {%- for listen in listens -%}
   <li>
-
+    <time>
+      <h5>
+        {{ listen.date | fixDate }}
+      </h5>
+    </time>
     <h2>
       <a href="/listening/{{ listen.title | slug | url }}/">
         {{ listen.title }}
       </a>
     </h2>
-    <time>
-      {{ listen.date | fixDate }}
-    </time>
   </li>
 
   {%- endfor -%} 

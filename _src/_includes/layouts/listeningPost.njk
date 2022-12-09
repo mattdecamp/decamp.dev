@@ -3,12 +3,14 @@ layout: layouts/base.njk
 ---
 
 
-  <h1>{{ listen.title }}</h1>
-  <time value="{{ listen.date | dateTime }}">
+<time value="{{ listen.date | dateTime }}">
+  <h5>
     {{ listen.date | fixDate }}
-  </time>
+  </h5>
+</time>
+  <h1>{{ listen.title }}</h1>
   {% if listen.art %}
-  <img src="{{ listen.art | url }}" width="600" alt="Art or album cover for {{listen.title}}" />
+  <img src="{{ listen.art | url }}" width="600" alt="Artwork for {{listen.title}}" />
   {% endif %}
   {% if listen.track %}
   <h3>Track:</h3>
@@ -16,7 +18,19 @@ layout: layouts/base.njk
   {% endif %}
   {% if listen.album %}
   <h3>Album:</h3>
-  <p>{{ listen.album }}</p>
+  <p><a href="{{ listen.listenLink }}">{{ listen.album }}</a></p>
   {% endif %}
   {{ content | safe }}
-  
+  <hr>
+  <nav aria-labelledby="listening-pagination">
+    <ul>
+      {% if pagination.href.previous %}
+        <li><a href="{{ pagination.href.previous }}">&laquo; Previous</a></li>
+        {% else %}
+      {% endif %}
+      {% if pagination.href.next %}
+        <li><a href="{{ pagination.href.next }}">Next &raquo;</a></li>
+        {% else %}
+      {% endif %}
+    </ul>
+  </nav>

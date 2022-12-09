@@ -2,7 +2,6 @@ nav a {
   text-decoration: none;
   text-decoration-color: inherit;
   text-decoration-thickness: inherit;
-  // text-underline-offset: 0;
 }
 nav ul {
   display: flex;
@@ -10,8 +9,7 @@ nav ul {
   flex-wrap: wrap;
   flex-direction: row;
   gap: var(--s0);
-  font-size: var(--s-4);
-  font-size: clamp(var(--s-5), var(--s-1), var(--s0));
+  font-size: var(--step-0);
   list-style: none;
 }
 
