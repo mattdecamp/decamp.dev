@@ -48,6 +48,7 @@ module.exports = async () => {
       id: result.id,
       title: result.properties["Title"].title.pop().plain_text,
       pubDate: result.properties["Date"].date?.start,
+      excerpt: result.properties["Excerpt"].rich_text.pop().plain_text,
       tags: result.properties["Tags"].multi_select,
       content: undefined,
       specialTag: 'blog'
