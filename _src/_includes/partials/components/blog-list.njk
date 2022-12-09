@@ -10,10 +10,10 @@
             <a href="/blog/{{ blog.title | slug | url }}/">{{ blog.title }}</a>
           </h2>
           <time value="{{ blog.pubDate | dateTime }}">{{ blog.pubDate | fixDate }}</time>
+          <p>
+            {{ blog.excerpt }}
+          </p>
       </div>
-    <!-- <div>
-      {{ item.data.excerpt }}
-    </div> -->
   </li>
 
   {%- endfor -%}

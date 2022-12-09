@@ -4,10 +4,19 @@ layout: layouts/base.njk
 
 
   <h1>{{ listen.title }}</h1>
-  <time>
+  <time value="{{ listen.date | dateTime }}">
     {{ listen.date | fixDate }}
   </time>
-  <img src="{{ listen.art | url }}" alt="Art or album cover for {{listen.title}}">
-  <div>
-    {{ content | safe }}
-  </div>
+  {% if listen.art %}
+  <img src="{{ listen.art | url }}" width="600" alt="Art or album cover for {{listen.title}}" />
+  {% endif %}
+  {% if listen.track %}
+  <h3>Track:</h3>
+  <p><a href="{{ listen.listenLink }}">{{ listen.track }}</a></p>
+  {% endif %}
+  {% if listen.album %}
+  <h3>Album:</h3>
+  <p>{{ listen.album }}</p>
+  {% endif %}
+  {{ content | safe }}
+  
