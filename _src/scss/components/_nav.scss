@@ -8,7 +8,7 @@ nav ul {
   padding-inline-start: 0;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: var(--s0);
+  gap: var(--s-1) var(--s0);
   font-size: var(--step-0);
   list-style: none;
 }
