@@ -1,0 +1,4 @@
+Sitemap: https://www.mattdecamp.com/sitemap.xml
+
+User-agent: *
+Disallow:
