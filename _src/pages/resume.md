@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "CV"
-permalink: "/cv/index.html"
+title: "resume"
+permalink: "/resume/index.html"
 ---
 
 # Experience
