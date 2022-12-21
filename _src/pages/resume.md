@@ -29,6 +29,7 @@ permalink: "/resume/index.html"
 ##### July 2015 - January 2019
 
 * Developed, launched, and operated a monthly vinyl subscription record club for vinyl enthusiasts in the U.S. and Canada.
+* Recruited nationally renowned musicians to curate monthly vinyl.
 
 ## Education
 
