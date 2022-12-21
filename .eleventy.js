@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_src/fonts");
   eleventyConfig.addPassthroughCopy("_src/images");
   eleventyConfig.addPassthroughCopy("_src/js");
+  eleventyConfig.addPassthroughCopy("_src/robots.txt");
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
   
