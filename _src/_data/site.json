@@ -11,8 +11,20 @@
   "authorName": "Matt DeCamp",
   "year": "2022",
   "matt": {
-    "linkedin": "https://www.linkedin.com/in/mattdecamp",
-    "happybear": "https://happybear.dev",
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/mattdecamp"
+      },
+      {
+        "title": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mattdecamp"
+      },
+      {
+        "title": "Mastodon",
+        "url": "https://fosstodon.org/@mattdecamp"
+      }
+    ],
     "birthday": "May 23"
   },
 
@@ -31,6 +43,11 @@
       "name": "Blog",
       "url": "/blog/",
       "title": "Blog"
+    },
+    {
+      "name": "Books",
+      "url": "/books/",
+      "title": "Books"
     },
     {
       "name": "Listening To",
