@@ -26,7 +26,7 @@
       <p class="bookAuthor">
         <em>{{book.properties.bookAuthor.rich_text[0].text.content}}</em>
       </p>
-      <p class="bookDate">{{book.properties.dateRead.date.start }}</p>
+      <p class="bookDate">Finished: {{book.properties.dateRead.date.start | fixDate }}</p>
     </div>
   </li>
   {% endfor %}
