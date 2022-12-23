@@ -26,11 +26,3 @@ I'm a father, web developer, manager, musician, runner, swimmer, photographer, a
 * A guitar player since age 12 and can get by on bass, banjo, and piano as well.
 * A budding photographer.
 * For exercise I like long distance runs and laps in the pool.
-
-### Links
-
-[GitHub](https://github.com/mattdecamp)
-[Mastodon](https://fosstodon.org/@mattdecamp)
-[CodePen](https://codepen.io/mattdecamp)    
-<!-- [Twitter](https://twitter.com/mpdecamp)    -->
-[Apple Music](https://music.apple.com/profile/mattdecamp)
