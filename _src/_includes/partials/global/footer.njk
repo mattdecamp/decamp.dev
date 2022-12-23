@@ -1,11 +1,16 @@
 <footer>
   <div id="footer--container">
     <p>
-      <span>
-        &copy; {{ site.year }} 
-        {{ site.authorName }} //
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </span>
+      <ul>
+        <li>
+          &copy; {{ site.year }} {{site.name}}
+        </li>
+        {% for link in site.matt.links %}
+        <li>
+        <a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </p>
   </div>
 </footer>
