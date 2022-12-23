@@ -4,7 +4,7 @@
   min-height: 100vh;
 }
 
-#main-container {
+#main-container, #main-container-full {
   margin: var(--s3) auto var(--s3);
   width: 90%;
   max-width: var(--max-width);
