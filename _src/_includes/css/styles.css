@@ -240,7 +240,7 @@ h2 a {
   flex-direction: column;
   min-height: 100vh; }
 
-#main-container {
+#main-container, #main-container-full {
   margin: var(--s3) auto var(--s3);
   width: 90%;
   max-width: var(--max-width);
@@ -323,16 +323,17 @@ footer {
   width: 90%;
   max-width: var(--max-width);
   margin: 0 auto; }
-  footer p {
+  footer p, footer li {
     font-size: var(--step--1);
     font-family: var(--font-primary); }
   footer a {
     text-decoration-color: inherit; }
-  footer #footer--container p span {
+  footer ul {
+    padding-inline-start: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
-    gap: 0.5ch; }
+    gap: 0 var(--space-2xs);
+    list-style: none; }
 
 #footer--container {
   width: 90%;
@@ -534,16 +535,18 @@ code {
 #bookList {
   display: grid;
   padding-left: 0;
-  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  margin-block-start: var(--space-s);
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
   gap: 1.75rem;
   list-style-type: none; }
 
-.book img {
-  height: clamp(25ch, 10vw, 30ch);
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
-
-.book .bookInfo {
-  margin-top: var(--s0); }
+.book {
+  display: grid;
+  grid-template-rows: 1fr auto; }
+  .book img {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
   .book .bookInfo h4, .book .bookInfo p {
     margin: var(--s-2) 0; }
   .book .bookInfo p {

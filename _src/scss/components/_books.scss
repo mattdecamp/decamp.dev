@@ -1,17 +1,20 @@
 #bookList {
   display: grid;
   padding-left: 0;
-  grid-template-columns: repeat(auto-fill, minmax(14rem,1fr));
+  margin-block-start: var(--space-s);
+  grid-template-columns: repeat(auto-fill, minmax(11rem,1fr));
   gap: 1.75rem;
   list-style-type: none;
 }
 .book {
+  display: grid;
+  grid-template-rows: 1fr auto;
   & img {
-    height: clamp(25ch,10vw,30ch);
+    width: 100%;
+    height: auto;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
   }
   & .bookInfo {
-    margin-top: var(--s0);
     & h4, p {
       margin: var(--s-2) 0;
     }
