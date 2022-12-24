@@ -8,9 +8,14 @@ module.exports = async function () {
   const sort = {
     "sorts": [
       {
+        "property": "Status",
+        "direction": "ascending",
+      },
+      {
         "property": "dateRead",
         "direction": "descending",
-      }
+      },
+
     ],
   };
   let json = await EleventyFetch(url, {

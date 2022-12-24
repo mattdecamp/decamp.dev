@@ -9,7 +9,7 @@
             src="{{ book.properties.bookImage.url }}"
             alt="The book cover for {{ book.properties.bookTitle.rich_text[0].text.content }}"
             loading="lazy"
-            height="240"
+            height="220"
           />
         </picture>
       </a>
@@ -26,7 +26,13 @@
       <p class="bookAuthor">
         <em>{{book.properties.bookAuthor.rich_text[0].text.content}}</em>
       </p>
-      <p class="bookDate">Finished: {{book.properties.dateRead.date.start | fixDate }}</p>
+      <p class="bookDate">
+        {% if book.properties["Status"].checkbox == false %}
+          <span style="color: var(--pink);font-weight:bold">Currently Reading</span>
+        {% else %}
+          Finished: {{book.properties.dateRead.date.start | fixDate }}
+        {% endif %}
+      </p>
     </div>
   </li>
   {% endfor %}
