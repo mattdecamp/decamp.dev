@@ -26,13 +26,21 @@
       <p class="bookAuthor">
         <em>{{book.properties.bookAuthor.rich_text[0].text.content}}</em>
       </p>
-      <p class="bookDate">
-        {% if book.properties["Status"].checkbox == false %}
-          <span style="color: var(--pink);font-weight:bold">Currently Reading</span>
-        {% else %}
-          Finished: {{book.properties.dateRead.date.start | fixDate }}
+      <div class="bookStatus">
+        {% if book.properties["Audiobook"].checkbox == true %}
+        <span class="headphones">
+            {% svgsprite %}
+            {% icon "headphones" %}
+        </span>
         {% endif %}
-      </p>
+        <p class="bookDate">
+          {% if book.properties["Status"].checkbox == false %}
+          <span style="color: var(--pink);font-weight:bold">Currently Reading</span>
+          {% else %}
+          Finished: {{book.properties.dateRead.date.start | fixDate }}
+          {% endif %}
+        </p>
+      </div>
     </div>
   </li>
   {% endfor %}

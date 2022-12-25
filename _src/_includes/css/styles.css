@@ -536,7 +536,7 @@ code {
   display: grid;
   padding-left: 0;
   margin-block-start: var(--space-s);
-  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   gap: 1.75rem;
   list-style-type: none; }
 
@@ -546,13 +546,25 @@ code {
   .book img {
     width: 100%;
     height: auto;
+    aspect-ratio: 1/1.6;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
-  .book .bookInfo h4, .book .bookInfo p {
+  .book .bookInfo h4,
+  .book .bookInfo p {
     margin: var(--s-2) 0; }
   .book .bookInfo p {
     line-height: 1; }
   .book .bookInfo .bookDate {
     font-size: clamp(var(--s-2), 4vw, var(--s-1)); }
+
+.bookStatus {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; }
+
+.headphones {
+  flex-basis: 1rem; }
+  .headphones svg {
+    height: 2rem; }
 
 #project-list {
   display: grid;

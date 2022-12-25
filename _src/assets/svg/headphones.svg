@@ -1,0 +1,38 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="472.4"
+  height="358.651"
+  version="1.0"
+>
+  <path
+    style="
+      fill: var(--text-color);
+      fill-opacity: 1;
+      stroke: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 4;
+      stroke-dashoffset: 0;
+      stroke-opacity: 1;
+    "
+    d="M348.181 612.615c-30.761 0-55.727-21.505-55.727-48.003 0-26.499 24.966-48.004 55.727-48.004M531.752 612.615c30.761 0 55.727-21.505 55.727-48.003 0-26.499-24.966-48.004-55.727-48.004"
+    transform="matrix(1.60124 0 0 1.50594 -468.29 -627.576)"
+  />
+  <path
+    d="M543.025 521.89c0-51.11-46.758-92.59-104.37-92.59s-104.37 41.48-104.37 92.59"
+    style="
+      fill: none;
+      fill-opacity: 1;
+      stroke: var(--text-color);
+      stroke-width: 9;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 4;
+      stroke-dasharray: none;
+      stroke-dashoffset: 0;
+      stroke-opacity: 1;
+    "
+    transform="translate(-468.29 -681.386) scale(1.60124)"
+  />
+</svg>
