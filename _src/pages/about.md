@@ -7,7 +7,7 @@ permalink: "/about/index.html"
 # About Me:
 I'm a father, web developer, manager, musician, runner, swimmer, photographer, and all around curious dude existing in Athens, Georgia.
 
-### Currently
+## Currently
 ##### Updated 11/27/2022
 * Watching [DS9](https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine) for the first time. 🖖
 * Trying to read some of the unread books on my bookshelf. 📚
@@ -15,7 +15,7 @@ I'm a father, web developer, manager, musician, runner, swimmer, photographer, a
 * Working on bringing [Door Harp](https://en.wikipedia.org/wiki/Door_Harp) to a wider audience.
 
 
-### Notes about me
+## Fun Facts
 * I've been building websites for fun for 20 years, and professionally for over ten.
 * My first website was built on GeoCities in 1999.
 * I've worked as an [artist and project manager](https://www.linkedin.com/in/mattdecamp/) in the music industry for 15 years.
