@@ -18,7 +18,7 @@ permalink: "/resume/index.html"
 ##### June 2006 - Present
 
 - Plan, coordinate, and execute physical and digital live commercial releases
-- Create and implement digital marketing campaigns for the band’s performances and commercial releases
+- Create and implement digital marketing campaigns for the band’s performances, merchandising, and commercial releases
 - Oversee preservation and management of the band’s physical and digital material archive
 - Manage day-to-day operations of the band’s companies
 - Lead and oversee company internship program
