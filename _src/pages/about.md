@@ -8,12 +8,11 @@ permalink: "/about/index.html"
 I'm a father, web developer, manager, musician, runner, swimmer, photographer, and all around curious dude existing in Athens, Georgia.
 
 ## Currently
-##### Updated 11/27/2022
-* Watching [DS9](https://en.wikipedia.org/wiki/Star_Trek:_Deep_Space_Nine) for the first time. 🖖
-* Trying to read some of the unread books on my bookshelf. 📚
-* Taking a break from long distance running with some swimming during the winter months. 🏊
+##### Updated 4/5/2023
+* Diving into the word of Slough House with the books of Mick Herron
+* Trying HIIT workouts for the first time (and loving it) on Apple Fitness 😅
 * Working on bringing [Door Harp](https://en.wikipedia.org/wiki/Door_Harp) to a wider audience.
-
+* Starting to be a little more vocal (no pun intended) with [my music](https://youtu.be/REcLPM0eK1s).
 
 ## Fun Facts
 * I've been building websites for fun for 20 years, and professionally for over ten.

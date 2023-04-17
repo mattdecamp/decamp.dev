@@ -9,7 +9,7 @@
   "email": "matt@mattdecamp.com",
   "authorHandle": "@mpdecamp",
   "authorName": "Matt DeCamp",
-  "year": "2022",
+  "year": "2023",
   "matt": {
     "links": [
       {
@@ -50,9 +50,9 @@
       "title": "Books"
     },
     {
-      "name": "Listening To",
-      "url": "/listening/",
-      "title": "Listening To"
+      "name": "Timeline",
+      "url": "/timeline/",
+      "title": "Timeline"
     },
     {
       "name": "Projects",
