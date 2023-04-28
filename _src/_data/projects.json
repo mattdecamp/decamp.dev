@@ -1,5 +1,5 @@
 {
-  "items": [
+  "coding": [
     {
       "name": "Eleventonia 🎈",
       "description": "A mildly opinionated Eleventy starter project built with Sass and Nunjucks.",
@@ -23,14 +23,6 @@
       
     },
     {
-      "name": "Ask Zoel A Question 🎸",
-      "description": "I produced, shot, and edited this explainer video series featuring Widespread Panic's guitar tech  running through the band's instrumentants and stage set-up.",
-      "url": "https://www.youtube.com/playlist?list=PLW-MPx1QBkjFAXJYsu9EF8993ndkJx3eM",
-      "codeUrl": "",
-      "demoUrl": "",
-      "tags": ["video","adobe premiere"]
-    },
-    {
       "name": "What's My Pace?",
       "description": "A simple pace calculator and distance converter for those on the go built with JavaScript and Eleventy.",
       "codeUrl": "https://github.com/mattdecamp/runningcalculator",
@@ -42,6 +34,24 @@
       "description": "A simple CSS reset.",
       "codeUrl": "https://github.com/mattdecamp/resetCSS",
       "tags": ["css"]
+    }
+  ],
+  "media": [
+    {
+      "name": "Ask Zoel A Question 🎸",
+      "description": "I produced, shot, and edited this explainer video series featuring Widespread Panic's guitar tech  running through the band's instrumentants and stage set-up.",
+      "url": "https://www.youtube.com/playlist?list=PLW-MPx1QBkjFAXJYsu9EF8993ndkJx3eM",
+      "codeUrl": "",
+      "demoUrl": "",
+      "tags": ["video", "adobe premiere"]
+    },
+    {
+      "name": "Miss Kitty's Lounge Animated Videos",
+      "description": "I created animated music videos for Widespread Panic's <em>Miss Kitty's Lounge</em> album release.",
+      "url": "https://youtube.com/playlist?list=PLW-MPx1QBkjEJ6EEzeaNsYfukdjq8nRTr",
+      "codeUrl": "",
+      "demoUrl": "",
+      "tags": ["after effects", "photoshop"]
     }
   ]
 }
