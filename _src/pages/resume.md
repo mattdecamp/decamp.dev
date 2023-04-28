@@ -41,36 +41,55 @@ permalink: "/resume/index.html"
 #### Berklee School of Music | Remote
 ##### 2010 - 2011
 
-## Languages
-* HTML5
-* CSS3
-* Javascript (Vanilla)
-* PHP
-* Written French 🇫🇷
+## Browser Technology
+* JavaScript
+* CSS / SASS
+* HTML
+* REST API
+* Dev Tools
 
-
-## Tools
-* Sass
-* Eleventy
+## HTML Templating Languages
 * Nunjucks
-* SVG
-* JSON
-* Markdown
+* Liquid
+* Eleventy
+* Handlebars
+* Pug
+
+## Website Development
+* PHP
 * WordPress
+* Shopify
+* Static SSR
+
+## Development Frameworks
+* React / Next.js
+* Node.js
+* Express.js
+* Vue / Nuxt.js
+* Tailwind
+* Bootstrap
+
+## Data Management
 * SQL
-* Node
-* Vue
-* React
+* JSON
+* MongoDB
+
+## Design / Media Technologies 
 * Photoshop
-* Illustrator
+* InDesign
 * Premiere
 * After Effects
+* Illustrator
 * XD
 
+## Audio
+* Pro Tools
+* Reason
+
 ## Concepts
-* Web application development
+* Version control (Git)
 * Product release management
 * REST API
-* Version control (Git)
+* npm & yarn
 * Digital Archiving (LTFS, S3)
 * Agile concepts and approach (noncertified)
