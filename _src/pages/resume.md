@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "resume"
+title: "Résumé"
 permalink: "/resume/index.html"
 ---
 
@@ -41,27 +41,29 @@ permalink: "/resume/index.html"
 #### Berklee School of Music | Remote
 ##### 2010 - 2011
 
-## Browser Technology
+## Proficiencies
+
+### Browser Technology
 * JavaScript
 * CSS / SASS
 * HTML
 * REST API
 * Dev Tools
 
-## HTML Templating Languages
+### HTML Templating Languages
 * Nunjucks
 * Liquid
 * Eleventy
 * Handlebars
 * Pug
 
-## Website Development
+### Website Development
 * PHP
 * WordPress
 * Shopify
 * Static SSR
 
-## Development Frameworks
+### Development Frameworks
 * React / Next.js
 * Node.js
 * Express.js
@@ -69,12 +71,12 @@ permalink: "/resume/index.html"
 * Tailwind
 * Bootstrap
 
-## Data Management
+### Data Management
 * SQL
 * JSON
 * MongoDB
 
-## Design / Media Technologies 
+### Design / Media Technologies 
 * Photoshop
 * InDesign
 * Premiere
@@ -82,11 +84,11 @@ permalink: "/resume/index.html"
 * Illustrator
 * XD
 
-## Audio
+### Audio
 * Pro Tools
 * Reason
 
-## Concepts
+### Concepts
 * Version control (Git)
 * Product release management
 * REST API
