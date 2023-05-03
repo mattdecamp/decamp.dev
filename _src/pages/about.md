@@ -9,7 +9,7 @@ I'm a father, web developer, manager, musician, runner, swimmer, photographer, a
 
 ## Currently
 ##### Updated 4/5/2023
-* Diving into the word of Slough House with the books of Mick Herron
+* Diving into the world of Slough House with the books of Mick Herron
 * Trying HIIT workouts for the first time (and loving it) on Apple Fitness 😅
 * Working on bringing [Door Harp](https://en.wikipedia.org/wiki/Door_Harp) to a wider audience.
 * Starting to be a little more vocal (no pun intended) with [my music](https://youtu.be/REcLPM0eK1s).
