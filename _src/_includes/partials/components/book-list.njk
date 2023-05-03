@@ -4,13 +4,9 @@
     <div class="bookImageContainer">
       <a href="{{ book.properties.bookBuyUrl.url }}">
         <picture>
-          <img
-            class="bookImage"
-            src="{{ book.properties.bookImage.url }}"
-            alt="The book cover for {{ book.properties.bookTitle.rich_text[0].text.content }}"
-            loading="lazy"
-            height="220"
-          />
+          <img class="bookImage" src="{{ book.properties.bookImage.url }}"
+            alt="The book cover for {{ book.properties.bookTitle.rich_text[0].text.content }}" loading="lazy"
+            height="220" />
         </picture>
       </a>
     </div>
@@ -29,13 +25,20 @@
       <div class="bookStatus">
         {% if book.properties["Audiobook"].checkbox == true %}
         <span class="headphones">
-            {% svgsprite %}
-            {% icon "headphones" %}
+          {% svgsprite %}
+          {% icon "headphones" %}
         </span>
         {% endif %}
         <p class="bookDate">
           {% if book.properties["Status"].checkbox == false %}
-          <span style="color: var(--pink);font-weight:bold">Currently Reading</span>
+          <span style="color: var(--pink);font-weight:bold">
+            Currently 
+            {% if book.properties["Audiobook"].checkbox == false %}
+            Reading
+            {% else %}
+            Listening
+            {% endif %}
+          </span>
           {% else %}
           Finished: {{book.properties.dateRead.date.start | fixDate }}
           {% endif %}
