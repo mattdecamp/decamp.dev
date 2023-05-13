@@ -30,6 +30,12 @@
       "tags": ["eleventy","nunjucks"]
     },
     {
+      "name": "Cascade Layers",
+      "description": "A basic cascade layers boilerplate for front-end projects",
+      "codeUrl": "https://github.com/mattdecamp/cascadeLayers/tree/main",
+      "tags": ["css","cascade layers"]
+    },
+    {
       "name": "resetCSS",
       "description": "A simple CSS reset.",
       "codeUrl": "https://github.com/mattdecamp/resetCSS",
