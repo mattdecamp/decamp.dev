@@ -3,7 +3,7 @@
 <h3>{{ blog.date | dateTime }}</h3>
 {%- endfor -%}
 <ul class="article-list">
-  {% for blog in blogs | reverse %}
+  {% for blog in blogs %}
   <li>
       <div>
           <time value="{{ blog.pubDate | dateTime }}">
