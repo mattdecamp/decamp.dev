@@ -24,7 +24,7 @@
     },
     {
       "name": "What's My Pace? 🏃",
-      "description": "A simple pace calculator and distance converter for those on the go built with JavaScript and Eleventy.",
+      "description": "A simple pace calculator and distance converter for those on the go built in React.",
       "codeUrl": "https://github.com/mattdecamp/paceCalc",
       "demoUrl": "https://whatsmypace.mattdecamp.com/",
       "tags": ["eleventy","nunjucks"]
