@@ -12,7 +12,6 @@ permalink: "/resume/index.html"
 
 * Build and design websites for individuals and businesses across various industries
 
-
 ### Senior Project Manager, Digital & Archives
 #### Widespread Panic | Athens, Georgia
 ##### June 2006 - Present
