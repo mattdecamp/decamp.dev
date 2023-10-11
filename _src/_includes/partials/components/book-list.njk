@@ -39,6 +39,8 @@
             Listening
             {% endif %}
           </span>
+          {% elif book.properties["Didn't Finish"].checkbox == true %}
+          Didn't Finish 🙁
           {% else %}
           Finished: {{book.properties.dateRead.date.start | fixDate }}
           {% endif %}
