@@ -40,19 +40,14 @@
       "title": "About"
     },
     {
-      "name": "Blog",
-      "url": "/blog/",
-      "title": "Blog"
-    },
-    {
       "name": "Books",
       "url": "/books/",
       "title": "Books"
     },
     {
-      "name": "Projects",
-      "url": "/projects/",
-      "title": "Projects"
+      "name": "Work",
+      "url": "/work/",
+      "title": "Work"
     },
     {
       "name": "Résumé",
