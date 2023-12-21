@@ -35,6 +35,11 @@
       "title": "Home"
     },
     {
+      "name": "Music",
+      "url": "https://decamp.bandcamp.com",
+      "title": "Music"
+    },
+    {
       "name": "About",
       "url": "/about/",
       "title": "About"
