@@ -23,6 +23,14 @@
       
     },
     {
+      "name": "Tempo Tap 🥁",
+      "description": "A web utility for determining beats per minute.",
+      "codeUrl": "https://github.com/mattdecamp/taptempo",
+      "demoUrl": "https://tempotap.mattdecamp.com/",
+      "tags": ["javascript"]
+      
+    },
+    {
       "name": "What's My Pace? 🏃",
       "description": "A simple pace calculator and distance converter for those on the go built in React.",
       "codeUrl": "https://github.com/mattdecamp/paceCalc",
