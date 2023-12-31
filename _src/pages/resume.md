@@ -75,6 +75,10 @@ permalink: "/resume/index.html"
 * JSON
 * MongoDB
 
+### Testing
+* Chai
+* Jest
+
 ### Design / Media Technologies 
 * Photoshop
 * InDesign
