@@ -55,6 +55,11 @@
       "title": "Work"
     },
     {
+      "name": "Blog",
+      "url": "/blog/",
+      "title": "Blog"
+    },
+    {
       "name": "Résumé",
       "url": "/resume/",
       "title": "CV"
