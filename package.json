@@ -5,10 +5,13 @@
   "main": ".eleventy.js",
   "scripts": {
     "eleventy:dev": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --quiet",
+    "eleventy:build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
     "scss": "node-sass -o _src/_includes/css _src/scss",
     "watch:css": "onchange '_src/scss/' -- npm run scss",
-    "start": "run-p eleventy:dev watch:css",
-    "build": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy"
+    "sass:watch": "sass _src/scss:_src/_includes/css --watch --color",
+    "sass:build": "sass _src/scss:_src/_includes/css --no-source-map --style=compressed",
+    "start": "run-p sass:watch eleventy:dev",
+    "build": "run-s -l eleventy:build"
   },
   "keywords": [],
   "author": "Matt DeCamp",
@@ -38,8 +41,10 @@
   },
   "dependencies": {
     "@notionhq/client": "^2.2.3",
+    "D": "^1.0.0",
     "notion-to-md": "^2.5.5",
     "npm": "^8.11.0",
+    "sass": "^1.69.7",
     "showdown": "^2.1.0"
   }
 }
