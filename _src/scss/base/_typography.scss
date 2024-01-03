@@ -51,12 +51,12 @@ ul,
 li {
   font-family: var(--font-primary);
   font-size: var(--step-0);
-  font-weight: 300;
 }
 
 ul,ol {
   margin-block-start: var(--space-3xs);
   margin-block-end: var(--space-3xs);
+  font-weight: 300;
 }
 
 code,
