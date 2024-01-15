@@ -60,7 +60,8 @@ permalink: "/resume/index.html"
 * PHP
 * WordPress
 * Shopify
-* Static SSR
+* SSR
+* Static
 
 ### Development Frameworks
 * React / Next.js
