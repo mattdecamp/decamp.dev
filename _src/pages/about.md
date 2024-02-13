@@ -8,7 +8,7 @@ permalink: "/about/index.html"
 I'm a father, web developer, manager, musician, runner, swimmer, photographer, and all around curious dude existing in Athens, Georgia.
 
 ## Currently
-##### Updated 12/1/2023
+##### Updated 12/1/2023 
 * Working on bringing [Door Harp](https://en.wikipedia.org/wiki/Door_Harp) to a wider audience.
 * Starting to be a little more vocal (no pun intended) with [my music](https://youtu.be/REcLPM0eK1s)
 * Remixed an old instrumental of mine called ["Fall"](https://decamp.bandcamp.com/track/fall-2007)
