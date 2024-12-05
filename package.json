@@ -21,7 +21,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
@@ -40,6 +40,7 @@
     "onchange": "^7.1.0"
   },
   "dependencies": {
+    "@11ty/eleventy-upgrade-help": "^3.0.1",
     "@notionhq/client": "^2.2.3",
     "D": "^1.0.0",
     "notion-to-md": "^2.5.5",

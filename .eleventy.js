@@ -3,8 +3,8 @@ const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const fs = require("fs");
 // SVG sprite
-const svgSprite = require('eleventy-plugin-svg-sprite');
-const markdownIt = require('markdown-it');
+const svgSprite = require("eleventy-plugin-svg-sprite");
+const markdownIt = require("markdown-it");
 const CleanCSS = require("clean-css");
 
 // eleventy config
@@ -16,7 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_src/robots.txt");
   // Layout aliases for convenience
   eleventyConfig.addLayoutAlias("default", "layouts/base.njk");
-  
+
   // FILTERS
   // Clean CSS and minify
   eleventyConfig.addFilter("cssmin", function (code) {
@@ -44,7 +44,6 @@ module.exports = function (eleventyConfig) {
     return markdown.render(value);
   });
 
-
   // TRANSFORMS //
   // minify HTML
   const htmlMinTransform = require("./_src/transforms/html-min.js");
@@ -63,8 +62,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(svgSprite, {
     path: "./_src/assets/svg",
     svgShortcode: "icon",
-    defaultClasses: "icon"
+    defaultClasses: "icon",
   });
+
 
   // Base Config //
   return {
@@ -76,4 +76,3 @@ module.exports = function (eleventyConfig) {
     htmlTemplateEngine: "njk",
   };
 };
-
